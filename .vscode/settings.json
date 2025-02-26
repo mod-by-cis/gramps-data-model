@@ -1,0 +1,148 @@
+{
+    "apc.font.family": "FiraCode,  Fira Code",
+    "apc.monospace.font.family": "FiraCode,  Fira Code",
+    "chat.editor.fontFamily": "FiraCode,  Fira Code",
+    "debug.console.fontFamily": "FiraCode,  Fira Code",
+    "editor.codeLensFontFamily": "FiraCode,  Fira Code",
+    "editor.fontFamily": "Fira Code",
+    "editor.inlayHints.fontFamily": "FiraCode,  Fira Code",
+    "editor.inlineSuggest.fontFamily": "FiraCode,  Fira Code",
+    "notebook.output.fontFamily": "FiraCode,  Fira Code",
+    "scm.inputFontFamily": "FiraCode,  Fira Code",
+    "terminal.integrated.fontFamily": "FiraCode,  Fira Code",
+    "workbench.colorCustomizations": {
+        "editor.background": "#2E2722",
+        "editorStickyScroll.background": "#2E2722",
+        "breadcrumb.background": "#2E2722",
+        "editorGutter.background": "#2E2722",
+        "editorMarkerNavigation.background": "#2E2722",
+        "editorPane.background": "#2E2722",
+        "editorGroupHeader.background": "#2E2722",
+        "panel.background": "#2E2722",
+        "panelStickyScroll.background": "#2E2722",
+        "notebook.background": "#2E2722",
+        "multiDiffEditor.background": "#2E2722",
+        "multiDiffEditor.headerBackground": "#2E2722",
+        "chat.requestBackground": "#2e2722a0",
+        "editor.findMatchBackground": "#01022581",
+        "editor.findMatchHighlightBackground": "#00000062",
+        "editor.selectionBackground": "#ff3737b0",
+        "editor.selectionHighlightBackground": "#c4c3c2a1"
+    },
+    "workbench.preferredLightColorTheme": "Solarized Dark",
+    "workbench.editorAssociations": {
+        "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default",
+        "*.svg": "default"
+    },
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#3ab986",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag",
+                "settings": {
+                    "foreground": "#a86c48"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#ffadaf",
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "meta.tag.sgml.doctype.xml",
+                "settings": {
+                    "foreground": "#FFF"
+                }
+            },
+            {
+                "scope": "text.xml",
+                "settings": {
+                    "foreground": "#5f554e"
+                }
+            },
+            {
+                "scope": "meta.tag.xml",
+                "settings": {
+                    "foreground": "#FFF",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#2898cb"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#dad41a"
+                }
+            },
+            {
+                "scope": "meta.tag.type.dtd",
+                "settings": {
+                    "foreground": "#2898cb"
+                }
+            },
+            {
+                "scope": "keyword.other.data-type.dtd",
+                "settings": {
+                    "foreground": "#C93669",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.language.dtd",
+                "settings": {
+                    "foreground": "#B58900",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "comment.block.dtd",
+                "settings": {
+                    "foreground": "#5F554E",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.guides.indentation": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.linkedEditing": true,
+    "editor.largeFileOptimizations": false,
+    "editor.experimental.preferTreeSitter.ini": true,
+    "editor.experimental.preferTreeSitter.typescript": true,
+    "editor.experimental.treeSitterTelemetry": true,
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "*.gpx": "xml",
+        "*.gramps": "xml"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.autoDetectColorScheme": true,
+    "notebook.consolidatedRunButton": true,
+    "notebook.diff.overviewRuler": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.lineNumbers": "on",
+    "notebook.stickyScroll.enabled": true,
+    "ipynb.experimental.serialization": true,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": false,
+    "xml.symbols.maxItemsComputed": 50000
+}
