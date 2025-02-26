@@ -11815,837 +11815,6 @@ Jan R. Cisowski</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">377</attribute>
-			<attribute key="label" type="String">1.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">4954.648785493345</attribute>
-				<attribute key="y" type="double">2127.6879825121887</attribute>
-				<attribute key="w" type="double">139.29354578761308</attribute>
-				<attribute key="h" type="double">128.76693167179621</attribute>
-				<attribute key="type" type="String">star8</attribute>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="hasOutline" type="boolean">false</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">1.</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">70</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">378</attribute>
-			<attribute key="label" type="String">  prywatno&#x15b;&#x107; (tak/nie)</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5957.473525775204</attribute>
-				<attribute key="y" type="double">2814.775888180824</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">22.398682268095854</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#2B5C59</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  prywatno&#x15b;&#x107; (tak/nie)</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">379</attribute>
-			<attribute key="label" type="String">  atrybuty / cechy</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5971.111464532872</attribute>
-				<attribute key="y" type="double">2752.233221876517</attribute>
-				<attribute key="w" type="double">146.14059320027127</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.networkMessage</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">doubleBorder</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#BB005D</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  atrybuty / cechy</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">380</attribute>
-			<attribute key="label" type="String">&#x221e;</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5884.403229175068</attribute>
-				<attribute key="y" type="double">2752.2332218765173</attribute>
-				<attribute key="w" type="double">27.27587751533474</attribute>
-				<attribute key="h" type="double">13.895023321848612</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.userMessage</attribute>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="fill2" type="String">#000000</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">&#x221e;</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontStyle" type="String">bold</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">381</attribute>
-			<attribute key="label" type="String">  kolejno&#x15b;&#x107; atrybut&#xf3;w</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5957.473525775204</attribute>
-				<attribute key="y" type="double">2781.6269397325173</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">19.447511660923738</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.terminator</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">doubleBorder</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#BB005D</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  kolejno&#x15b;&#x107; atrybut&#xf3;w</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">382</attribute>
-			<attribute key="label" type="String">  info o publikacji [text]</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5957.473525775204</attribute>
-				<attribute key="y" type="double">2915.113490833781</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">22.398682268095854</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#2B5C59</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  info o publikacji [text]</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">383</attribute>
-			<attribute key="label" type="String"> strzszczeni/opis [text]</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5957.473525775204</attribute>
-				<attribute key="y" type="double">2948.2603436287536</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">22.398682268095854</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#2B5C59</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String"> strzszczeni/opis [text]</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">384</attribute>
-			<attribute key="label" type="String">  autor [text]</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5957.473525775204</attribute>
-				<attribute key="y" type="double">2881.966638038809</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">22.398682268095854</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#2B5C59</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  autor [text]</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">385</attribute>
-			<attribute key="label" type="String">  identyfikator</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5957.473525775204</attribute>
-				<attribute key="y" type="double">2849.400421932718</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">22.398682268095854</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#2B5C59</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  identyfikator</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">386</attribute>
-			<attribute key="label" type="String"> &#x17a;r&#xf3;d&#x142;o</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5898.621257994734</attribute>
-				<attribute key="y" type="double">3164.337929003209</attribute>
-				<attribute key="w" type="double">158.09760764865018</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.networkMessage</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">doubleBorder</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#2B5C59</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String"> &#x17a;r&#xf3;d&#x142;o</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">387</attribute>
-			<attribute key="label" type="String">  prywatno&#x15b;&#x107; (tak/nie)</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.961826461258</attribute>
-				<attribute key="y" type="double">3202.8216837195696</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#293F3C</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  prywatno&#x15b;&#x107; (tak/nie)</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">388</attribute>
-			<attribute key="label" type="String">  atrybuty / cechy</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5898.621257994736</attribute>
-				<attribute key="y" type="double">3408.8379390201962</attribute>
-				<attribute key="w" type="double">158.09760764865018</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.networkMessage</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">doubleBorder</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#BB005D</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  atrybuty / cechy</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">389</attribute>
-			<attribute key="label" type="String">&#x221e;</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5805.934515412744</attribute>
-				<attribute key="y" type="double">3408.8379390201967</attribute>
-				<attribute key="w" type="double">27.27587751533474</attribute>
-				<attribute key="h" type="double">13.895023321848612</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.userMessage</attribute>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="fill2" type="String">#000000</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">&#x221e;</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontStyle" type="String">bold</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">390</attribute>
-			<attribute key="label" type="String">  kolejno&#x15b;&#x107; atrybut&#xf3;w</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.96182646126</attribute>
-				<attribute key="y" type="double">3439.6491684945468</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">16.82993969762424</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.terminator</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">doubleBorder</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#BB005D</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  kolejno&#x15b;&#x107; atrybut&#xf3;w</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">391</attribute>
-			<attribute key="label" type="String">  zaufanie [poziom]</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.961826461258</attribute>
-				<attribute key="y" type="double">3275.4305736201286</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#293F3C</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  zaufanie [poziom]</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">392</attribute>
-			<attribute key="label" type="String">  identyfikator</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.961826461258</attribute>
-				<attribute key="y" type="double">3311.735018570408</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#293F3C</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  identyfikator</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">393</attribute>
-			<attribute key="label" type="String">  tom/strona [text]</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.961826461258</attribute>
-				<attribute key="y" type="double">3239.126128669849</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.annotation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#293F3C</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  tom/strona [text]</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">394</attribute>
-			<attribute key="label" type="String">1</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5805.934515412741</attribute>
-				<attribute key="y" type="double">3164.3379290032085</attribute>
-				<attribute key="w" type="double">27.27587751533474</attribute>
-				<attribute key="h" type="double">13.895023321848612</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.userMessage</attribute>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="fill2" type="String">#000000</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">1</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontStyle" type="String">bold</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">395</attribute>
-			<attribute key="label" type="String">  kolejno&#x15b;&#x107; obiekt&#xf3;w/foto</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.961826461258</attribute>
-				<attribute key="y" type="double">3524.9737362813803</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">19.447511660924192</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.terminator</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">LAYER_STYLE_PROPERTY_KEY</attribute>
-						<attribute key="valueClass" type="String">java.lang.Byte</attribute>
-						<attribute key="value" type="String">1</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#376400</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  kolejno&#x15b;&#x107; obiekt&#xf3;w/foto</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">396</attribute>
-			<attribute key="label" type="String">  odwo&#x142;anie do obiekt.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5898.621257994736</attribute>
-				<attribute key="y" type="double">3493.403176679383</attribute>
-				<attribute key="w" type="double">158.09760764865018</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.networkMessage</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">doubleBorder</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF</attribute>
-				<attribute key="fill2" type="String">#376400</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  odwo&#x142;anie do obiekt.</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">397</attribute>
-			<attribute key="label" type="String">&#x221e;</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5805.934515412744</attribute>
-				<attribute key="y" type="double">3493.403176679383</attribute>
-				<attribute key="w" type="double">27.27587751533474</attribute>
-				<attribute key="h" type="double">13.895023321848612</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.userMessage</attribute>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="fill2" type="String">#000000</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">&#x221e;</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontStyle" type="String">bold</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">398</attribute>
-			<attribute key="label" type="String">  data/okres/przedzia&#x142;</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5890.961826461258</attribute>
-				<attribute key="y" type="double">3354.2164369421566</attribute>
-				<attribute key="w" type="double">173.41647071560487</attribute>
-				<attribute key="h" type="double">25.0</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.flowchart.preparation</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">y.view.ShadowNodePainter.SHADOW_PAINTING</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-				<attribute key="outlineWidth" type="int">2</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">  data/okres/przedzia&#x142;</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">13</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="alignment" type="String">left</attribute>
-				<attribute key="anchor" type="String">l</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">399</attribute>
-			<attribute key="label" type="String">LABEL</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5848.424240606586</attribute>
-				<attribute key="y" type="double">2608.9443692726986</attribute>
-				<attribute key="w" type="double">48.735999999999876</attribute>
-				<attribute key="h" type="double">37.60623104000024</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.sbgn.Tag</attribute>
-				<attribute key="fill" type="String">#FFFFFF65</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">LABEL</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="visible" type="boolean">false</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">400</attribute>
-			<attribute key="label" type="String">LABEL</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5895.400359849322</attribute>
-				<attribute key="y" type="double">2561.615889080411</attribute>
-				<attribute key="w" type="double">49.27013886384111</attribute>
-				<attribute key="h" type="double">48.091991040000266</attribute>
-				<attribute key="customconfiguration" type="String">com.yworks.sbgn.Tag</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">com.yworks.sbgn.style.inverse</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#FFFFFF65</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">LABEL</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="visible" type="boolean">false</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">401</attribute>
-			<attribute key="label" type="String">2025-02-25
-Jan R. Cisowski</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5525.765676484821</attribute>
-				<attribute key="y" type="double">2549.722826561642</attribute>
-				<attribute key="w" type="double">253.92420625439922</attribute>
-				<attribute key="h" type="double">94.21875</attribute>
-				<attribute key="customconfiguration" type="String">ShinyPlateNodeWithShadow</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">ModernNodeRadius</attribute>
-						<attribute key="valueClass" type="String">java.lang.Double</attribute>
-						<attribute key="value" type="String">20.0</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">ModernNodeShadow</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="hasOutline" type="boolean">false</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">2025-02-25
-Jan R. Cisowski</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">30</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">402</attribute>
-			<attribute key="label" type="String">https://github.com/mod-by-cis/gramps-data-model</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5436.041876941504</attribute>
-				<attribute key="y" type="double">2999.7213338654556</attribute>
-				<attribute key="w" type="double">74.47660716776636</attribute>
-				<attribute key="h" type="double">823.9062499999998</attribute>
-				<attribute key="customconfiguration" type="String">ShinyPlateNodeWithShadow</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">ModernNodeRadius</attribute>
-						<attribute key="valueClass" type="String">java.lang.Double</attribute>
-						<attribute key="value" type="String">20.0</attribute>
-					</section>
-					<section name="property">
-						<attribute key="name" type="String">ModernNodeShadow</attribute>
-						<attribute key="valueClass" type="String">java.lang.Boolean</attribute>
-						<attribute key="value" type="String">true</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="hasOutline" type="boolean">false</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">https://github.com/mod-by-cis/gramps-data-model</attribute>
-				<attribute key="color" type="String">#FFFFFF</attribute>
-				<attribute key="fontSize" type="int">30</attribute>
-				<attribute key="fontName" type="String">Comfortaa</attribute>
-				<attribute key="rotationAngle" type="double">90.0</attribute>
-				<attribute key="model"/>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">403</attribute>
-			<attribute key="label" type="String"></attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">5690.268012812466</attribute>
-				<attribute key="y" type="double">3089.235018570408</attribute>
-				<attribute key="w" type="double">76.72000000000003</attribute>
-				<attribute key="h" type="double">76.72000000000003</attribute>
-				<attribute key="type" type="String">triangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFFFFF65</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">404</attribute>
-			<attribute key="label" type="String"></attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">6031.405566769089</attribute>
-				<attribute key="y" type="double">3152.2427727567483</attribute>
-				<attribute key="w" type="double">51.954560000000015</attribute>
-				<attribute key="h" type="double">51.954560000000015</attribute>
-				<attribute key="type" type="String">triangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFFFFF65</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">405</attribute>
 			<attribute key="label" type="String">2.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-1160.242107291297</attribute>
@@ -12665,7 +11834,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">406</attribute>
+			<attribute key="id" type="int">378</attribute>
 			<attribute key="label" type="String">1.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-1436.9280975043466</attribute>
@@ -12685,7 +11854,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">407</attribute>
+			<attribute key="id" type="int">379</attribute>
 			<attribute key="label" type="String">3.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-1065.0106789073347</attribute>
@@ -12705,7 +11874,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">408</attribute>
+			<attribute key="id" type="int">380</attribute>
 			<attribute key="label" type="String">4.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-877.4793731553441</attribute>
@@ -12725,7 +11894,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">409</attribute>
+			<attribute key="id" type="int">381</attribute>
 			<attribute key="label" type="String">5.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-873.5083716256623</attribute>
@@ -12745,7 +11914,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">410</attribute>
+			<attribute key="id" type="int">382</attribute>
 			<attribute key="label" type="String">6.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">235.60094119097243</attribute>
@@ -12765,7 +11934,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">411</attribute>
+			<attribute key="id" type="int">383</attribute>
 			<attribute key="label" type="String">7.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">242.81647670936707</attribute>
@@ -12785,7 +11954,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">412</attribute>
+			<attribute key="id" type="int">384</attribute>
 			<attribute key="label" type="String">8.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">432.8069500281739</attribute>
@@ -12805,7 +11974,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">413</attribute>
+			<attribute key="id" type="int">385</attribute>
 			<attribute key="label" type="String">9.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">434.6896706686297</attribute>
@@ -12825,7 +11994,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">414</attribute>
+			<attribute key="id" type="int">386</attribute>
 			<attribute key="label" type="String">10.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1135.1192019263651</attribute>
@@ -12845,7 +12014,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">415</attribute>
+			<attribute key="id" type="int">387</attribute>
 			<attribute key="label" type="String">11.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">946.2185435406875</attribute>
@@ -12865,7 +12034,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">416</attribute>
+			<attribute key="id" type="int">388</attribute>
 			<attribute key="label" type="String">12.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">804.844249978092</attribute>
@@ -12885,7 +12054,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">417</attribute>
+			<attribute key="id" type="int">389</attribute>
 			<attribute key="label" type="String">13.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">500.3280422643548</attribute>
@@ -12905,7 +12074,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">418</attribute>
+			<attribute key="id" type="int">390</attribute>
 			<attribute key="label" type="String">14.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">337.25705161773016</attribute>
@@ -12925,7 +12094,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">419</attribute>
+			<attribute key="id" type="int">391</attribute>
 			<attribute key="label" type="String">15.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">256.834503151784</attribute>
@@ -12945,7 +12114,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">420</attribute>
+			<attribute key="id" type="int">392</attribute>
 			<attribute key="label" type="String">16.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-373.61930074895116</attribute>
@@ -12965,7 +12134,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">421</attribute>
+			<attribute key="id" type="int">393</attribute>
 			<attribute key="label" type="String">17.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-286.55190547871644</attribute>
@@ -12985,7 +12154,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">422</attribute>
+			<attribute key="id" type="int">394</attribute>
 			<attribute key="label" type="String">18.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-186.2755859351612</attribute>
@@ -13005,7 +12174,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">423</attribute>
+			<attribute key="id" type="int">395</attribute>
 			<attribute key="label" type="String">19.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-269.5546302212683</attribute>
@@ -13025,7 +12194,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">424</attribute>
+			<attribute key="id" type="int">396</attribute>
 			<attribute key="label" type="String">20.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-367.97560178611434</attribute>
@@ -13045,7 +12214,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">425</attribute>
+			<attribute key="id" type="int">397</attribute>
 			<attribute key="label" type="String">21.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-378.0568309407397</attribute>
@@ -13065,7 +12234,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">426</attribute>
+			<attribute key="id" type="int">398</attribute>
 			<attribute key="label" type="String">22.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-375.55575738743187</attribute>
@@ -13085,7 +12254,7 @@ Jan R. Cisowski</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">427</attribute>
+			<attribute key="id" type="int">399</attribute>
 			<attribute key="label" type="String">23.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">-531.478523455386</attribute>
@@ -20037,70 +19206,6 @@ Jan R. Cisowski</attribute>
 			<section name="edgeAnchor">
 				<attribute key="xTarget" type="double">-0.8397409607378138</attribute>
 				<attribute key="yTarget" type="double">0.7583490393930782</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">386</attribute>
-			<attribute key="target" type="int">394</attribute>
-			<section name="graphics">
-				<attribute key="customconfiguration" type="String">com.yworks.edge.framed</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">FramedEdgePainter.fillColor</attribute>
-						<attribute key="valueClass" type="String">java.awt.Color</attribute>
-						<attribute key="value" type="String">#000000</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">0.17608892479823027</attribute>
-				<attribute key="ySource" type="double">0.04098155181727634</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">388</attribute>
-			<attribute key="target" type="int">389</attribute>
-			<section name="graphics">
-				<attribute key="customconfiguration" type="String">com.yworks.edge.framed</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">FramedEdgePainter.fillColor</attribute>
-						<attribute key="valueClass" type="String">java.awt.Color</attribute>
-						<attribute key="value" type="String">#000000</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">396</attribute>
-			<attribute key="target" type="int">397</attribute>
-			<section name="graphics">
-				<attribute key="customconfiguration" type="String">com.yworks.edge.framed</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">FramedEdgePainter.fillColor</attribute>
-						<attribute key="valueClass" type="String">java.awt.Color</attribute>
-						<attribute key="value" type="String">#000000</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">379</attribute>
-			<attribute key="target" type="int">380</attribute>
-			<section name="graphics">
-				<attribute key="customconfiguration" type="String">com.yworks.edge.framed</attribute>
-				<section name="styleproperties">
-					<section name="property">
-						<attribute key="name" type="String">FramedEdgePainter.fillColor</attribute>
-						<attribute key="valueClass" type="String">java.awt.Color</attribute>
-						<attribute key="value" type="String">#000000</attribute>
-					</section>
-				</section>
-				<attribute key="fill" type="String">#000000</attribute>
 			</section>
 		</section>
 	</section>
