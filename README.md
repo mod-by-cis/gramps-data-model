@@ -39,4 +39,13 @@ graphical representation of the data model in the gramps genealogy program
 > - `.pdf (text vectorized)`:  [**gramps-5.0.0_MODEL_(pol).pdf**](./gramps-5.0.0_MODEL_(pol).pdf)
 
 ---
+
+### About **Gramps**
+
+- [in polish language](https://www.cisowscy.com/gene/gramps)
+- [in english language](https://www.cisowscy.com/gene/gramps-eng)
+
+---
+
+
   
