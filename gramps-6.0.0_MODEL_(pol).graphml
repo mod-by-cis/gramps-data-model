@@ -18,10 +18,10 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GenericGroupNode configuration="com.yworks.bpmn.Activity">
-              <y:Geometry height="1683.936519147228" width="2766.301761008008" x="815.3174409183578" y="426.9021650040567"/>
+              <y:Geometry height="1663.0" width="2752.0" x="825.1516130856953" y="427.34273201150654"/>
               <y:Fill color="#2E2722" color2="#2E2722" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="1373.0679462977994" y="-2.499999999999943">
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="1365.9588545078436" y="-2.5">
                 <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -38,7 +38,7 @@
               </y:StyleProperties>
               <y:State autoResize="true" closed="false" closedHeight="55.0" closedWidth="85.0"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="21" bottomF="21.22868560887673" left="10" leftF="10.366583326666841" right="5" rightF="5.0" top="1" topF="1.173300476548377"/>
+              <y:BorderInsets bottom="1" bottomF="0.7327334690985481" left="1" leftF="0.5324111593292855" right="1" rightF="0.5324111593299676" top="1" topF="0.7327334690985481"/>
             </y:GenericGroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="848.7008268049403" y="438.8272634740906"/>
@@ -140,9 +140,6 @@ MIĘDZY OSOBAMI<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
                   <y:Fill color="#FFFFFF" color2="#5E5581" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -193,9 +190,6 @@ MIĘDZY OSOBAMI<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
                   <y:Fill color="#FFFFFF" color2="#5383C7" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="160.025390625" x="4.0" xml:space="preserve" y="4.296875">  nazwa zależności [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -259,9 +253,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -272,9 +263,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.609375" x="4.0" xml:space="preserve" y="4.296875">  rodzaj nazwy [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -285,9 +273,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="90.07421875" x="4.0" xml:space="preserve" y="4.296875">  imiona [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -298,9 +283,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.0" x="4.0" xml:space="preserve" y="4.296875">  imię używane [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -311,9 +293,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.39453125" x="4.0" xml:space="preserve" y="4.296875">  tytuł [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -324,9 +303,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.638671875" x="4.0" xml:space="preserve" y="4.296875">  przyrostek [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -337,9 +313,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="120.669921875" x="4.0" xml:space="preserve" y="4.296875">  przezwisko [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -350,9 +323,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="173.228515625" x="4.0" xml:space="preserve" y="4.296875">  przezwisko rodowe [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -363,9 +333,6 @@ NAZEWNICTWO<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#276181" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.015625" x="4.0" xml:space="preserve" y="4.296875">  grupuj jako [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -499,9 +466,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#073042" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="185.923828125" x="12.016818343397063" xml:space="preserve" y="4.296875">  człon podstawowy (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.49265078399501305" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.01593750000000005" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -512,9 +476,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#073042" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.205078125" x="4.0" xml:space="preserve" y="4.296875">  prefiks członu [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -525,9 +486,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#073042" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.47265625" x="4.0" xml:space="preserve" y="4.296875">  człon [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -539,9 +497,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.40625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="187.193359375" x="10.756617152778745" xml:space="preserve" y="2.427702345572243">  sufiks cłonu i łacznik 
   z następnym członem [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.49265078399501305" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.00856339610497936" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -553,9 +508,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.40625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="163.453125" x="4.0" xml:space="preserve" y="2.427702345572243">  kategoria członu nazwy
   np. pochodzenie [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.00856339610497936" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -609,9 +561,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#4B2F34" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.52734375" x="4.000000000000227" xml:space="preserve" y="1.5206308304620961">prywatny (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020487839624263038" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -622,9 +571,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#4B2F34" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.12109375" x="3.9999999999997726" xml:space="preserve" y="1.5206308304620961"> rodzaj linku [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020487839624263038" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -635,9 +581,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#4B2F34" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.953125" x="3.9999999999997726" xml:space="preserve" y="1.5206308304620961"> link [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020487839624263038" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -648,9 +591,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#4B2F34" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.404296875" x="4.000000000000227" xml:space="preserve" y="1.5206308304620961"> opis linku [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020487839624263038" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -703,9 +643,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#2A5B9D" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -717,9 +654,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="43.35546875" x="4.0" xml:space="preserve" y="4.296875">  płeć <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                   <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.1513671875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.2421875" x="68.6015625" xml:space="preserve" y="2.3486328125">(♂/♀/⚥)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.001203547297297325" nodeRatioY="0.016972656249999996" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -730,9 +664,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="4.0" xml:space="preserve" y="4.296875">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1145,9 +1076,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#FFFFFF" color2="#834962" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1368,9 +1296,6 @@ CZŁON NAZWY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="85.7578125" x="4.0" xml:space="preserve" y="4.296875">identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1455,9 +1380,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#834946" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1518,9 +1440,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#834946" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.53515625" x="4.0" xml:space="preserve" y="4.296875">relacja z ojcem [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1531,9 +1450,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#834946" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.95703125" x="4.0" xml:space="preserve" y="4.296875">relacja z matką [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1606,9 +1522,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#973544" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1656,7 +1569,7 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
               <data key="d5">
                 <y:GenericNode configuration="com.yworks.flowchart.networkMessage">
                   <y:Geometry height="25.0" width="159.92063822514046" x="2811.932065850021" y="1388.5845010771186"/>
-                  <y:Fill color="#FFFFFF" color2="#6D6D6D" transparent="false"/>
+                  <y:Fill color="#FFFFFF" color2="#BB005D" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="116.734375" x="4.0" xml:space="preserve" y="4.296875">  atrybuty / cechy<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
@@ -1676,7 +1589,7 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
               <data key="d5">
                 <y:GenericNode configuration="com.yworks.flowchart.terminator">
                   <y:Geometry height="16.82993969762424" width="175.23950129209516" x="2796.6132027830663" y="1423.727224944156"/>
-                  <y:Fill color="#FFFFFF" color2="#6D6D6D" transparent="false"/>
+                  <y:Fill color="#FFFFFF" color2="#BB005D" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.083984375" x="4.0" xml:space="preserve" y="0.21184484881177923">  kolejność atrybutów<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.02367432725003349" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
@@ -1691,9 +1604,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="43.609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="125.875" x="4.0" xml:space="preserve" y="1.1891562207342758">  charakter udziału
   osoby/rodziny
   w zdarzeniu [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.004283444799775382" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1786,9 +1696,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#963829" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1869,9 +1776,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#963829" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="115.337890625" x="4.0" xml:space="preserve" y="4.296875">  krótki opis [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1882,9 +1786,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="4.0" xml:space="preserve" y="4.296875">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -1895,9 +1796,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#963829" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.859375" x="4.0" xml:space="preserve" y="4.296875">  rodaj zdarzenia [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2073,9 +1971,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#844720" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2126,9 +2021,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#844720" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.322265625" x="9.554972550675757" xml:space="preserve" y="4.296875"> współrzędne geograficzne<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4783783783783784" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.01593750000000005" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2139,9 +2031,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#844720" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.72265625" x="4.0" xml:space="preserve" y="4.296875">  kod pocztowy<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2151,10 +2040,7 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Geometry height="25.0" width="185.0" x="2134.7996536585683" y="1213.6965504423902"/>
                   <y:Fill color="#FFFFFF" color2="#844720" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.853515625" x="4.0" xml:space="preserve" y="4.296875">  rodaj miejsca [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="142.962890625" x="4.0" xml:space="preserve" y="4.296875">  rodzaj miejsca [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2215,9 +2101,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="4.0" xml:space="preserve" y="4.296875">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2410,9 +2293,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#999999" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.50390625" x="4.0" xml:space="preserve" y="4.296875">  nazwa tagu<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2423,9 +2303,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#999999" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.87109375" x="4.0" xml:space="preserve" y="4.296875">  kolor tagu<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2571,9 +2448,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#BB005D" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="3.9999999999995453" xml:space="preserve" y="1.6778735881036937">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020161803305975723" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2624,9 +2498,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#BB005D" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.244140625" x="4.0" xml:space="preserve" y="1.6778735881036937">  zawartość atrybutu [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020161803305975723" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2637,9 +2508,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#BB005D" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.7265625" x="9.252699168819618" xml:space="preserve" y="1.6778735881036937">  nazwa atrybutu [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.49606739793916677" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.020161803305975723" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2712,9 +2580,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.380859375" x="4.000000000000227" xml:space="preserve" y="1.743731155507703">prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2765,9 +2630,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.01171875" x="4.0" xml:space="preserve" y="1.027850715553086">okolica [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4698939699047363" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2778,9 +2640,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.51953125" x="4.0" xml:space="preserve" y="1.743731155507703">telefon [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2791,9 +2650,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.26953125" x="4.0" xml:space="preserve" y="0.24405890821594767">ulica [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.023584043175170488" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2814,9 +2670,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.10546875" x="7.748716943816362" xml:space="preserve" y="1.027850715553086">kod pocztowy<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4625592152627812" labelRatioY="0.4698939699047363" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2827,9 +2680,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.599609375" x="4.0" xml:space="preserve" y="1.027850715553086">miasto [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4698939699047363" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2840,9 +2690,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.81640625" x="4.0" xml:space="preserve" y="0.24405890821594767">kraj [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.023584043175170488" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2853,9 +2700,6 @@ Z DZIECKIEM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#84561F" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="77.734375" x="3.9999999999997726" xml:space="preserve" y="0.24405890821594767">powiat/woj.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.023584043175170488" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2926,9 +2770,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.01171875" x="3.9999999999997726" xml:space="preserve" y="1.743731155507703">okolica [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2939,9 +2780,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.51953125" x="4.0" xml:space="preserve" y="1.743731155507703">telefon [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2952,9 +2790,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.26953125" x="3.9999999999997726" xml:space="preserve" y="1.743731155507703">ulica [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2965,9 +2800,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="27.359375" x="4.0" xml:space="preserve" y="1.743731155507703">kod<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2978,9 +2810,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.599609375" x="3.9999999999997726" xml:space="preserve" y="1.743731155507703">miasto [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -2991,9 +2820,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.98046875" x="3.9999999999997726" xml:space="preserve" y="1.743731155507703">powiat [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3004,9 +2830,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.58984375" x="4.0" xml:space="preserve" y="1.743731155507703">wojew. [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3017,9 +2840,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.4921875" x="4.0" xml:space="preserve" y="1.743731155507703">kraj<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3030,9 +2850,6 @@ ADRESY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#4F2A13" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.04296875" x="7.88795659191851" xml:space="preserve" y="1.743731155507703">parafia [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4825438178983993" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.020028313155980415" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3086,9 +2903,6 @@ NAZWY MIEJSCA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#3C3029" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="142.353515625" x="4.0" xml:space="preserve" y="1.743731155507703">  nazwa miejsca [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3099,9 +2913,6 @@ NAZWY MIEJSCA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#3C3029" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="142.861328125" x="4.0" xml:space="preserve" y="1.743731155507703">  język [ISO 639-1:2002]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.020028313155980415" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3185,9 +2996,6 @@ NAZWY MIEJSCA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#376400" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.380859375" x="4.0" xml:space="preserve" y="4.296875">prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3270,9 +3078,6 @@ NAZWY MIEJSCA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="43.609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="127.271484375" x="4.0" xml:space="preserve" y="1.6078611979501147">zaznaczony obszar
 na zdjęciu 
 narożniki [ramka]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.004206196171128385" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3365,9 +3170,6 @@ narożniki [ramka]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Label
                   <y:Fill color="#FFFFFF" color2="#354B1B" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.380859375" x="3.9999999999997726" xml:space="preserve" y="1.17767333984375">prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.47786458333333337" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3458,9 +3260,6 @@ narożniki [ramka]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Label
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="85.7578125" x="3.9999999999997726" xml:space="preserve" y="1.17767333984375">identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.47786458333333337" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3471,9 +3270,6 @@ narożniki [ramka]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Label
                   <y:Fill color="#FFFFFF" color2="#354B1B" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.77734375" x="3.9999999999997726" xml:space="preserve" y="1.17767333984375">tytuł [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.47786458333333337" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3504,9 +3300,6 @@ narożniki [ramka]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Label
                   <y:Fill color="#FFFFFF" color2="#354B1B" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.677734375" x="3.9999999999997726" xml:space="preserve" y="1.17767333984375">ścieżka [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.47786458333333337" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3570,9 +3363,6 @@ REPOZYTORIA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#101F19" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3603,9 +3393,6 @@ REPOZYTORIA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="4.0" xml:space="preserve" y="4.296875">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3616,9 +3403,6 @@ REPOZYTORIA<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
                   <y:Fill color="#FFFFFF" color2="#101F19" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.265625" x="4.0" xml:space="preserve" y="4.296875"> nazwa [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3786,9 +3570,6 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#00292B" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3820,9 +3601,6 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.40625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.7265625" x="4.0" xml:space="preserve" y="1.193749999999909">  identyfikator źródła
   w repozytorium [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="-0.08892196803509794" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3833,9 +3611,6 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#00292B" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="125.9765625" x="4.0" xml:space="preserve" y="4.296875">rozaj obiektu [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3866,10 +3641,10 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GenericGroupNode configuration="com.yworks.bpmn.Activity">
-                  <y:Geometry height="335.85550638591553" width="456.5414707156074" x="1294.4635518915159" y="735.904598113849"/>
+                  <y:Geometry height="335.85550638591553" width="456.5414707156076" x="1294.4635518915156" y="735.904598113849"/>
                   <y:Fill color="#62A6A2" color2="#62A6A2" transparent="false"/>
                   <y:BorderStyle color="#2B5C59" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#2B5C59" bottomInset="10" fontFamily="Comfortaa" fontSize="14" fontStyle="plain" height="39.21875" horizontalTextPosition="center" iconTextGap="4" leftInset="10" lineColor="#2B5C59" modelName="custom" rightInset="10" textColor="#FFFFFF" topInset="15" verticalTextPosition="bottom" visible="true" width="282.08984375" x="88.18089160780369" xml:space="preserve" y="0.0">EDYTOR ŹRÓDEŁ: ŹRÓDŁA WŁAŚCIWE<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0020919854739657184" nodeRatioY="-0.5" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#2B5C59" bottomInset="10" fontFamily="Comfortaa" fontSize="14" fontStyle="plain" height="39.21875" horizontalTextPosition="center" iconTextGap="4" leftInset="10" lineColor="#2B5C59" modelName="custom" rightInset="10" textColor="#FFFFFF" topInset="15" verticalTextPosition="bottom" visible="true" width="282.08984375" x="88.18089160780391" xml:space="preserve" y="0.0">EDYTOR ŹRÓDEŁ: ŹRÓDŁA WŁAŚCIWE<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0020919854739657184" nodeRatioY="-0.5" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                   <y:StyleProperties>
                     <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#62a6a2"/>
                     <y:Property class="com.yworks.yfiles.bpmn.view.TaskTypeEnum" name="com.yworks.bpmn.taskType" value="TASK_TYPE_ABSTRACT"/>
@@ -3918,9 +3693,6 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#2B5C59" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="3.9999999999997726" xml:space="preserve" y="2.996216134047927">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3981,9 +3753,6 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#2B5C59" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.06640625" x="3.9999999999997726" xml:space="preserve" y="2.996216134047927">  info o publikacji [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -3994,22 +3763,16 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#FFFFFF" color2="#2B5C59" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.107421875" x="3.9999999999997726" xml:space="preserve" y="2.996216134047927"> strzszczeni/opis [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
             <node id="n0::n20::n9">
               <data key="d5">
                 <y:GenericNode configuration="com.yworks.flowchart.annotation">
-                  <y:Geometry height="22.398682268095854" width="173.41647071560487" x="1314.4635518915159" y="959.8733627659321"/>
+                  <y:Geometry height="22.398682268095854" width="80.62079642070807" x="1314.4635518915156" y="959.8733627659321"/>
                   <y:Fill color="#FFFFFF" color2="#2B5C59" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.98046875" x="3.9999999999997726" xml:space="preserve" y="2.996216134047927">  autor [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.36328125" x="4.0" xml:space="preserve" y="2.996216134047927">autor [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -4100,9 +3863,16 @@ REPOZYTORIACH<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="3.9999999999997726" xml:space="preserve" y="2.996216134047927">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
+                </y:GenericNode>
+              </data>
+            </node>
+            <node id="n0::n20::n19">
+              <data key="d5">
+                <y:GenericNode configuration="com.yworks.flowchart.annotation">
+                  <y:Geometry height="22.398682268095854" width="83.6884220172335" x="1404.1916005898875" y="959.8733627659321"/>
+                  <y:Fill color="#FFFFFF" color2="#2B5C59" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="2.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.77734375" x="4.000000000000227" xml:space="preserve" y="2.996216134047927">tytuł [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01778843483875503" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -4176,9 +3946,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#293F3C" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="4.296875">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4239,9 +4006,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#293F3C" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="124.09765625" x="4.0" xml:space="preserve" y="4.296875">  zaufanie [poziom]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4252,9 +4016,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="4.0" xml:space="preserve" y="4.296875">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4265,9 +4026,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#293F3C" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="121.177734375" x="4.0" xml:space="preserve" y="4.296875">  tom/strona [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.01593750000000005" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4390,9 +4148,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#403946" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.998046875" x="4.0" xml:space="preserve" y="1.4107545898434637">  prywatność (tak/nie)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4902645833333408" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4403,9 +4158,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#000000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="93.375" x="4.0" xml:space="preserve" y="1.4107545898434637">  identyfikator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4902645833333408" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4436,9 +4188,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:Fill color="#FFFFFF" color2="#403946" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="138.671875" x="4.0" xml:space="preserve" y="1.4107545898434637">  rodzaj notatki [text]<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4902645833333408" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4450,9 +4199,6 @@ CYTATY<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:Mod
                   <y:BorderStyle color="#000000" type="line" width="2.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="30.40625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.765625" x="4.0" xml:space="preserve" y="0.6568974096801412">notatka [text]
   preformatowany<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4832054570818606" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:StyleProperties>
-                    <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-                  </y:StyleProperties>
                 </y:GenericNode>
               </data>
             </node>
@@ -4927,35 +4673,6 @@ model danych<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
           </data>
         </node>
         <node id="n0::n47">
-          <data key="d5">
-            <y:GenericNode configuration="ShinyPlateNode">
-              <y:Geometry height="823.9062499999998" width="74.47660716776636" x="858.7008268049403" y="754.0535108699994"/>
-              <y:Fill color="#000000" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" anchorX="56.73830358388318" anchorY="794.9882812499995" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.46875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" upX="-1.0" upY="-6.123233995736766E-17" verticalTextPosition="bottom" visible="true" width="752.53515625" x="22.26955358388318" xml:space="preserve" y="42.453124999999545">https://github.com/mod-by-cis/gramps-data-model<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.030420625833510906" nodeRatioY="0.008214014792338187" offsetX="0.0" offsetY="0.0" upX="-1.0" upY="-6.123233995736766E-17"/></y:ModelParameter></y:NodeLabel>
-              <y:StyleProperties>
-                <y:Property class="java.lang.Double" name="ModernNodeRadius" value="10.0"/>
-                <y:Property class="java.lang.Boolean" name="ModernNodeShadow" value="true"/>
-              </y:StyleProperties>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n48">
-          <data key="d5">
-            <y:GenericNode configuration="ShinyPlateNode">
-              <y:Geometry height="104.21875" width="253.92420625439922" x="858.7008268049403" y="626.6759594215819"/>
-              <y:Fill color="#000000" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="223.140625" x="16.321478127199498" xml:space="preserve" y="16.671875">v.2025-02-25
-Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0036612795357857664" nodeRatioY="-0.028485757121439303" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-              <y:StyleProperties>
-                <y:Property class="java.lang.Double" name="ModernNodeRadius" value="10.0"/>
-                <y:Property class="java.lang.Boolean" name="ModernNodeShadow" value="true"/>
-              </y:StyleProperties>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n49">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -4978,7 +4695,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n50">
+        <node id="n0::n48">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5001,7 +4718,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n51">
+        <node id="n0::n49">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5024,7 +4741,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n52">
+        <node id="n0::n50">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5047,7 +4764,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n53">
+        <node id="n0::n51">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5070,7 +4787,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n54">
+        <node id="n0::n52">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5093,7 +4810,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n55">
+        <node id="n0::n53">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5116,7 +4833,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n56">
+        <node id="n0::n54">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5139,7 +4856,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n57">
+        <node id="n0::n55">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5162,7 +4879,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n58">
+        <node id="n0::n56">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5177,7 +4894,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n59">
+        <node id="n0::n57">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5193,7 +4910,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n60">
+        <node id="n0::n58">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5208,7 +4925,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n61">
+        <node id="n0::n59">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5223,7 +4940,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n62">
+        <node id="n0::n60">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5238,7 +4955,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n63">
+        <node id="n0::n61">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5253,7 +4970,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n64">
+        <node id="n0::n62">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5268,7 +4985,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n65">
+        <node id="n0::n63">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5283,7 +5000,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n66">
+        <node id="n0::n64">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5298,7 +5015,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n67">
+        <node id="n0::n65">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5313,7 +5030,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n68">
+        <node id="n0::n66">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5328,7 +5045,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n69">
+        <node id="n0::n67">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5343,7 +5060,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n70">
+        <node id="n0::n68">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5358,7 +5075,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n71">
+        <node id="n0::n69">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5373,7 +5090,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n72">
+        <node id="n0::n70">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5388,7 +5105,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n73">
+        <node id="n0::n71">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5411,7 +5128,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n74">
+        <node id="n0::n72">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5426,7 +5143,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n75">
+        <node id="n0::n73">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5449,7 +5166,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n76">
+        <node id="n0::n74">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5472,7 +5189,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n77">
+        <node id="n0::n75">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5488,7 +5205,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n78">
+        <node id="n0::n76">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5503,7 +5220,7 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n79">
+        <node id="n0::n77">
           <data key="d4"/>
           <data key="d5">
             <y:GenericNode configuration="ArrowNodeStyle">
@@ -5516,6 +5233,34 @@ Jan R. Cisowski<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMod
                   <ArrowNodeStyle xmlns="http://www.yworks.com/xml/yfiles-for-java/3.1" Direction="DOWN" Paint="#65FFFFFF" Pen="#FF000000" ShaftRatio="0.6" Shape="NOTCHED_ARROW"/>
                 </yed:NodeStyleUserData>
               </y:UserData>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n78">
+          <data key="d5">
+            <y:GenericNode configuration="ShinyPlateNode">
+              <y:Geometry height="823.9062499999998" width="74.47660716776636" x="858.7008268049403" y="626.675959421582"/>
+              <y:Fill color="#000000" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" anchorX="56.73830358388318" anchorY="794.9882812499997" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.46875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" upX="-1.0" upY="-6.123233995736766E-17" verticalTextPosition="bottom" visible="true" width="752.53515625" x="22.26955358388318" xml:space="preserve" y="42.45312499999966">https://github.com/mod-by-cis/gramps-data-model<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.030420625833510906" nodeRatioY="0.008214014792338187" offsetX="0.0" offsetY="0.0" upX="-1.0" upY="-6.123233995736766E-17"/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Double" name="ModernNodeRadius" value="10.0"/>
+                <y:Property class="java.lang.Boolean" name="ModernNodeShadow" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n79">
+          <data key="d5">
+            <y:GenericNode configuration="ShinyPlateNode">
+              <y:Geometry height="52.93586845395589" width="146.14059320027127" x="963.1774339727067" y="626.6759594215819"/>
+              <y:Fill color="#000000" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Comfortaa" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.3125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="123.53125" x="11.839733163367328" xml:space="preserve" y="12.803765935186107">v.2025-02-27<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0036612795357857664" nodeRatioY="-0.028485757121439303" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Double" name="ModernNodeRadius" value="10.0"/>
+                <y:Property class="java.lang.Boolean" name="ModernNodeShadow" value="true"/>
+              </y:StyleProperties>
             </y:GenericNode>
           </data>
         </node>
