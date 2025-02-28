@@ -46,21 +46,25 @@ Gramps (Genealogical Research and Analysis Management Programming System) – is
 
 Gramps is a genealogy program written in Python, available under the GNU GPL-2 licence. It is free, open-source software developed using PyGObject and utilising Graphviz for generating relationship charts. The first release took place on 21 April 2001. The program runs on various operating systems, including Linux, BSD, Solaris, Windows, macOS, and as a web application in the Gramps-web version. Gramps supports over 30 languages, making it accessible to a wide range of users worldwide. 
 
-- [👁️ About of **Gramps** in polish language **[not offical]** (https://www.cisowscy.com/gene/gramps)](https://www.cisowscy.com/gene/gramps)
-- [👁️ About of **Gramps** in english language **[not offical]** (https://www.cisowscy.com/gene/gramps-eng)](https://www.cisowscy.com/gene/gramps-eng)
-- [👁️ The official website of the Gramps program (https://gramps-project.org/blog/)](https://gramps-project.org/blog/)
-- [👁️ The repository for Gramps (https://github.com/gramps-project/gramps)](https://github.com/gramps-project/gramps)
-- [👁️ Manual for Gramps (https://gramps-project.org/wiki/index.php/)](https://gramps-project.org/wiki/index.php/)
-- [👁️ Discussion group and technical support (https://gramps.discourse.group/)](https://gramps.discourse.group/)
-- [👁️ Reporting bugs and technical support (https://gramps-project.org/bugs)](https://gramps-project.org/bugs)
-- [👁️ Release history of Gramps (https://gramps-project.org/wiki/index.php?title=Previous_releases_of_Gramps)](https://gramps-project.org/wiki/index.php?title=Previous_releases_of_Gramps)
+- **[not offical]**
+  - [👁️ About of **Gramps** in polish language **[not offical]** (https://www.cisowscy.com/gene/gramps)](https://www.cisowscy.com/gene/gramps)
+  - [👁️ About of **Gramps** in english language **[not offical]** (https://www.cisowscy.com/gene/gramps-eng)](https://www.cisowscy.com/gene/gramps-eng)
+- **[gramps-project.org]**
+  - [👁️ The official website of the Gramps program (https://gramps-project.org/blog/)](https://gramps-project.org/blog/)
+  - [👁️ Manual for Gramps (https://gramps-project.org/wiki/index.php/)](https://gramps-project.org/wiki/index.php/)
+  - [👁️ Reporting bugs and technical support (https://gramps-project.org/bugs)](https://gramps-project.org/bugs)
+  - [👁️ Release history of Gramps (https://gramps-project.org/wiki/index.php?title=Previous_releases_of_Gramps)](https://gramps-project.org/wiki/index.php?title=Previous_releases_of_Gramps)
+  - [👁️ Official description of the Gramps-XML format (https://gramps-project.org/wiki/index.php/Gramps_XML)](https://gramps-project.org/wiki/index.php/Gramps_XML)
+- **[github.com]**
+  - [👁️ The repository for Gramps (https://github.com/gramps-project/gramps)](https://github.com/gramps-project/gramps)
+  - [👁️ Repository gramps-web (https://github.com/gramps-project/gramps-web)](https://github.com/gramps-project/gramps-web)
+  - [👁️ Repository gramps-web-api (https://github.com/gramps-project/gramps-web-api)](https://github.com/gramps-project/gramps-web-api)
+  - [👁️ Documentation for file format Gramps XML (https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.dtd)](https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.dtd)
+  - [👁️ Documentation for file format Gramps XML (https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.rng)](https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.rng)
+- [👁️ Discourse group (https://gramps.discourse.group/)](https://gramps.discourse.group/)
+- [👁️ Discourse group (https://www.facebook.com/groups/370692133138445)](https://www.facebook.com/groups/370692133138445)
 - [👁️ gramps-web (https://www.grampsweb.org/)](https://www.grampsweb.org/)
 - [👁️ gramps-hub (https://www.grampshub.com/)](https://www.grampshub.com/)
-- [👁️ Repository gramps-web (https://github.com/gramps-project/gramps-web)](https://github.com/gramps-project/gramps-web)
-- [👁️ Repository gramps-web-api (https://github.com/gramps-project/gramps-web-api)](https://github.com/gramps-project/gramps-web-api)
-- [👁️ Documentation for file format Gramps XML (https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.dtd)](https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.dtd)
-- [👁️ Documentation for file format Gramps XML (https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.rng)](https://raw.githubusercontent.com/gramps-project/gramps/refs/heads/master/data/grampsxml.rng)
-- [👁️ Official description of the Gramps-XML format (https://gramps-project.org/wiki/index.php/Gramps_XML)](https://gramps-project.org/wiki/index.php/Gramps_XML)
 - [👁️ There are also various tutorials on YouTube. (eg. https://www.youtube.com/@tech-tutorials/videos)](https://www.youtube.com/@tech-tutorials/videos)
 
 ---
