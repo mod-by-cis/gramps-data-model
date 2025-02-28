@@ -1,6 +1,6 @@
 # github.com/mod-by-cis/gramps-data-model
 
-Graphical representation of the data model in the gramps genealogy program. ***I don't claim any rights if it helps anyone, I just wanted to share it.*** [**CC0**](https://creativecommons.org/public-domain/cc0/)
+Graphical representation of the data model in the gramps genealogy program. Gramps Data Model diagram (I did not understand the of relation in gramps-data, until I exploring by creating a diagram - [**CC0 - Shared under Creative Commons Zero terms**](https://creativecommons.org/public-domain/cc0/).) ***I don't claim any rights if it helps anyone, I just wanted to share it in case it might help someone.***
 
 The graphs of the data model were created in the free **yEd** programme of the **yWorks**. [yEd - live](https://www.yworks.com/yed-live/), [yEd - downloads](https://www.yworks.com/products/yed/download).
 
@@ -31,47 +31,40 @@ Gramps (Genealogical Research and Analysis Management Programming System) – is
 
 ---
 
-## Chart [Gramps](https://github.com/gramps-project/gramps/releases) Data Model (lang: english; v.2025-02-27)
+## [Gramps](https://github.com/gramps-project/gramps/releases) Data Model Diagram (lang: english; v.2025-02-27)
 
-![chart lang english v.2025-02-27 of gramps 6.0.0-beta.2](./gramps-6.0.0_MODEL_(eng).png)
+![Grams Data Model Diagram (lang: english; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).png)
 
-> chart available in format:
+> diagram available in format:
 >
-> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(eng).graphml**](./gramps-6.0.0_MODEL_(eng).graphml) - - - - - - - [The free program **`yEd`** is required to open the original `.graphml` file.](https://www.yworks.com/yed-live/)
+> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(eng).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
 > - `.svg`:  [📥💾 **gramps-6.0.0_MODEL_(eng).svg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).svg)
 > - `.png`:  [📥💾 **gramps-6.0.0_MODEL_(eng).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).png)
 > - `.jpg`:  [📥💾 **gramps-6.0.0_MODEL_(eng).jpg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).jpg)
 > - `.pdf (text plain)`:  [📥💾 **gramps-6.0.0_MODEL_(eng)_text-plain.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng)_text-plain.pdf)
 > - `.pdf (text vectorized)`:  [📥💾 **gramps-6.0.0_MODEL_(eng)_text-vectorized.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng)_text-vectorized.pdf)
 
-## Chart [Gramps](https://github.com/gramps-project/gramps/releases) Data Model (lang: polish; v.2025-02-27)
+## [Gramps](https://github.com/gramps-project/gramps/releases) Data Model Diagram (lang: polish; v.2025-02-27)
 
-![chart lang polish v.2025-02-27 of gramps 6.0.0-beta.2](./gramps-6.0.0_MODEL_(pol).png)
+![Grams Data Model Diagram (lang: polish; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).png)
 
-> chart available in format:
+> diagram available in format:
 >
-> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(pol).graphml**](./gramps-6.0.0_MODEL_(pol).graphml) - - - - - - - [The free program **`yEd`** is required to open the original `.graphml` file.](https://www.yworks.com/yed-live/)
+> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
 > - `.svg`:  [📥💾 **gramps-6.0.0_MODEL_(pol).svg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).svg)
 > - `.png`:  [📥💾 **gramps-6.0.0_MODEL_(pol).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).png)
 > - `.jpg`:  [📥💾 **gramps-6.0.0_MODEL_(pol).jpg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).jpg)
 > - `.pdf (text plain)`:  [📥💾 **gramps-6.0.0_MODEL_(pol)_text-plain.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol)_text-plain.pdf)
 > - `.pdf (text vectorized)`:  [📥💾 **gramps-6.0.0_MODEL_(pol)_text-vectorized.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol)_text-vectorized.pdf)
 
-## Chart [Gramps](https://github.com/gramps-project/gramps/releases) Data Model (lang: polish; v.2018-10-21)
+## [Gramps](https://github.com/gramps-project/gramps/releases) Data Model Diagram (lang: polish; v.2018-10-21)
 
-![chart lang polish v.2018-10-21 of gramps 5.0.0-1](./gramps-5.0.0_MODEL_(pol).png)
+![Gramps Data Model Diagram (lang: polish; v.2018-10-21)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).png)
 
-> chart available in format:
+> diagram available in format:
 >
-> - `.graphml`:  [📥💾 **gramps-5.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).graphml) - - - - - - - [The free program **`yEd`** is required to open the original `.graphml` file.](https://www.yworks.com/yed-live/)
+> - `.graphml`:  [📥💾 **gramps-5.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
 > - `.png`:  [📥💾 **gramps-5.0.0_MODEL_(pol).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).png)
 > - `.pdf (text vectorized)`:  [📥💾 **gramps-5.0.0_MODEL_(pol).pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).pdf)
 
 ---
-
-
-
-
-
-
-  
