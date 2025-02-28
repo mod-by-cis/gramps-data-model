@@ -1,6 +1,7 @@
 # github.com/mod-by-cis/gramps-data-model
 
 Graphical representation of the data model in the gramps genealogy program. ***I don't claim any rights if it helps anyone, I just wanted to share it.*** [**CC0**](https://creativecommons.org/public-domain/cc0/)
+
 The graphs of the data model were created in the free **yEd** programme of the **yWorks**. [yEd - live](https://www.yworks.com/yed-live/), [yEd - downloads](https://www.yworks.com/products/yed/download).
 
 ## About **Gramps**
