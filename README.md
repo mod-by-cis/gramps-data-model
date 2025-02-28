@@ -1,6 +1,7 @@
-# github.com/mod-by-cis/gramps-data-model
+# Gramps Data Model Diagram (github.com/mod-by-cis/gramps-data-model)
 
-Graphical representation of the data model in the gramps genealogy program. Gramps Data Model diagram (I did not understand the of relation in gramps-data, until I exploring by creating a diagram - [**CC0 - Shared under Creative Commons Zero terms**](https://creativecommons.org/public-domain/cc0/).) ***I don't claim any rights if it helps anyone, I just wanted to share it in case it might help someone.***
+Graphical representation of the data model in the gramps genealogy program. 
+I did not understand the of relation in gramps-data, until I exploring by creating a diagram - [**CC0 - Shared under Creative Commons Zero terms**](https://creativecommons.org/public-domain/cc0/). ***I don't claim any rights if it helps anyone, I just wanted to share it in case it might help someone.***
 
 The graphs of the data model were created in the free **yEd** programme of the **yWorks**. [yEd - live](https://www.yworks.com/yed-live/), [yEd - downloads](https://www.yworks.com/products/yed/download).
 
