@@ -3,6 +3,8 @@
 Graphical representation of the data model in the gramps genealogy program. 
 I did not understand the of relation in gramps-data, until I exploring by creating a diagram - [**CC0 - Shared under Creative Commons Zero terms**](https://creativecommons.org/public-domain/cc0/). ***I don't claim any rights if it helps anyone, I just wanted to share it in case it might help someone.***
 
+> ⚠️ The license does not apply to the `./model` folder. The **DTD** and **RNG** files are copies of the files in the `./data` folder in the **gramps repository** and are subject to the license of that repository. The remaining files in the `./model` folder are converted from the official **DTD** and **RNG** files from the `./data` folder in the **gramps** repository.
+
 <h2 id="index">📌: Index</h2>
 <ul>
   <li><a href="#AboutGramps"><button>0️⃣: About Gramps</button></a></li>
