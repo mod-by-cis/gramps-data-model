@@ -29,7 +29,9 @@ I did not understand the of relation in gramps-data, until I exploring by creati
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h2 id="AboutGramps">0️⃣: About Gramps <a href="#index"><button>back to 📌 index </button></a></h2>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h2 id="AboutGramps">0️⃣: About Gramps</h2>
 
 Gramps (Genealogical Research and Analysis Management Programming System) – is one of the most advanced genealogy programs, surpassing others in terms of complexity. Moreover, it is available for free.
 
@@ -56,11 +58,15 @@ Gramps (Genealogical Research and Analysis Management Programming System) – is
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h2 id="GrampsDataModelDiagram">1️⃣: <a href="https://github.com/gramps-project/gramps/releases">Gramps</a> Data Model Diagram <a href="#index"><button>back to 📌 index </button></a></h2>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h2 id="GrampsDataModelDiagram">1️⃣: <a href="https://github.com/gramps-project/gramps/releases">Gramps</a> Data Model Diagram</h2>
 
 The graphs of the data model were created in the free **yEd** programme of the **yWorks**. [yEd - live](https://www.yworks.com/yed-live/), [yEd - downloads](https://www.yworks.com/products/yed/download).
 
-<h3 id="GrampsDataModelDiagramEN25">1️⃣-en-25: Gramps Data Model Diagram (lang: english; v.2025-02-27) <a href="#index"><button>back to 📌 index </button></a></h3>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h3 id="GrampsDataModelDiagramEN25">1️⃣-en-25: Gramps Data Model Diagram (lang: english; v.2025-02-27)</h3>
 
 ![Grams Data Model Diagram (lang: english; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).png)
 
@@ -75,7 +81,9 @@ The graphs of the data model were created in the free **yEd** programme of the *
 
 <hr style="height: 15px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h3 id="GrampsDataModelDiagramPL25">1️⃣-pl-25: Gramps Data Model Diagram (lang: polish; v.2025-02-27) <a href="#index"><button>back to 📌 index </button></a></h3>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h3 id="GrampsDataModelDiagramPL25">1️⃣-pl-25: Gramps Data Model Diagram (lang: polish; v.2025-02-27)</h3>
 
 ![Grams Data Model Diagram (lang: polish; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol).png)
 
@@ -90,7 +98,9 @@ The graphs of the data model were created in the free **yEd** programme of the *
 
 <hr style="height: 15px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h3 id="GrampsDataModelDiagramPL18">1️⃣-pl-18: Gramps Data Model Diagram (lang: polish; v.2018-10-21) <a href="#index"><button>back to 📌 index </button></a></h3>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h3 id="GrampsDataModelDiagramPL18">1️⃣-pl-18: Gramps Data Model Diagram (lang: polish; v.2018-10-21)</h3>
 
 ![Gramps Data Model Diagram (lang: polish; v.2018-10-21)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-5.0.0_MODEL_(pol).png)
 
@@ -102,7 +112,9 @@ The graphs of the data model were created in the free **yEd** programme of the *
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h2 id="GrampsXmlOfficialDtdAndRng">2️⃣: official grampsxml data model files (the model used in gramps): <code>*.dtd</code> and <code>*.rng</code> <a href="#index"><button>back to 📌 index </button></a></h2>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h2 id="GrampsXmlOfficialDtdAndRng">2️⃣: official grampsxml data model files (the model used in gramps): <code>*.dtd</code> and <code>*.rng</code></h2>
 
 The official *GRAMPS* repository contains the data model for the `*.gramps` file in both **DTD** and **RNG** formats. I am including these files as copies from the official repository to serve as the foundation for outlining the dependency model. The table shows the latest versions of gramps that use a given model.
 
@@ -157,7 +169,9 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 <hr style="height: 25px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h2 id="ConvertedFromOfficialDtdAndRng">3️⃣: files converted from official <code>*.dtd</code> and <code>*.rng</code> <br/> all files in folder: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
+<a href="#TOP"><button>🔝back to TOP</button></a>
+
+<h2 id="ConvertedFromOfficialDtdAndRng">3️⃣: files converted from official <code>*.dtd</code> and <code>*.rng</code> <br/> all files in folder: <code>./model/**/</code></h3>
 
 > - to convert `*.DTD` to `*.DTD.XSD`, I used 30 days trial version, [XMLSpy-by-altova](https://www.altova.com/xmlspy-xml-editor)
 > - to convert `*.DTD.XSD` to `*.DTD.XSD.JSON`, I used script `./utils/download-official-DTD-RNG.ts`
@@ -210,5 +224,4 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-
-<a href="#TOP"><button>back to TOP </button></a>
+<a href="#TOP"><button>🔝back to TOP</button></a>
