@@ -48,43 +48,43 @@ The graphs of the data model were created in the free **yEd** programme of the *
 
 <h3 id="GrampsDataModelDiagramEN25">1️⃣-en-25: Gramps Data Model Diagram (lang: english; v.2025-02-27) <a href="#index"><button>back to 📌 index </button></a></h3>
 
-![Grams Data Model Diagram (lang: english; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).png)
+![Grams Data Model Diagram (lang: english; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).png)
 
 > diagram available in format:
 >
-> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(eng).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
-> - `.svg`:  [📥💾 **gramps-6.0.0_MODEL_(eng).svg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).svg)
-> - `.png`:  [📥💾 **gramps-6.0.0_MODEL_(eng).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).png)
-> - `.jpg`:  [📥💾 **gramps-6.0.0_MODEL_(eng).jpg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng).jpg)
-> - `.pdf (text plain)`:  [📥💾 **gramps-6.0.0_MODEL_(eng)_text-plain.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng)_text-plain.pdf)
-> - `.pdf (text vectorized)`:  [📥💾 **gramps-6.0.0_MODEL_(eng)_text-vectorized.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(eng)_text-vectorized.pdf)
+> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(eng).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
+> - `.svg`:  [📥💾 **gramps-6.0.0_MODEL_(eng).svg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).svg)
+> - `.png`:  [📥💾 **gramps-6.0.0_MODEL_(eng).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).png)
+> - `.jpg`:  [📥💾 **gramps-6.0.0_MODEL_(eng).jpg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).jpg)
+> - `.pdf (text plain)`:  [📥💾 **gramps-6.0.0_MODEL_(eng)_text-plain.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng)_text-plain.pdf)
+> - `.pdf (text vectorized)`:  [📥💾 **gramps-6.0.0_MODEL_(eng)_text-vectorized.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng)_text-vectorized.pdf)
 
 <hr style="height: 15px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
 <h3 id="GrampsDataModelDiagramPL25">1️⃣-pl-25: Gramps Data Model Diagram (lang: polish; v.2025-02-27) <a href="#index"><button>back to 📌 index </button></a></h3>
 
-![Grams Data Model Diagram (lang: polish; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).png)
+![Grams Data Model Diagram (lang: polish; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol).png)
 
 > diagram available in format:
 >
-> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
-> - `.svg`:  [📥💾 **gramps-6.0.0_MODEL_(pol).svg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).svg)
-> - `.png`:  [📥💾 **gramps-6.0.0_MODEL_(pol).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).png)
-> - `.jpg`:  [📥💾 **gramps-6.0.0_MODEL_(pol).jpg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol).jpg)
-> - `.pdf (text plain)`:  [📥💾 **gramps-6.0.0_MODEL_(pol)_text-plain.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol)_text-plain.pdf)
-> - `.pdf (text vectorized)`:  [📥💾 **gramps-6.0.0_MODEL_(pol)_text-vectorized.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-6.0.0_MODEL_(pol)_text-vectorized.pdf)
+> - `.graphml`:  [📥💾 **gramps-6.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
+> - `.svg`:  [📥💾 **gramps-6.0.0_MODEL_(pol).svg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol).svg)
+> - `.png`:  [📥💾 **gramps-6.0.0_MODEL_(pol).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol).png)
+> - `.jpg`:  [📥💾 **gramps-6.0.0_MODEL_(pol).jpg**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol).jpg)
+> - `.pdf (text plain)`:  [📥💾 **gramps-6.0.0_MODEL_(pol)_text-plain.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol)_text-plain.pdf)
+> - `.pdf (text vectorized)`:  [📥💾 **gramps-6.0.0_MODEL_(pol)_text-vectorized.pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(pol)_text-vectorized.pdf)
 
 <hr style="height: 15px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
 <h3 id="GrampsDataModelDiagramPL18">1️⃣-pl-18: Gramps Data Model Diagram (lang: polish; v.2018-10-21) <a href="#index"><button>back to 📌 index </button></a></h3>
 
-![Gramps Data Model Diagram (lang: polish; v.2018-10-21)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).png)
+![Gramps Data Model Diagram (lang: polish; v.2018-10-21)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-5.0.0_MODEL_(pol).png)
 
 > diagram available in format:
 >
-> - `.graphml`:  [📥💾 **gramps-5.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
-> - `.png`:  [📥💾 **gramps-5.0.0_MODEL_(pol).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).png)
-> - `.pdf (text vectorized)`:  [📥💾 **gramps-5.0.0_MODEL_(pol).pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/heads/main/gramps-5.0.0_MODEL_(pol).pdf)
+> - `.graphml`:  [📥💾 **gramps-5.0.0_MODEL_(pol).graphml**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-5.0.0_MODEL_(pol).graphml) - - - - - - - *The free program **`yEd`** is required to open the original `.graphml` file.*
+> - `.png`:  [📥💾 **gramps-5.0.0_MODEL_(pol).png**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-5.0.0_MODEL_(pol).png)
+> - `.pdf (text vectorized)`:  [📥💾 **gramps-5.0.0_MODEL_(pol).pdf**](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-5.0.0_MODEL_(pol).pdf)
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
