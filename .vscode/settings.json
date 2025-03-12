@@ -162,7 +162,7 @@
   ],
   "markdownlint.config": {
     "MD033": {
-      "allowed_elements": ["h1", "h2", "h3", "a", "ul", "li", "button", "span", "hr", "code","table", "tr", "th", "td", "i","b","u"]
+      "allowed_elements": ["h1", "h2", "h3", "a", "ul", "li", "button", "span", "hr", "code","table", "tr", "th", "td", "i","b","u", "br"]
     }
   }
 }

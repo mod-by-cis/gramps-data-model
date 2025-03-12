@@ -157,13 +157,14 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 <hr style="height: 25px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h2 id="ConvertedFromOfficialDtdAndRng">3️⃣: files converted from <code>*.dtd</code> and <code>*.dtd</code> (data model of grampsxml), in dir: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
+<h2 id="ConvertedFromOfficialDtdAndRng">3️⃣: files converted from official <code>*.dtd</code> and <code>*.rng</code> <br/> all files in folder: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
 
 > - to convert `*.DTD` to `*.DTD.XSD`, I used 30 days trial version, [XMLSpy-by-altova](https://www.altova.com/xmlspy-xml-editor)
 > - to convert `*.DTD.XSD` to `*.DTD.XSD.JSON`, I used script `./utils/download-official-DTD-RNG.ts`
 > - to generate diagram `*.DTD.XSD.JPG` from `*.DTD.XSD`, I used trial version, [Stylus Studio](http://www.stylusstudio.com/)
 >
-> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used <u><b>./utils/covert_RNG_toXSD_andToJSON.ts</b></u>  (this script uses external tool <u><b>jing-trang</b></u> [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
+>
+> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used  script `./utils/covert_RNG_toXSD_andToJSON.ts`  (this script uses external tool **jing-trang** [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
 > -
 
 <table border="1">  
