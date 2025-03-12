@@ -23,9 +23,7 @@ I did not understand the of relation in gramps-data, until I exploring by creati
     <a href="#GrampsXmlOfficialDtdAndRng"><button>2️⃣: Official Files of GrampsXML Data Model DTD and RNG</button></a>
   </li>
   <li>
-    <a href="#ConvertedFromOfficialDtd"><button>3️⃣🅰️: Files converted from official DTD GrampsXML</button></a>
-    <span> | </span>
-    <a href="#ConvertedFromOfficialRng"><button>3️⃣🅱️: Files converted from official RNG GrampsXML</button></a>
+    <a href="#ConvertedFromOfficialDtdAndRng"><button>3️⃣: Files converted from official DTD and RNG GrampsXML</button></a>
   </li>
 </ul>
 
@@ -159,11 +157,14 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 <hr style="height: 25px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h3 id="ConvertedFromOfficialDtd">3️⃣🅰️: files converted from <code>*.dtd</code> (data model of grampsxml), in dir: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
+<h2 id="ConvertedFromOfficialDtdAndRng">3️⃣: files converted from <code>*.dtd</code> and <code>*.dtd</code> (data model of grampsxml), in dir: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
 
 > - to convert `*.DTD` to `*.DTD.XSD`, I used 30 days trial version, [XMLSpy-by-altova](https://www.altova.com/xmlspy-xml-editor)
 > - to convert `*.DTD.XSD` to `*.DTD.XSD.JSON`, I used script `./utils/download-official-DTD-RNG.ts`
 > - to generate diagram `*.DTD.XSD.JPG` from `*.DTD.XSD`, I used trial version, [Stylus Studio](http://www.stylusstudio.com/)
+>
+> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used <u><b>./utils/covert_RNG_toXSD_andToJSON.ts</b></u>  (this script uses external tool <u><b>jing-trang</b></u> [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
+> -
 
 <table border="1">  
   <tr>
@@ -181,16 +182,9 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
     <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.dtd.xsd.json">📜.dtd.xsd.json</a></td>
     <td><i>converted from <code>grampsxml.dtd.xsd</code> using <u><code>./utils/covert_DTD-XSD_toJSON.ts</code></u></i></td>
   </tr>
-</table>
-
-<hr style="height: 25px; background-color: lightgrey; border: none; margin: 40px 0;"/>
-
-<h3 id="ConvertedFromOfficialRng">3️⃣🅱️: files converted from <code>*.rng</code> (data model of grampsxml), in dir: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
-
-> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used <u><b>./utils/covert_RNG_toXSD_andToJSON.ts</b></u>  (this script uses external tool <u><b>jing-trang</b></u> [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
-> - f
-
-<table border="1">  
+  <tr>
+    <td colspan="3"><hr/></th>
+  </tr>
   <tr>
     <th>RNG (RELAX NG schema)</th>
     <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.rng">📜.rng</a></td>
@@ -214,5 +208,6 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 </table>
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
+
 
 <a href="#TOP"><button>back to TOP </button></a>
