@@ -1,4 +1,4 @@
-# 🗃️: Gramps Data Model Diagram (github.com/mod-by-cis/gramps-data-model)
+<h1 id="TOP">🗃️: Gramps Data Model Diagram (<a href="https://github.com/mod-by-cis/gramps-data-model">github.com/mod-by-cis/gramps-data-model</a>) </h1>
 
 Graphical representation of the data model in the gramps genealogy program. 
 I did not understand the of relation in gramps-data, until I exploring by creating a diagram - [**CC0 - Shared under Creative Commons Zero terms**](https://creativecommons.org/public-domain/cc0/). ***I don't claim any rights if it helps anyone, I just wanted to share it in case it might help someone.***
@@ -177,4 +177,4 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<a href="#index"><button>back to 📌 index </button></a>
+<a href="#TOP"><button>back to TOP </button></a>
