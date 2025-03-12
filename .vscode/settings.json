@@ -152,5 +152,8 @@
   "workbench.preferredLightColorTheme": "Solarized Dark",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "xml.symbols.maxItemsComputed": 500000
+  "xml.symbols.maxItemsComputed": 500000,
+  "cSpell.words": [
+    "grampsxml"
+  ]
 }

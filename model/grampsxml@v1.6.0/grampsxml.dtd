@@ -21,18 +21,19 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
+# $Id$
 -->
 
 <!--
-    This is the Document Type Definition file for v1.7.1
+    This is the Document Type Definition file for v1.6.0
     of the GRAMPS XML genealogy data format.
     Please use the following formal public identifier to identify it:
 
-    "-//GRAMPS//DTD GRAMPS XML V1.7.1//EN"
+    "-//GRAMPS//DTD GRAMPS XML V1.6.0//EN"
 
     For example:
-        <!DOCTYPE database PUBLIC "-//GRAMPS//DTD GRAMPS XML V1.7.1//EN"
-                "http://gramps-project.org/xml/1.7.1/grampsxml.dtd"
+        <!DOCTYPE database PUBLIC "-//GRAMPS//DTD GRAMPS XML V1.6.0//EN"
+                "http://gramps-project.org/xml/1.6.0/grampsxml.dtd"
                 [...]>
 -->
 
@@ -61,7 +62,7 @@ DATABASE
 <!ELEMENT database (header, name-formats?, tags?, events?, people?, families?,
                     citations?, sources?, places?, objects?, repositories?,
                     notes?, bookmarks?, namemaps?)>
-<!ATTLIST database xmlns CDATA #FIXED "http://gramps-project.org/xml/1.7.1/">
+<!ATTLIST database xmlns CDATA #FIXED "http://gramps-project.org/xml/1.6.0/">
 
 
 <!--    ************************************************************
@@ -121,7 +122,6 @@ GENDER has values of M, F, or U.
 
 <!ELEMENT name    (first?, call?, surname*, suffix?, title?, nick?, familynick?, group?,
                   (daterange|datespan|dateval|datestr)?, noteref*, citationref*)>
-<!-- (Unknown|Also Know As|Birth Name|Married Name|Other Name) -->
 <!ATTLIST name    
         alt       (0|1) #IMPLIED
         type      CDATA #IMPLIED
@@ -138,8 +138,6 @@ GENDER has values of M, F, or U.
 <!ELEMENT familynick (#PCDATA)>
 <!ELEMENT group      (#PCDATA)>
 <!ELEMENT surname    (#PCDATA)>
-<!-- (Unknown|Inherited|Given|Taken|Patronymic|Matronymic|Feudal|
-Pseudonym|Patrilineal|Matrilineal|Occupation|Location) -->
 <!ATTLIST surname
         prefix      CDATA #IMPLIED
         prim        (1|0) #IMPLIED
@@ -198,13 +196,12 @@ FAMILY
 <!ELEMENT mother EMPTY>
 <!ATTLIST mother hlink IDREF #REQUIRED>
 
-<!-- (None|Birth|Adopted|Stepchild|Sponsored|Foster|Other|Unknown) -->
 <!ELEMENT childref (citationref*,noteref*)>
 <!ATTLIST childref
         hlink IDREF #REQUIRED
         priv  (0|1) #IMPLIED
-        mrel  CDATA #IMPLIED
-        frel  CDATA #IMPLIED
+        mrel  (None|Birth|Adopted|Stepchild|Sponsored|Foster|Other|Unknown) #IMPLIED
+        frel  (None|Birth|Adopted|Stepchild|Sponsored|Foster|Other|Unknown) #IMPLIED
 >
 
 <!ELEMENT type (#PCDATA)>
@@ -251,25 +248,20 @@ PLACES
 
 <!ELEMENT places (placeobj)*>
 
-<!ELEMENT placeobj (ptitle?, code?, pname+, coord?, placeref*, location*,
+<!ELEMENT placeobj (ptitle?, code?, alt_name*, coord?, placeref*, location*,
                     objref*, url*, noteref*, citationref*, tagref*)>
 <!ATTLIST placeobj
         id        CDATA #IMPLIED
         handle    ID    #REQUIRED
         priv      (0|1) #IMPLIED
         change    CDATA #REQUIRED
+        name      CDATA #REQUIRED
         type      CDATA #REQUIRED
->
-
-<!ELEMENT pname (daterange|datespan|dateval|datestr)?>
-
-<!ATTLIST pname
-        lang CDATA #IMPLIED
-        value CDATA #REQUIRED
 >
 
 <!ELEMENT ptitle (#PCDATA)>
 <!ELEMENT code (#PCDATA)>
+<!ELEMENT alt_name (#PCDATA)>
 
 <!ELEMENT coord EMPTY>
 <!ATTLIST coord

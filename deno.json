@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "download-official-DTD-RNG": "deno run --allow-net --allow-read --allow-write  utils/download-official-DTD-RNG.ts"
+  },
+  "imports": {
+    "@libs/xml": "jsr:@libs/xml@^6.0.4",
+    "@std/fs": "jsr:@std/fs@^1.0.14"
+  }
+}

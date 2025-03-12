@@ -1,0 +1,2173 @@
+{
+  "#comments": [
+    "# Gramps - a GTK+/GNOME based genealogy program\n#\n# Copyright (C) 2005-2007  Donald N. Allingham\n# Copyright (C) 2010-2014  Nick Hall\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General Public License as published by\n# the Free Software Foundation; either version 2 of the License, or\n# (at your option) any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n# GNU General Public License for more details.\n#\n# You should have received a copy of the GNU General Public License\n# along with this program; if not, write to the Free Software\n# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n\n# Written by Alex Roitman",
+    "This is the RELAX NG schema for the GRAMPS XML genealogy data format."
+  ],
+  "@version": "1.0",
+  "@encoding": "UTF-8",
+  "grammar": {
+    "@datatypeLibrary": "http://www.w3.org/2001/XMLSchema-datatypes",
+    "@ns": "http://gramps-project.org/xml/1.7.1/",
+    "@xmlns": "http://relaxng.org/ns/structure/1.0",
+    "start": {
+      "element": {
+        "@name": "database",
+        "element": {
+          "@name": "header",
+          "element": [
+            {
+              "@name": "created",
+              "attribute": [
+                {
+                  "@name": "date",
+                  "data": {
+                    "@type": "date"
+                  }
+                },
+                {
+                  "@name": "version",
+                  "text": null
+                }
+              ]
+            },
+            {
+              "@name": "researcher",
+              "optional": {
+                "ref": {
+                  "@name": "researcher-content"
+                }
+              }
+            }
+          ],
+          "optional": {
+            "element": {
+              "@name": "mediapath",
+              "text": null
+            }
+          }
+        },
+        "optional": [
+          {
+            "element": {
+              "@name": "name-formats",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "format",
+                  "ref": {
+                    "@name": "format-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tags",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "tag",
+                  "ref": {
+                    "@name": "tag-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "events",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "event",
+                  "ref": {
+                    "@name": "event-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "people",
+              "optional": [
+                {
+                  "attribute": {
+                    "@name": "default",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "home",
+                    "data": {
+                      "@type": "IDREF"
+                    }
+                  }
+                }
+              ],
+              "zeroOrMore": {
+                "element": {
+                  "@name": "person",
+                  "ref": {
+                    "@name": "person-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "families",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "family",
+                  "ref": {
+                    "@name": "family-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citations",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "citation",
+                  "ref": {
+                    "@name": "citation-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "sources",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "source",
+                  "ref": {
+                    "@name": "source-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "places",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "placeobj",
+                  "ref": {
+                    "@name": "place-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "objects",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "object",
+                  "ref": {
+                    "@name": "object-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "repositories",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "repository",
+                  "ref": {
+                    "@name": "repository-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "notes",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "note",
+                  "ref": {
+                    "@name": "note-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "bookmarks",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "bookmark",
+                  "ref": {
+                    "@name": "bookmark-content"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "namemaps",
+              "zeroOrMore": {
+                "element": {
+                  "@name": "map",
+                  "ref": {
+                    "@name": "map-content"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "define": [
+      {
+        "@name": "researcher-content",
+        "element": {
+          "@name": "resname",
+          "text": null
+        },
+        "optional": [
+          {
+            "element": {
+              "@name": "resaddr",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "reslocality",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "rescity",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "resstate",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "rescountry",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "respostal",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "resphone",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "resemail",
+              "text": null
+            }
+          }
+        ]
+      },
+      {
+        "@name": "table-object",
+        "attribute": [
+          {
+            "@name": "handle",
+            "data": {
+              "@type": "ID"
+            }
+          },
+          {
+            "@name": "change",
+            "text": null
+          }
+        ]
+      },
+      {
+        "@name": "primary-object",
+        "ref": {
+          "@name": "table-object"
+        },
+        "optional": [
+          {
+            "attribute": {
+              "@name": "id",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "priv",
+              "choice": {
+                "value": [
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "person-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "element": {
+          "@name": "gender",
+          "choice": {
+            "value": [
+              "M",
+              "F",
+              "U"
+            ]
+          }
+        },
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "name",
+              "ref": {
+                "@name": "name-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "eventref",
+              "ref": {
+                "@name": "eventref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "lds_ord",
+              "ref": {
+                "@name": "lds-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "objref",
+              "ref": {
+                "@name": "objref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "address",
+              "ref": {
+                "@name": "address-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "attribute",
+              "ref": {
+                "@name": "attribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "url",
+              "ref": {
+                "@name": "url-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "childof",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "parentin",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "personref",
+              "ref": {
+                "@name": "personref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "child-rel",
+        "text": null
+      },
+      {
+        "@name": "name-content",
+        "optional": [
+          {
+            "attribute": {
+              "@name": "alt",
+              "choice": {
+                "value": [
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          },
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "attribute": {
+              "@name": "type",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "sort",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "display",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "first",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "call",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "suffix",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "title",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "nick",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "familynick",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "group",
+              "text": null
+            }
+          },
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "surname",
+              "ref": {
+                "@name": "surname-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "surname-content",
+        "text": null,
+        "optional": [
+          {
+            "attribute": {
+              "@name": "prefix",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "prim",
+              "choice": {
+                "value": [
+                  "1",
+                  "0"
+                ]
+              }
+            }
+          },
+          {
+            "attribute": {
+              "@name": "derivation",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "connector",
+              "text": null
+            }
+          }
+        ]
+      },
+      {
+        "@name": "address-content",
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          },
+          {
+            "element": {
+              "@name": "street",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "locality",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "city",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "county",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "state",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "country",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "postal",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "phone",
+              "text": null
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "date-content",
+        "choice": {
+          "element": [
+            {
+              "@name": "daterange",
+              "attribute": [
+                {
+                  "@name": "start",
+                  "text": null
+                },
+                {
+                  "@name": "stop",
+                  "text": null
+                }
+              ],
+              "optional": [
+                {
+                  "attribute": {
+                    "@name": "quality",
+                    "choice": {
+                      "value": [
+                        "estimated",
+                        "calculated"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "cformat",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "dualdated",
+                    "choice": {
+                      "value": [
+                        "0",
+                        "1"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "newyear",
+                    "text": null
+                  }
+                }
+              ]
+            },
+            {
+              "@name": "datespan",
+              "attribute": [
+                {
+                  "@name": "start",
+                  "text": null
+                },
+                {
+                  "@name": "stop",
+                  "text": null
+                }
+              ],
+              "optional": [
+                {
+                  "attribute": {
+                    "@name": "quality",
+                    "choice": {
+                      "value": [
+                        "estimated",
+                        "calculated"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "cformat",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "dualdated",
+                    "choice": {
+                      "value": [
+                        "0",
+                        "1"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "newyear",
+                    "text": null
+                  }
+                }
+              ]
+            },
+            {
+              "@name": "dateval",
+              "attribute": {
+                "@name": "val",
+                "text": null
+              },
+              "optional": [
+                {
+                  "attribute": {
+                    "@name": "cformat",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "type",
+                    "choice": {
+                      "value": [
+                        "before",
+                        "after",
+                        "about"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "quality",
+                    "choice": {
+                      "value": [
+                        "estimated",
+                        "calculated"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "dualdated",
+                    "choice": {
+                      "value": [
+                        "0",
+                        "1"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "newyear",
+                    "text": null
+                  }
+                }
+              ]
+            },
+            {
+              "@name": "datestr",
+              "attribute": {
+                "@name": "val",
+                "text": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@name": "family-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "optional": [
+          {
+            "element": {
+              "@name": "rel",
+              "attribute": {
+                "@name": "type",
+                "text": null
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "father",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "mother",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "eventref",
+              "ref": {
+                "@name": "eventref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "lds_ord",
+              "ref": {
+                "@name": "lds-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "objref",
+              "ref": {
+                "@name": "objref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "childref",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              },
+              "optional": [
+                {
+                  "attribute": {
+                    "@name": "priv",
+                    "ref": {
+                      "@name": "priv-content"
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "mrel",
+                    "ref": {
+                      "@name": "child-rel"
+                    }
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "frel",
+                    "ref": {
+                      "@name": "child-rel"
+                    }
+                  }
+                }
+              ],
+              "zeroOrMore": [
+                {
+                  "element": {
+                    "@name": "citationref",
+                    "ref": {
+                      "@name": "citationref-content"
+                    }
+                  }
+                },
+                {
+                  "element": {
+                    "@name": "noteref",
+                    "ref": {
+                      "@name": "noteref-content"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "element": {
+              "@name": "attribute",
+              "ref": {
+                "@name": "attribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "event-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "element": {
+          "@name": "type",
+          "text": null
+        },
+        "optional": [
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          },
+          {
+            "element": {
+              "@name": "place",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "description",
+              "text": null
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "attribute",
+              "ref": {
+                "@name": "attribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "objref",
+              "ref": {
+                "@name": "objref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "citation-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "optional": [
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          },
+          {
+            "element": {
+              "@name": "page",
+              "text": null
+            }
+          }
+        ],
+        "element": [
+          {
+            "@name": "confidence",
+            "text": null
+          },
+          {
+            "@name": "sourceref",
+            "ref": {
+              "@name": "sourceref-content"
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "objref",
+              "ref": {
+                "@name": "objref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "srcattribute",
+              "ref": {
+                "@name": "srcattribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "source-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "optional": [
+          {
+            "element": {
+              "@name": "stitle",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "sauthor",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "spubinfo",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "sabbrev",
+              "text": null
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "objref",
+              "ref": {
+                "@name": "objref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "srcattribute",
+              "ref": {
+                "@name": "srcattribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "reporef",
+              "ref": {
+                "@name": "reporef-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "place-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "attribute": {
+          "@name": "type",
+          "text": null
+        },
+        "optional": [
+          {
+            "element": {
+              "@name": "ptitle",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "code",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "coord",
+              "attribute": [
+                {
+                  "@name": "long",
+                  "text": null
+                },
+                {
+                  "@name": "lat",
+                  "text": null
+                }
+              ]
+            }
+          }
+        ],
+        "oneOrMore": {
+          "element": {
+            "@name": "pname",
+            "ref": {
+              "@name": "placename-content"
+            }
+          }
+        },
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "placeref",
+              "ref": {
+                "@name": "placeref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "location",
+              "optional": [
+                {
+                  "attribute": {
+                    "@name": "street",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "locality",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "city",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "parish",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "county",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "state",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "country",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "postal",
+                    "text": null
+                  }
+                },
+                {
+                  "attribute": {
+                    "@name": "phone",
+                    "text": null
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "element": {
+              "@name": "objref",
+              "ref": {
+                "@name": "objref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "url",
+              "ref": {
+                "@name": "url-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "object-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "element": {
+          "@name": "file",
+          "attribute": [
+            {
+              "@name": "src",
+              "text": null
+            },
+            {
+              "@name": "mime",
+              "text": null
+            }
+          ],
+          "optional": [
+            {
+              "attribute": {
+                "@name": "checksum",
+                "text": null
+              }
+            },
+            {
+              "attribute": {
+                "@name": "description",
+                "text": null
+              }
+            }
+          ]
+        },
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "attribute",
+              "ref": {
+                "@name": "attribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ],
+        "optional": {
+          "ref": {
+            "@name": "date-content"
+          }
+        }
+      },
+      {
+        "@name": "repository-content",
+        "ref": {
+          "@name": "primary-object"
+        },
+        "optional": [
+          {
+            "element": {
+              "@name": "rname",
+              "text": null
+            }
+          },
+          {
+            "element": {
+              "@name": "type",
+              "text": null
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "address",
+              "ref": {
+                "@name": "address-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "url",
+              "ref": {
+                "@name": "url-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "tagref",
+              "ref": {
+                "@name": "tagref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "bookmark-content",
+        "attribute": [
+          {
+            "@name": "target",
+            "choice": {
+              "value": [
+                "person",
+                "family",
+                "event",
+                "source",
+                "citation",
+                "place",
+                "media",
+                "repository",
+                "note"
+              ]
+            }
+          },
+          {
+            "@name": "hlink",
+            "data": {
+              "@type": "IDREF"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "map-content",
+        "attribute": [
+          {
+            "@name": "type",
+            "choice": {
+              "value": "group_as"
+            }
+          },
+          {
+            "@name": "key",
+            "text": null
+          },
+          {
+            "@name": "value",
+            "text": null
+          }
+        ]
+      },
+      {
+        "@name": "format-content",
+        "attribute": [
+          {
+            "@name": "number",
+            "text": null
+          },
+          {
+            "@name": "name",
+            "text": null
+          },
+          {
+            "@name": "fmt_str",
+            "text": null
+          }
+        ],
+        "optional": {
+          "attribute": {
+            "@name": "active",
+            "choice": {
+              "value": [
+                "0",
+                "1"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "@name": "note-content",
+        "ref": [
+          {
+            "@name": "primary-object"
+          },
+          {
+            "@name": "styledtext"
+          }
+        ],
+        "optional": {
+          "attribute": {
+            "@name": "format",
+            "choice": {
+              "value": [
+                "0",
+                "1"
+              ]
+            }
+          }
+        },
+        "attribute": {
+          "@name": "type",
+          "text": null
+        },
+        "zeroOrMore": {
+          "element": {
+            "@name": "tagref",
+            "ref": {
+              "@name": "tagref-content"
+            }
+          }
+        }
+      },
+      {
+        "@name": "styledtext",
+        "element": {
+          "@name": "text",
+          "text": null
+        },
+        "zeroOrMore": {
+          "element": {
+            "@name": "style",
+            "attribute": {
+              "@name": "name",
+              "choice": {
+                "value": [
+                  "bold",
+                  "italic",
+                  "underline",
+                  "fontface",
+                  "fontsize",
+                  "fontcolor",
+                  "highlight",
+                  "superscript",
+                  "link"
+                ]
+              }
+            },
+            "optional": {
+              "attribute": {
+                "@name": "value",
+                "text": null
+              }
+            },
+            "oneOrMore": {
+              "element": {
+                "@name": "range",
+                "attribute": [
+                  {
+                    "@name": "start",
+                    "data": {
+                      "@type": "int"
+                    }
+                  },
+                  {
+                    "@name": "end",
+                    "data": {
+                      "@type": "int"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "@name": "citationref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        }
+      },
+      {
+        "@name": "personref-content",
+        "attribute": [
+          {
+            "@name": "hlink",
+            "data": {
+              "@type": "IDREF"
+            }
+          },
+          {
+            "@name": "rel",
+            "text": null
+          }
+        ],
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "zeroOrMore": {
+              "element": {
+                "@name": "citationref",
+                "ref": {
+                  "@name": "citationref-content"
+                }
+              }
+            }
+          },
+          {
+            "zeroOrMore": {
+              "element": {
+                "@name": "noteref",
+                "ref": {
+                  "@name": "noteref-content"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "sourceref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        }
+      },
+      {
+        "@name": "eventref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        },
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "attribute": {
+              "@name": "role",
+              "text": null
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "attribute",
+              "ref": {
+                "@name": "attribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "reporef-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        },
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "attribute": {
+              "@name": "callno",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "medium",
+              "text": null
+            }
+          }
+        ],
+        "zeroOrMore": {
+          "element": {
+            "@name": "noteref",
+            "ref": {
+              "@name": "noteref-content"
+            }
+          }
+        }
+      },
+      {
+        "@name": "noteref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        }
+      },
+      {
+        "@name": "priv-content",
+        "choice": {
+          "value": [
+            "0",
+            "1"
+          ]
+        }
+      },
+      {
+        "@name": "attribute-content",
+        "optional": {
+          "attribute": {
+            "@name": "priv",
+            "ref": {
+              "@name": "priv-content"
+            }
+          }
+        },
+        "attribute": [
+          {
+            "@name": "type",
+            "text": null
+          },
+          {
+            "@name": "value",
+            "text": null
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "srcattribute-content",
+        "optional": {
+          "attribute": {
+            "@name": "priv",
+            "ref": {
+              "@name": "priv-content"
+            }
+          }
+        },
+        "attribute": [
+          {
+            "@name": "type",
+            "text": null
+          },
+          {
+            "@name": "value",
+            "text": null
+          }
+        ]
+      },
+      {
+        "@name": "url-content",
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "attribute": {
+              "@name": "type",
+              "text": null
+            }
+          },
+          {
+            "attribute": {
+              "@name": "description",
+              "text": null
+            }
+          }
+        ],
+        "attribute": {
+          "@name": "href",
+          "text": null
+        }
+      },
+      {
+        "@name": "objref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        },
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "region",
+              "ref": {
+                "@name": "region-content"
+              }
+            }
+          }
+        ],
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "attribute",
+              "ref": {
+                "@name": "attribute-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "lds-content",
+        "optional": [
+          {
+            "attribute": {
+              "@name": "priv",
+              "ref": {
+                "@name": "priv-content"
+              }
+            }
+          },
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          },
+          {
+            "element": {
+              "@name": "temple",
+              "attribute": {
+                "@name": "val",
+                "text": null
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "place",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "status",
+              "attribute": {
+                "@name": "val",
+                "text": null
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "sealed_to",
+              "attribute": {
+                "@name": "hlink",
+                "data": {
+                  "@type": "IDREF"
+                }
+              }
+            }
+          },
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          }
+        ],
+        "attribute": {
+          "@name": "type",
+          "text": null
+        },
+        "zeroOrMore": [
+          {
+            "element": {
+              "@name": "noteref",
+              "ref": {
+                "@name": "noteref-content"
+              }
+            }
+          },
+          {
+            "element": {
+              "@name": "citationref",
+              "ref": {
+                "@name": "citationref-content"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "region-content",
+        "attribute": [
+          {
+            "@name": "corner1_x",
+            "data": {
+              "@type": "integer"
+            }
+          },
+          {
+            "@name": "corner1_y",
+            "data": {
+              "@type": "integer"
+            }
+          },
+          {
+            "@name": "corner2_x",
+            "data": {
+              "@type": "integer"
+            }
+          },
+          {
+            "@name": "corner2_y",
+            "data": {
+              "@type": "integer"
+            }
+          }
+        ],
+        "text": null
+      },
+      {
+        "@name": "placename-content",
+        "attribute": {
+          "@name": "value",
+          "text": null
+        },
+        "optional": [
+          {
+            "attribute": {
+              "@name": "lang",
+              "text": null
+            }
+          },
+          {
+            "ref": {
+              "@name": "date-content"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "placeref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        },
+        "optional": {
+          "ref": {
+            "@name": "date-content"
+          }
+        }
+      },
+      {
+        "@name": "tagref-content",
+        "attribute": {
+          "@name": "hlink",
+          "data": {
+            "@type": "IDREF"
+          }
+        }
+      },
+      {
+        "@name": "tag-content",
+        "ref": {
+          "@name": "table-object"
+        },
+        "attribute": [
+          {
+            "@name": "name",
+            "text": null
+          },
+          {
+            "@name": "color",
+            "text": null
+          },
+          {
+            "@name": "priority",
+            "data": {
+              "@type": "integer"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
