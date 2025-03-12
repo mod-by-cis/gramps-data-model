@@ -8,7 +8,7 @@ I did not understand the of relation in gramps-data, until I exploring by creati
   <li><a href="#AboutGramps"><button>0️⃣: About Gramps</button></a></li>
   <li><a href="#GrampsDataModelDiagram"><button>1️⃣: Gramps Data Model Diagram</button></a> >>> <a href="#GrampsDataModelDiagramEN25"><button>(eng v2025)</button></a> | <a href="#GrampsDataModelDiagramPL25"><button>(pol v2025)</button></a> | <a href="GrampsDataModelDiagramPL18"><button>(pol v2018)</button></a></li>
   <li><a href="#GrampsXmlOfficialDtdAndRng"><button>2️⃣: Official Files of GrampsXML Data Model DTD and RNG</button></a></li>
-  <li><a href="#ConvertedFromOfficialtd"><button>3️⃣🅰️: Files converted from official DTD GrampsXML</button></a> | <a href="#ConvertedFromOfficialRng"><button>3️⃣🅱️: Files converted from official RNG GrampsXML</button></a></li>
+  <li><a href="#ConvertedFromOfficialDtd"><button>3️⃣🅰️: Files converted from official DTD GrampsXML</button></a> | <a href="#ConvertedFromOfficialRng"><button>3️⃣🅱️: Files converted from official RNG GrampsXML</button></a></li>
 </ul>
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
