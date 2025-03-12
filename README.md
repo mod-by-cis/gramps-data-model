@@ -1,16 +1,32 @@
 <h1 id="TOP">🗃️: Gramps Data Model Diagram (<a href="https://github.com/mod-by-cis/gramps-data-model">github.com/mod-by-cis/gramps-data-model</a>) </h1>
 
-Graphical representation of the data model in the gramps genealogy program. 
+Graphical representation of the data model in the gramps genealogy program.
 I did not understand the of relation in gramps-data, until I exploring by creating a diagram - [**CC0 - Shared under Creative Commons Zero terms**](https://creativecommons.org/public-domain/cc0/). ***I don't claim any rights if it helps anyone, I just wanted to share it in case it might help someone.***
 
 > ⚠️ The license does not apply to the `./model` folder. The **DTD** and **RNG** files are copies of the files in the `./data` folder in the **gramps repository** and are subject to the license of that repository. The remaining files in the `./model` folder are converted from the official **DTD** and **RNG** files from the `./data` folder in the **gramps** repository.
 
 <h2 id="index">📌: Index</h2>
 <ul>
-  <li><a href="#AboutGramps"><button>0️⃣: About Gramps</button></a></li>
-  <li><a href="#GrampsDataModelDiagram"><button>1️⃣: Gramps Data Model Diagram</button></a> >>> <a href="#GrampsDataModelDiagramEN25"><button>(eng v2025)</button></a> | <a href="#GrampsDataModelDiagramPL25"><button>(pol v2025)</button></a> | <a href="#GrampsDataModelDiagramPL18"><button>(pol v2018)</button></a></li>
-  <li><a href="#GrampsXmlOfficialDtdAndRng"><button>2️⃣: Official Files of GrampsXML Data Model DTD and RNG</button></a></li>
-  <li><a href="#ConvertedFromOfficialDtd"><button>3️⃣🅰️: Files converted from official DTD GrampsXML</button></a> | <a href="#ConvertedFromOfficialRng"><button>3️⃣🅱️: Files converted from official RNG GrampsXML</button></a></li>
+  <li>
+    <a href="#AboutGramps"><button>0️⃣: About Gramps</button></a>
+  </li>
+  <li>
+    <a href="#GrampsDataModelDiagram"><button>1️⃣: Gramps Data Model Diagram</button></a>
+    <span> >>> </span>
+    <a href="#GrampsDataModelDiagramEN25"><button>(eng v2025)</button></a>
+    <span> | </span>
+    <a href="#GrampsDataModelDiagramPL25"><button>(pol v2025)</button></a>
+    <span> | </span>
+    <a href="#GrampsDataModelDiagramPL18"><button>(pol v2018)</button></a>
+  </li>
+  <li>
+    <a href="#GrampsXmlOfficialDtdAndRng"><button>2️⃣: Official Files of GrampsXML Data Model DTD and RNG</button></a>
+  </li>
+  <li>
+    <a href="#ConvertedFromOfficialDtd"><button>3️⃣🅰️: Files converted from official DTD GrampsXML</button></a>
+    <span> | </span>
+    <a href="#ConvertedFromOfficialRng"><button>3️⃣🅱️: Files converted from official RNG GrampsXML</button></a>
+  </li>
 </ul>
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
@@ -36,13 +52,11 @@ Gramps (Genealogical Research and Analysis Management Programming System) – is
 - [👁️ gramps-web (https://www.grampsweb.org/)](https://www.grampsweb.org/)
 - [👁️ gramps-hub (https://www.grampshub.com/)](https://www.grampshub.com/)
 - [👁️ There are also various tutorials on YouTube. (eg. https://www.youtube.com/@tech-tutorials/videos)](https://www.youtube.com/@tech-tutorials/videos)
-- **[not offical]**
-  - [👁️ About of **Gramps** in polish language **[not offical]** (https://www.cisowscy.com/gene/gramps)](https://www.cisowscy.com/gene/gramps)
-  - [👁️ About of **Gramps** in english language **[not offical]** (https://www.cisowscy.com/gene/gramps-eng)](https://www.cisowscy.com/gene/gramps-eng)
-
+- **[not official]**
+  - [👁️ About of **Gramps** in polish language **[not official]** (https://www.cisowscy.com/gene/gramps)](https://www.cisowscy.com/gene/gramps)
+  - [👁️ About of **Gramps** in english language **[not official]** (https://www.cisowscy.com/gene/gramps-eng)](https://www.cisowscy.com/gene/gramps-eng)
 
 <hr style="height: 65px; background-color: lightgrey; border: none; margin: 40px 0;"/>
-
 
 <h2 id="GrampsDataModelDiagram">1️⃣: <a href="https://github.com/gramps-project/gramps/releases">Gramps</a> Data Model Diagram <a href="#index"><button>back to 📌 index </button></a></h2>
 
@@ -110,7 +124,9 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
     <th><a href="https://github.com/gramps-project/gramps/blob/v2.2.10/">v2.2.10</a></br> v1.1.4</th>
   </tr>
   <tr>
+    <!-- cSpell:disable -->
     <th><span style="color:violet; font-weight:bold">D</span><span style="font-weight:normal">ocument </span><span style="color:violet; font-weight:bold">T</span><span style="font-weight:normal">ype </span><span style="color:violet; font-weight:bold">D</span><span style="font-weight:normal">efinition</span></th>
+    <!-- cSpell:enable -->
     <th><a href="https://github.com/gramps-project/gramps/commits/master/data/grampsxml.dtd">🔄️</a></td>
     <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-rc1/data/grampsxml.dtd">📜.dtd</a></td>
     <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.6/data/grampsxml.dtd">📜.dtd</a></td>
@@ -124,7 +140,9 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
     <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.10/data/grampsxml.dtd">📜.dtd</a></td>
   </tr>
   <tr>
+    <!-- cSpell:disable -->
     <th><span style="color:violet; font-weight:bold">R</span><span style="font-weight:normal">elax </span><span style="color:violet; font-weight:bold">NG</span></th>
+    <!-- cSpell:enable -->
     <th><a href="https://github.com/gramps-project/gramps/commits/master/data/grampsxml.rng">🔄️</a></td>
     <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-rc1/data/grampsxml.rng">📜.rng</a></td>
     <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.6/data/grampsxml.rng">📜.rng</a></td>
@@ -141,39 +159,57 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 <hr style="height: 25px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h3 id="ConvertedFromOfficialDtd">3️⃣🅰️: files converted from <code>*.dtd</code> (data model of grampsxml), in dir: <code>./model/**/fromDTD</code> <a href="#index"><button>back to 📌 index </button></a></h3>
+<h3 id="ConvertedFromOfficialDtd">3️⃣🅰️: files converted from <code>*.dtd</code> (data model of grampsxml), in dir: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
 
-<table border="1">
+> - to convert `*.DTD` to `*.DTD.XSD`, I used 30 days trial version, [XMLSpy-by-altova](https://www.altova.com/xmlspy-xml-editor)
+> - to convert `*.DTD.XSD` to `*.DTD.XSD.JSON`, I used script `./utils/download-official-DTD-RNG.ts`
+> - to generate diagram `*.DTD.XSD.JPG` from `*.DTD.XSD`, I used trial version, [Stylus Studio](http://www.stylusstudio.com/)
+
+<table border="1">  
   <tr>
-    <th>grampsxml (gramps):</th>
-    <th>v1.7.2 (<a href="https://github.com/gramps-project/gramps/blob/v6.0.0-rc1/">v6.0.0-rc1</a>)</th>
-    <th>v1.7.1 (<a href="https://github.com/gramps-project/gramps/blob/v5.1.6/">v5.1.6</a>)</th>
-    <th><i>this file obtained by means of..</i></th>
+    <th>DTD (Document type definition)</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.dtd">📜.dtd</a></td>
+    <td><i><code>grampsxml.dtd</code> mirror from <u>official repo of gramps</u> using <u><code>./utils/covert_DTD-XSD_toJSON.ts</code></u></i></td>
   </tr>
   <tr>
-    <th><span style="color:violet; font-weight:bold">D</span><span style="font-weight:normal">ocument </span><span style="color:violet; font-weight:bold">T</span><span style="font-weight:normal">ype </span><span style="color:violet; font-weight:bold">D</span><span style="font-weight:normal">efinition</span></th>
-    <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-rc1/data/grampsxml.dtd">📜.dtd</a></td>
-    <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.6/data/grampsxml.dtd">📜.dtd</a></td>
-    <td><i>mirror from official repo of gramps</i></td>
+    <th>XSD (XML Schema)</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.dtd.xsd">📜.dtd.xsd</a></td>
+    <td><i>converted from <code>grampsxml.dtd</code> using <u>XMLSpy-by-altova</u></i></td>
+  </tr>
+  <tr>
+    <th>XSD (XML Schema) as JSON</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.dtd.xsd.json">📜.dtd.xsd.json</a></td>
+    <td><i>converted from <code>grampsxml.dtd.xsd</code> using <u><code>./utils/covert_DTD-XSD_toJSON.ts</code></u></i></td>
   </tr>
 </table>
 
 <hr style="height: 25px; background-color: lightgrey; border: none; margin: 40px 0;"/>
 
-<h3 id="ConvertedFromOfficialRng">3️⃣🅱️: files converted from <code>*.rng</code> (data model of grampsxml), in dir: <code>./model/**/fromRNG</code> <a href="#index"><button>back to 📌 index </button></a></h3>
+<h3 id="ConvertedFromOfficialRng">3️⃣🅱️: files converted from <code>*.rng</code> (data model of grampsxml), in dir: <code>./model/**/</code> <a href="#index"><button>back to 📌 index </button></a></h3>
 
-<table border="1">
+> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used <u><b>./utils/covert_RNG_toXSD_andToJSON.ts</b></u>  (this script uses external tool <u><b>jing-trang</b></u> [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
+> - f
+
+<table border="1">  
   <tr>
-    <th>grampsxml (gramps):</th>
-    <th>v1.7.2 (<a href="https://github.com/gramps-project/gramps/blob/v6.0.0-rc1/">v6.0.0-rc1</a>)</th>
-    <th>v1.7.1 (<a href="https://github.com/gramps-project/gramps/blob/v5.1.6/">v5.1.6</a>)</th>
-    <th><i>this file obtained by means of..</i></th>
+    <th>RNG (RELAX NG schema)</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.rng">📜.rng</a></td>
+    <td><i><code>grampsxml.rng</code> mirror from <u>official repo of gramps</u> using <u><code>./utils/covert_DTD-XSD_toJSON.ts</code></u></i></td>
   </tr>
   <tr>
-    <th><span style="color:violet; font-weight:bold">R</span><span style="font-weight:normal">elax </span><span style="color:violet; font-weight:bold">NG</span></th>
-    <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-rc1/data/grampsxml.rng">📜.dtd</a></td>
-    <td><a href="https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.6/data/grampsxml.rng">📜.dtd</a></td>
-    <td><i>mirror from official repo of gramps</i></td>
+    <th>RNG (RELAX NG schema) as JSON</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.rng.json">📜.rng.json</a></td>
+    <td><i>converted from <code>grampsxml.rng</code> when file was downloading using <u><code>./utils/download-official-DTD-RNG.ts</code></u></i></td>
+  </tr>
+  <tr>
+    <th>XSD (XML Schema)</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.rng.xsd">📜.rng.xsd</a></td>
+    <td><i>converted from <code>grampsxml.rng</code> using <u><code>./utils/covert_RNG_toXSD_andToJSON.ts</code></u></i></td>
+  </tr>
+  <tr>
+    <th>XSD (XML Schema) as JSON</th>
+    <td><a href="https://github.com/mod-by-cis/gramps-data-model/blob/main/model/grampsxml%40v1.7.2/grampsxml.rng.xsd.json">📜.rng.xsd.json</a></td>
+    <td><i>converted from <code>grampsxml.rng.xsd</code> using <u><code>./utils/covert_RNG_toXSD_andToJSON.ts</code></u></i></td>
   </tr>
 </table>
 

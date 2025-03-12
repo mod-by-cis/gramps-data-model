@@ -1,0 +1,2303 @@
+{
+  "#comments": [
+    "# Gramps - a GTK+/GNOME based genealogy program\r\n  #\r\n  # Copyright (C) 2005-2007  Donald N. Allingham\r\n  # Copyright (C) 2010-2014  Nick Hall\r\n  #\r\n  # This program is free software; you can redistribute it and/or modify\r\n  # it under the terms of the GNU General Public License as published by\r\n  # the Free Software Foundation; either version 2 of the License, or\r\n  # (at your option) any later version.\r\n  #\r\n  # This program is distributed in the hope that it will be useful,\r\n  # but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n  # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n  # GNU General Public License for more details.\r\n  #\r\n  # You should have received a copy of the GNU General Public License\r\n  # along with this program; if not, write to the Free Software\r\n  # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\r\n  \r\n  # Written by Alex Roitman",
+    "This is the RELAX NG schema for the GRAMPS XML genealogy data format."
+  ],
+  "@version": "1.0",
+  "@encoding": "UTF-8",
+  "xs:schema": {
+    "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+    "@elementFormDefault": "qualified",
+    "@targetNamespace": "http://gramps-project.org/xml/1.7.1/",
+    "@xmlns:x": "http://gramps-project.org/xml/1.7.1/",
+    "xs:element": [
+      {
+        "@name": "database",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": [
+              {
+                "@ref": "x:header"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:name-formats"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:tags"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:events"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:people"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:families"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:citations"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:sources"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:places"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:objects"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:repositories"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:notes"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:bookmarks"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:namemaps"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@name": "header",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": [
+              {
+                "@ref": "x:created"
+              },
+              {
+                "@ref": "x:researcher"
+              },
+              {
+                "@minOccurs": "0",
+                "@ref": "x:mediapath"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@name": "created",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "date",
+              "@use": "required",
+              "@type": "xs:date"
+            },
+            {
+              "@name": "version",
+              "@use": "required"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "researcher",
+        "xs:complexType": {
+          "xs:group": {
+            "@minOccurs": "0",
+            "@ref": "x:researcher-content"
+          }
+        }
+      },
+      {
+        "@name": "mediapath",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "name-formats",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:format"
+            }
+          }
+        }
+      },
+      {
+        "@name": "format",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:format-content"
+          }
+        }
+      },
+      {
+        "@name": "tags",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tag"
+            }
+          }
+        }
+      },
+      {
+        "@name": "tag",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:tag-content"
+          }
+        }
+      },
+      {
+        "@name": "events",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:event"
+            }
+          }
+        }
+      },
+      {
+        "@name": "event",
+        "@type": "x:event-content"
+      },
+      {
+        "@name": "people",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:person"
+            }
+          },
+          "xs:attribute": [
+            {
+              "@name": "default"
+            },
+            {
+              "@name": "home",
+              "@type": "xs:IDREF"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "person",
+        "@type": "x:person-content"
+      },
+      {
+        "@name": "families",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:family"
+            }
+          }
+        }
+      },
+      {
+        "@name": "family",
+        "@type": "x:family-content"
+      },
+      {
+        "@name": "citations",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citation"
+            }
+          }
+        }
+      },
+      {
+        "@name": "citation",
+        "@type": "x:citation-content"
+      },
+      {
+        "@name": "sources",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:source"
+            }
+          }
+        }
+      },
+      {
+        "@name": "source",
+        "@type": "x:source-content"
+      },
+      {
+        "@name": "places",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:placeobj"
+            }
+          }
+        }
+      },
+      {
+        "@name": "placeobj",
+        "@type": "x:place-content"
+      },
+      {
+        "@name": "objects",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:object"
+            }
+          }
+        }
+      },
+      {
+        "@name": "object",
+        "@type": "x:object-content"
+      },
+      {
+        "@name": "repositories",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:repository"
+            }
+          }
+        }
+      },
+      {
+        "@name": "repository",
+        "@type": "x:repository-content"
+      },
+      {
+        "@name": "notes",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:note"
+            }
+          }
+        }
+      },
+      {
+        "@name": "note",
+        "@type": "x:note-content"
+      },
+      {
+        "@name": "bookmarks",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:bookmark"
+            }
+          }
+        }
+      },
+      {
+        "@name": "bookmark",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:bookmark-content"
+          }
+        }
+      },
+      {
+        "@name": "namemaps",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:map"
+            }
+          }
+        }
+      },
+      {
+        "@name": "map",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:map-content"
+          }
+        }
+      },
+      {
+        "@name": "resname",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "resaddr",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "reslocality",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "rescity",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "resstate",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "rescountry",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "respostal",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "resphone",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "resemail",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "gender",
+        "xs:simpleType": {
+          "xs:restriction": {
+            "@base": "xs:token",
+            "xs:enumeration": [
+              {
+                "@value": "M"
+              },
+              {
+                "@value": "F"
+              },
+              {
+                "@value": "U"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@name": "name",
+        "@type": "x:name-content"
+      },
+      {
+        "@name": "eventref",
+        "@type": "x:eventref-content"
+      },
+      {
+        "@name": "lds_ord",
+        "@type": "x:lds-content"
+      },
+      {
+        "@name": "objref",
+        "@type": "x:objref-content"
+      },
+      {
+        "@name": "address",
+        "@type": "x:address-content"
+      },
+      {
+        "@name": "attribute",
+        "@type": "x:attribute-content"
+      },
+      {
+        "@name": "url",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:url-content"
+          }
+        }
+      },
+      {
+        "@name": "childof",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        }
+      },
+      {
+        "@name": "parentin",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        }
+      },
+      {
+        "@name": "personref",
+        "@type": "x:personref-content"
+      },
+      {
+        "@name": "noteref",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:noteref-content"
+          }
+        }
+      },
+      {
+        "@name": "citationref",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:citationref-content"
+          }
+        }
+      },
+      {
+        "@name": "tagref",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:tagref-content"
+          }
+        }
+      },
+      {
+        "@name": "first",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "call",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "surname",
+        "xs:complexType": {
+          "@mixed": "true",
+          "xs:attributeGroup": {
+            "@ref": "x:surname-content"
+          }
+        }
+      },
+      {
+        "@name": "suffix",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "title",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "nick",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "familynick",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "group",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "street",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "locality",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "city",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "county",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "state",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "country",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "postal",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "phone",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "date-content",
+        "@abstract": "true"
+      },
+      {
+        "@name": "daterange",
+        "@substitutionGroup": "x:date-content",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "start",
+              "@use": "required"
+            },
+            {
+              "@name": "stop",
+              "@use": "required"
+            },
+            {
+              "@name": "quality",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "estimated"
+                    },
+                    {
+                      "@value": "calculated"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "cformat"
+            },
+            {
+              "@name": "dualdated",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "0"
+                    },
+                    {
+                      "@value": "1"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "newyear"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "datespan",
+        "@substitutionGroup": "x:date-content",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "start",
+              "@use": "required"
+            },
+            {
+              "@name": "stop",
+              "@use": "required"
+            },
+            {
+              "@name": "quality",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "estimated"
+                    },
+                    {
+                      "@value": "calculated"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "cformat"
+            },
+            {
+              "@name": "dualdated",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "0"
+                    },
+                    {
+                      "@value": "1"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "newyear"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "dateval",
+        "@substitutionGroup": "x:date-content",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "val",
+              "@use": "required"
+            },
+            {
+              "@name": "cformat"
+            },
+            {
+              "@name": "type",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "before"
+                    },
+                    {
+                      "@value": "after"
+                    },
+                    {
+                      "@value": "about"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "quality",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "estimated"
+                    },
+                    {
+                      "@value": "calculated"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "dualdated",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "0"
+                    },
+                    {
+                      "@value": "1"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "newyear"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "datestr",
+        "@substitutionGroup": "x:date-content",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "val",
+            "@use": "required"
+          }
+        }
+      },
+      {
+        "@name": "rel",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "type",
+            "@use": "required"
+          }
+        }
+      },
+      {
+        "@name": "father",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        }
+      },
+      {
+        "@name": "mother",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        }
+      },
+      {
+        "@name": "childref",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": [
+              {
+                "@minOccurs": "0",
+                "@maxOccurs": "unbounded",
+                "@ref": "x:citationref"
+              },
+              {
+                "@minOccurs": "0",
+                "@maxOccurs": "unbounded",
+                "@ref": "x:noteref"
+              }
+            ]
+          },
+          "xs:attribute": [
+            {
+              "@name": "hlink",
+              "@use": "required",
+              "@type": "xs:IDREF"
+            },
+            {
+              "@name": "priv",
+              "@type": "x:priv-content"
+            },
+            {
+              "@name": "mrel"
+            },
+            {
+              "@name": "frel"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "type",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "place",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        }
+      },
+      {
+        "@name": "description",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "page",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "confidence",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "srcattribute",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:srcattribute-content"
+          }
+        }
+      },
+      {
+        "@name": "sourceref",
+        "xs:complexType": {
+          "xs:attributeGroup": {
+            "@ref": "x:sourceref-content"
+          }
+        }
+      },
+      {
+        "@name": "stitle",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "sauthor",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "spubinfo",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "sabbrev",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "reporef",
+        "@type": "x:reporef-content"
+      },
+      {
+        "@name": "ptitle",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "code",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "pname",
+        "@type": "x:placename-content"
+      },
+      {
+        "@name": "coord",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "long",
+              "@use": "required"
+            },
+            {
+              "@name": "lat",
+              "@use": "required"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "placeref",
+        "@type": "x:placeref-content"
+      },
+      {
+        "@name": "location",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "street"
+            },
+            {
+              "@name": "locality"
+            },
+            {
+              "@name": "city"
+            },
+            {
+              "@name": "parish"
+            },
+            {
+              "@name": "county"
+            },
+            {
+              "@name": "state"
+            },
+            {
+              "@name": "country"
+            },
+            {
+              "@name": "postal"
+            },
+            {
+              "@name": "phone"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "file",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "src",
+              "@use": "required"
+            },
+            {
+              "@name": "mime",
+              "@use": "required"
+            },
+            {
+              "@name": "checksum"
+            },
+            {
+              "@name": "description"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "rname",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "text",
+        "@type": "xs:string"
+      },
+      {
+        "@name": "style",
+        "xs:complexType": {
+          "xs:sequence": {
+            "xs:element": {
+              "@maxOccurs": "unbounded",
+              "@ref": "x:range"
+            }
+          },
+          "xs:attribute": [
+            {
+              "@name": "name",
+              "@use": "required",
+              "xs:simpleType": {
+                "xs:restriction": {
+                  "@base": "xs:token",
+                  "xs:enumeration": [
+                    {
+                      "@value": "bold"
+                    },
+                    {
+                      "@value": "italic"
+                    },
+                    {
+                      "@value": "underline"
+                    },
+                    {
+                      "@value": "fontface"
+                    },
+                    {
+                      "@value": "fontsize"
+                    },
+                    {
+                      "@value": "fontcolor"
+                    },
+                    {
+                      "@value": "highlight"
+                    },
+                    {
+                      "@value": "superscript"
+                    },
+                    {
+                      "@value": "link"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "@name": "value"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "range",
+        "xs:complexType": {
+          "xs:attribute": [
+            {
+              "@name": "start",
+              "@use": "required",
+              "@type": "xs:int"
+            },
+            {
+              "@name": "end",
+              "@use": "required",
+              "@type": "xs:int"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "region",
+        "xs:complexType": {
+          "@mixed": "true",
+          "xs:attributeGroup": {
+            "@ref": "x:region-content"
+          }
+        }
+      },
+      {
+        "@name": "temple",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "val",
+            "@use": "required"
+          }
+        }
+      },
+      {
+        "@name": "status",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "val",
+            "@use": "required"
+          }
+        }
+      },
+      {
+        "@name": "sealed_to",
+        "xs:complexType": {
+          "xs:attribute": {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        }
+      }
+    ],
+    "xs:group": [
+      {
+        "@name": "researcher-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@ref": "x:resname"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:resaddr"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:reslocality"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:rescity"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:resstate"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:rescountry"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:respostal"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:resphone"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:resemail"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "styledtext",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@ref": "x:text"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:style"
+            }
+          ]
+        }
+      }
+    ],
+    "xs:attributeGroup": [
+      {
+        "@name": "table-object",
+        "xs:attribute": [
+          {
+            "@name": "handle",
+            "@use": "required",
+            "@type": "xs:ID"
+          },
+          {
+            "@name": "change",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "primary-object",
+        "xs:attributeGroup": {
+          "@ref": "x:table-object"
+        },
+        "xs:attribute": [
+          {
+            "@name": "id"
+          },
+          {
+            "@name": "priv",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": [
+                  {
+                    "@value": "0"
+                  },
+                  {
+                    "@value": "1"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "surname-content",
+        "xs:attribute": [
+          {
+            "@name": "prefix"
+          },
+          {
+            "@name": "prim",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": [
+                  {
+                    "@value": "1"
+                  },
+                  {
+                    "@value": "0"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "@name": "derivation"
+          },
+          {
+            "@name": "connector"
+          }
+        ]
+      },
+      {
+        "@name": "bookmark-content",
+        "xs:attribute": [
+          {
+            "@name": "target",
+            "@use": "required",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": [
+                  {
+                    "@value": "person"
+                  },
+                  {
+                    "@value": "family"
+                  },
+                  {
+                    "@value": "event"
+                  },
+                  {
+                    "@value": "source"
+                  },
+                  {
+                    "@value": "citation"
+                  },
+                  {
+                    "@value": "place"
+                  },
+                  {
+                    "@value": "media"
+                  },
+                  {
+                    "@value": "repository"
+                  },
+                  {
+                    "@value": "note"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          }
+        ]
+      },
+      {
+        "@name": "map-content",
+        "xs:attribute": [
+          {
+            "@name": "type",
+            "@use": "required",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": {
+                  "@value": "group_as"
+                }
+              }
+            }
+          },
+          {
+            "@name": "key",
+            "@use": "required"
+          },
+          {
+            "@name": "value",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "format-content",
+        "xs:attribute": [
+          {
+            "@name": "number",
+            "@use": "required"
+          },
+          {
+            "@name": "name",
+            "@use": "required"
+          },
+          {
+            "@name": "fmt_str",
+            "@use": "required"
+          },
+          {
+            "@name": "active",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": [
+                  {
+                    "@value": "0"
+                  },
+                  {
+                    "@value": "1"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@name": "citationref-content",
+        "xs:attribute": {
+          "@name": "hlink",
+          "@use": "required",
+          "@type": "xs:IDREF"
+        }
+      },
+      {
+        "@name": "sourceref-content",
+        "xs:attribute": {
+          "@name": "hlink",
+          "@use": "required",
+          "@type": "xs:IDREF"
+        }
+      },
+      {
+        "@name": "noteref-content",
+        "xs:attribute": {
+          "@name": "hlink",
+          "@use": "required",
+          "@type": "xs:IDREF"
+        }
+      },
+      {
+        "@name": "srcattribute-content",
+        "xs:attribute": [
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "type",
+            "@use": "required"
+          },
+          {
+            "@name": "value",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "url-content",
+        "xs:attribute": [
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "type"
+          },
+          {
+            "@name": "href",
+            "@use": "required"
+          },
+          {
+            "@name": "description"
+          }
+        ]
+      },
+      {
+        "@name": "region-content",
+        "xs:attribute": [
+          {
+            "@name": "corner1_x",
+            "@use": "required",
+            "@type": "xs:integer"
+          },
+          {
+            "@name": "corner1_y",
+            "@use": "required",
+            "@type": "xs:integer"
+          },
+          {
+            "@name": "corner2_x",
+            "@use": "required",
+            "@type": "xs:integer"
+          },
+          {
+            "@name": "corner2_y",
+            "@use": "required",
+            "@type": "xs:integer"
+          }
+        ]
+      },
+      {
+        "@name": "tagref-content",
+        "xs:attribute": {
+          "@name": "hlink",
+          "@use": "required",
+          "@type": "xs:IDREF"
+        }
+      },
+      {
+        "@name": "tag-content",
+        "xs:attributeGroup": {
+          "@ref": "x:table-object"
+        },
+        "xs:attribute": [
+          {
+            "@name": "name",
+            "@use": "required"
+          },
+          {
+            "@name": "color",
+            "@use": "required"
+          },
+          {
+            "@name": "priority",
+            "@use": "required",
+            "@type": "xs:integer"
+          }
+        ]
+      }
+    ],
+    "xs:complexType": [
+      {
+        "@name": "person-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@ref": "x:gender"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:name"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:eventref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:lds_ord"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:objref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:address"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:attribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:url"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:childof"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:parentin"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:personref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "name-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:first"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:call"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:surname"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:suffix"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:title"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:nick"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:familynick"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:group"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            }
+          ]
+        },
+        "xs:attribute": [
+          {
+            "@name": "alt",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": [
+                  {
+                    "@value": "0"
+                  },
+                  {
+                    "@value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "type"
+          },
+          {
+            "@name": "sort"
+          },
+          {
+            "@name": "display"
+          }
+        ]
+      },
+      {
+        "@name": "address-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:street"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:locality"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:city"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:county"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:state"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:country"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:postal"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:phone"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            }
+          ]
+        },
+        "xs:attribute": {
+          "@name": "priv",
+          "@type": "x:priv-content"
+        }
+      },
+      {
+        "@name": "family-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:rel"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:father"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:mother"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:eventref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:lds_ord"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:objref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:childref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:attribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "event-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@ref": "x:type"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:place"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:description"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:attribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:objref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "citation-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:page"
+            },
+            {
+              "@ref": "x:confidence"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:objref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:srcattribute"
+            },
+            {
+              "@ref": "x:sourceref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "source-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:stitle"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:sauthor"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:spubinfo"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:sabbrev"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:objref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:srcattribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:reporef"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "place-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:ptitle"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:code"
+            },
+            {
+              "@maxOccurs": "unbounded",
+              "@ref": "x:pname"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:coord"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:placeref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:location"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:objref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:url"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        },
+        "xs:attribute": {
+          "@name": "type",
+          "@use": "required"
+        }
+      },
+      {
+        "@name": "object-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@ref": "x:file"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:attribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "repository-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:rname"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:type"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:address"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:url"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:tagref"
+            }
+          ]
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        }
+      },
+      {
+        "@name": "note-content",
+        "xs:sequence": {
+          "xs:group": {
+            "@ref": "x:styledtext"
+          },
+          "xs:element": {
+            "@minOccurs": "0",
+            "@maxOccurs": "unbounded",
+            "@ref": "x:tagref"
+          }
+        },
+        "xs:attributeGroup": {
+          "@ref": "x:primary-object"
+        },
+        "xs:attribute": [
+          {
+            "@name": "format",
+            "xs:simpleType": {
+              "xs:restriction": {
+                "@base": "xs:token",
+                "xs:enumeration": [
+                  {
+                    "@value": "0"
+                  },
+                  {
+                    "@value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "@name": "type",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "personref-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            }
+          ]
+        },
+        "xs:attribute": [
+          {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          },
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "rel",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "eventref-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:attribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            }
+          ]
+        },
+        "xs:attribute": [
+          {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          },
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "role"
+          }
+        ]
+      },
+      {
+        "@name": "reporef-content",
+        "xs:sequence": {
+          "xs:element": {
+            "@minOccurs": "0",
+            "@maxOccurs": "unbounded",
+            "@ref": "x:noteref"
+          }
+        },
+        "xs:attribute": [
+          {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          },
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "callno"
+          },
+          {
+            "@name": "medium"
+          }
+        ]
+      },
+      {
+        "@name": "attribute-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            }
+          ]
+        },
+        "xs:attribute": [
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "type",
+            "@use": "required"
+          },
+          {
+            "@name": "value",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "objref-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:region"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:attribute"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            }
+          ]
+        },
+        "xs:attribute": [
+          {
+            "@name": "hlink",
+            "@use": "required",
+            "@type": "xs:IDREF"
+          },
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          }
+        ]
+      },
+      {
+        "@name": "lds-content",
+        "xs:sequence": {
+          "xs:element": [
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:temple"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:place"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:status"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:sealed_to"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:noteref"
+            },
+            {
+              "@minOccurs": "0",
+              "@ref": "x:date-content"
+            },
+            {
+              "@minOccurs": "0",
+              "@maxOccurs": "unbounded",
+              "@ref": "x:citationref"
+            }
+          ]
+        },
+        "xs:attribute": [
+          {
+            "@name": "priv",
+            "@type": "x:priv-content"
+          },
+          {
+            "@name": "type",
+            "@use": "required"
+          }
+        ]
+      },
+      {
+        "@name": "placename-content",
+        "xs:sequence": {
+          "xs:element": {
+            "@minOccurs": "0",
+            "@ref": "x:date-content"
+          }
+        },
+        "xs:attribute": [
+          {
+            "@name": "value",
+            "@use": "required"
+          },
+          {
+            "@name": "lang"
+          }
+        ]
+      },
+      {
+        "@name": "placeref-content",
+        "xs:sequence": {
+          "xs:element": {
+            "@minOccurs": "0",
+            "@ref": "x:date-content"
+          }
+        },
+        "xs:attribute": {
+          "@name": "hlink",
+          "@use": "required",
+          "@type": "xs:IDREF"
+        }
+      }
+    ],
+    "xs:simpleType": {
+      "@name": "priv-content",
+      "xs:restriction": {
+        "@base": "xs:token",
+        "xs:enumeration": [
+          {
+            "@value": "0"
+          },
+          {
+            "@value": "1"
+          }
+        ]
+      }
+    }
+  }
+}

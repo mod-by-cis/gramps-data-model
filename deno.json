@@ -1,6 +1,8 @@
 {
   "tasks": {
-    "download-official-DTD-RNG": "deno run --allow-net --allow-read --allow-write  utils/download-official-DTD-RNG.ts"
+    "download-official-DTD-RNG": "deno run --allow-net --allow-read --allow-write  utils/download-official-DTD-RNG.ts",
+    "covert_DTD-XSD_toJSON": "deno run --allow-read --allow-write  utils/covert_DTD-XSD_toJSON.ts",
+    "covert_RNG_toXSD_andToJSON": "deno run --allow-run --allow-read --allow-write  utils/covert_RNG_toXSD_andToJSON.ts"
   },
   "imports": {
     "@libs/xml": "jsr:@libs/xml@^6.0.4",

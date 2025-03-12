@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  # Gramps - a GTK+/GNOME based genealogy program
+  #
+  # Copyright (C) 2005-2007  Donald N. Allingham
+  # Copyright (C) 2010-2011  Nick Hall
+  #
+  # This program is free software; you can redistribute it and/or modify
+  # it under the terms of the GNU General Public License as published by
+  # the Free Software Foundation; either version 2 of the License, or
+  # (at your option) any later version.
+  #
+  # This program is distributed in the hope that it will be useful,
+  # but WITHOUT ANY WARRANTY; without even the implied warranty of
+  # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  # GNU General Public License for more details.
+  #
+  # You should have received a copy of the GNU General Public License
+  # along with this program; if not, write to the Free Software
+  # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+  
+  # Written by Alex Roitman
+  
+  # $Id$
+-->
+<!-- This is the RELAX NG schema for the GRAMPS XML genealogy data format. -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://gramps-project.org/xml/1.5.0/" xmlns:x="http://gramps-project.org/xml/1.5.0/">
+  <xs:element name="database">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x:header"/>
+        <xs:element minOccurs="0" ref="x:name-formats"/>
+        <xs:element minOccurs="0" ref="x:tags"/>
+        <xs:element minOccurs="0" ref="x:events"/>
+        <xs:element minOccurs="0" ref="x:people"/>
+        <xs:element minOccurs="0" ref="x:families"/>
+        <xs:element minOccurs="0" ref="x:citations"/>
+        <xs:element minOccurs="0" ref="x:sources"/>
+        <xs:element minOccurs="0" ref="x:places"/>
+        <xs:element minOccurs="0" ref="x:objects"/>
+        <xs:element minOccurs="0" ref="x:repositories"/>
+        <xs:element minOccurs="0" ref="x:notes"/>
+        <xs:element minOccurs="0" ref="x:bookmarks"/>
+        <xs:element minOccurs="0" ref="x:namemaps"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x:created"/>
+        <xs:element ref="x:researcher"/>
+        <xs:element minOccurs="0" ref="x:mediapath"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="created">
+    <xs:complexType>
+      <xs:attribute name="date" use="required" type="xs:date"/>
+      <xs:attribute name="version" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="researcher">
+    <xs:complexType>
+      <xs:group minOccurs="0" ref="x:researcher-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mediapath" type="xs:string"/>
+  <xs:element name="name-formats">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:format"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="format">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:format-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:tag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tag">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:tag-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="events">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:event"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="event" type="x:event-content"/>
+  <xs:element name="people">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:person"/>
+      </xs:sequence>
+      <xs:attribute name="default"/>
+      <xs:attribute name="home" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="person" type="x:person-content"/>
+  <xs:element name="families">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:family"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="family" type="x:family-content"/>
+  <xs:element name="citations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="citation" type="x:citation-content"/>
+  <xs:element name="sources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:source"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="source" type="x:source-content"/>
+  <xs:element name="places">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:placeobj"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="placeobj" type="x:place-content"/>
+  <xs:element name="objects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="object" type="x:object-content"/>
+  <xs:element name="repositories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:repository"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="repository" type="x:repository-content"/>
+  <xs:element name="notes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:note"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="note" type="x:note-content"/>
+  <xs:element name="bookmarks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:bookmark"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bookmark">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:bookmark-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="namemaps">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:map"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="map">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:map-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="researcher-content">
+    <xs:sequence>
+      <xs:element ref="x:resname"/>
+      <xs:element minOccurs="0" ref="x:resaddr"/>
+      <xs:element minOccurs="0" ref="x:reslocality"/>
+      <xs:element minOccurs="0" ref="x:rescity"/>
+      <xs:element minOccurs="0" ref="x:resstate"/>
+      <xs:element minOccurs="0" ref="x:rescountry"/>
+      <xs:element minOccurs="0" ref="x:respostal"/>
+      <xs:element minOccurs="0" ref="x:resphone"/>
+      <xs:element minOccurs="0" ref="x:resemail"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="resname" type="xs:string"/>
+  <xs:element name="resaddr" type="xs:string"/>
+  <xs:element name="reslocality" type="xs:string"/>
+  <xs:element name="rescity" type="xs:string"/>
+  <xs:element name="resstate" type="xs:string"/>
+  <xs:element name="rescountry" type="xs:string"/>
+  <xs:element name="respostal" type="xs:string"/>
+  <xs:element name="resphone" type="xs:string"/>
+  <xs:element name="resemail" type="xs:string"/>
+  <xs:attributeGroup name="table-object">
+    <xs:attribute name="handle" use="required" type="xs:ID"/>
+    <xs:attribute name="change" use="required"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="primary-object">
+    <xs:attributeGroup ref="x:table-object"/>
+    <xs:attribute name="id"/>
+    <xs:attribute name="priv">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="0"/>
+          <xs:enumeration value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:complexType name="person-content">
+    <xs:sequence>
+      <xs:element ref="x:gender"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:name"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:eventref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:lds_ord"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:objref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:address"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:attribute"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:url"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:childof"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:parentin"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:personref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:tagref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="gender">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="M"/>
+        <xs:enumeration value="F"/>
+        <xs:enumeration value="U"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="name" type="x:name-content"/>
+  <xs:element name="eventref" type="x:eventref-content"/>
+  <xs:element name="lds_ord" type="x:lds-content"/>
+  <xs:element name="objref" type="x:objref-content"/>
+  <xs:element name="address" type="x:address-content"/>
+  <xs:element name="attribute" type="x:attribute-content"/>
+  <xs:element name="url">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:url-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="childof">
+    <xs:complexType>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parentin">
+    <xs:complexType>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="personref" type="x:personref-content"/>
+  <xs:element name="noteref">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:noteref-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="citationref">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:citationref-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tagref">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:tagref-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="child-rel">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="Birth"/>
+      <xs:enumeration value="Adopted"/>
+      <xs:enumeration value="Stepchild"/>
+      <xs:enumeration value="Sponsored"/>
+      <xs:enumeration value="Foster"/>
+      <xs:enumeration value="None"/>
+      <xs:enumeration value="Other"/>
+      <xs:enumeration value="Unknown"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="name-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:first"/>
+      <xs:element minOccurs="0" ref="x:call"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:surname"/>
+      <xs:element minOccurs="0" ref="x:suffix"/>
+      <xs:element minOccurs="0" ref="x:title"/>
+      <xs:element minOccurs="0" ref="x:nick"/>
+      <xs:element minOccurs="0" ref="x:familynick"/>
+      <xs:element minOccurs="0" ref="x:group"/>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+    </xs:sequence>
+    <xs:attribute name="alt">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="0"/>
+          <xs:enumeration value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="type">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Unknown"/>
+          <xs:enumeration value="Also Known As"/>
+          <xs:enumeration value="Birth Name"/>
+          <xs:enumeration value="Married Name"/>
+          <xs:enumeration value="Other Name"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="sort"/>
+    <xs:attribute name="display"/>
+  </xs:complexType>
+  <xs:element name="first" type="xs:string"/>
+  <xs:element name="call" type="xs:string"/>
+  <xs:element name="surname">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="x:surname-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="suffix" type="xs:string"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="nick" type="xs:string"/>
+  <xs:element name="familynick" type="xs:string"/>
+  <xs:element name="group" type="xs:string"/>
+  <xs:attributeGroup name="surname-content">
+    <xs:attribute name="prefix"/>
+    <xs:attribute name="prim">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="1"/>
+          <xs:enumeration value="0"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="derivation">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Unknown"/>
+          <xs:enumeration value="Inherited"/>
+          <xs:enumeration value="Given"/>
+          <xs:enumeration value="Taken"/>
+          <xs:enumeration value="Patronymic"/>
+          <xs:enumeration value="Matronymic"/>
+          <xs:enumeration value="Feudal"/>
+          <xs:enumeration value="Pseudonym"/>
+          <xs:enumeration value="Patrilineal"/>
+          <xs:enumeration value="Matrilineal"/>
+          <xs:enumeration value="Occupation"/>
+          <xs:enumeration value="Location"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="connector"/>
+  </xs:attributeGroup>
+  <xs:complexType name="address-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" ref="x:street"/>
+      <xs:element minOccurs="0" ref="x:locality"/>
+      <xs:element minOccurs="0" ref="x:city"/>
+      <xs:element minOccurs="0" ref="x:county"/>
+      <xs:element minOccurs="0" ref="x:state"/>
+      <xs:element minOccurs="0" ref="x:country"/>
+      <xs:element minOccurs="0" ref="x:postal"/>
+      <xs:element minOccurs="0" ref="x:phone"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+    </xs:sequence>
+    <xs:attribute name="priv" type="x:priv-content"/>
+  </xs:complexType>
+  <xs:element name="street" type="xs:string"/>
+  <xs:element name="locality" type="xs:string"/>
+  <xs:element name="city" type="xs:string"/>
+  <xs:element name="county" type="xs:string"/>
+  <xs:element name="state" type="xs:string"/>
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="postal" type="xs:string"/>
+  <xs:element name="phone" type="xs:string"/>
+  <xs:element name="date-content" abstract="true"/>
+  <xs:element name="daterange" substitutionGroup="x:date-content">
+    <xs:complexType>
+      <xs:attribute name="start" use="required"/>
+      <xs:attribute name="stop" use="required"/>
+      <xs:attribute name="quality">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="estimated"/>
+            <xs:enumeration value="calculated"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="cformat"/>
+      <xs:attribute name="dualdated">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="newyear"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datespan" substitutionGroup="x:date-content">
+    <xs:complexType>
+      <xs:attribute name="start" use="required"/>
+      <xs:attribute name="stop" use="required"/>
+      <xs:attribute name="quality">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="estimated"/>
+            <xs:enumeration value="calculated"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="cformat"/>
+      <xs:attribute name="dualdated">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="newyear"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dateval" substitutionGroup="x:date-content">
+    <xs:complexType>
+      <xs:attribute name="val" use="required"/>
+      <xs:attribute name="cformat"/>
+      <xs:attribute name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="before"/>
+            <xs:enumeration value="after"/>
+            <xs:enumeration value="about"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="quality">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="estimated"/>
+            <xs:enumeration value="calculated"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="dualdated">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="newyear"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datestr" substitutionGroup="x:date-content">
+    <xs:complexType>
+      <xs:attribute name="val" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="family-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:rel"/>
+      <xs:element minOccurs="0" ref="x:father"/>
+      <xs:element minOccurs="0" ref="x:mother"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:eventref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:lds_ord"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:objref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:childref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:attribute"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:tagref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="rel">
+    <xs:complexType>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="father">
+    <xs:complexType>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mother">
+    <xs:complexType>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="childref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      </xs:sequence>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+      <xs:attribute name="priv" type="x:priv-content"/>
+      <xs:attribute name="mrel" type="x:child-rel"/>
+      <xs:attribute name="frel" type="x:child-rel"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="event-content">
+    <xs:sequence>
+      <xs:element ref="x:type"/>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" ref="x:place"/>
+      <xs:element minOccurs="0" ref="x:description"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:attribute"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:objref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="type" type="xs:string"/>
+  <xs:element name="place">
+    <xs:complexType>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:string"/>
+  <xs:complexType name="citation-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" ref="x:page"/>
+      <xs:element minOccurs="0" ref="x:confidence"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:objref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:data_item"/>
+      <xs:element ref="x:sourceref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="page" type="xs:string"/>
+  <xs:element name="confidence" type="xs:string"/>
+  <xs:element name="data_item">
+    <xs:complexType>
+      <xs:attribute name="key" use="required"/>
+      <xs:attribute name="value" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sourceref">
+    <xs:complexType>
+      <xs:attributeGroup ref="x:sourceref-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="source-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:stitle"/>
+      <xs:element minOccurs="0" ref="x:sauthor"/>
+      <xs:element minOccurs="0" ref="x:spubinfo"/>
+      <xs:element minOccurs="0" ref="x:sabbrev"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:objref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:data_item"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:reporef"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="stitle" type="xs:string"/>
+  <xs:element name="sauthor" type="xs:string"/>
+  <xs:element name="spubinfo" type="xs:string"/>
+  <xs:element name="sabbrev" type="xs:string"/>
+  <xs:element name="reporef" type="x:reporef-content"/>
+  <xs:complexType name="place-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:ptitle"/>
+      <xs:element minOccurs="0" ref="x:coord"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:location"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:objref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:url"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="ptitle" type="xs:string"/>
+  <xs:element name="coord">
+    <xs:complexType>
+      <xs:attribute name="long" use="required"/>
+      <xs:attribute name="lat" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="location">
+    <xs:complexType>
+      <xs:attribute name="street"/>
+      <xs:attribute name="locality"/>
+      <xs:attribute name="city"/>
+      <xs:attribute name="parish"/>
+      <xs:attribute name="county"/>
+      <xs:attribute name="state"/>
+      <xs:attribute name="country"/>
+      <xs:attribute name="postal"/>
+      <xs:attribute name="phone"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="object-content">
+    <xs:sequence>
+      <xs:element ref="x:file"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:attribute"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:tagref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="file">
+    <xs:complexType>
+      <xs:attribute name="src" use="required"/>
+      <xs:attribute name="mime" use="required"/>
+      <xs:attribute name="description" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="repository-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:rname"/>
+      <xs:element minOccurs="0" ref="x:type"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:address"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:url"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+  </xs:complexType>
+  <xs:element name="rname" type="xs:string"/>
+  <xs:attributeGroup name="bookmark-content">
+    <xs:attribute name="target" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="person"/>
+          <xs:enumeration value="family"/>
+          <xs:enumeration value="event"/>
+          <xs:enumeration value="source"/>
+          <xs:enumeration value="citation"/>
+          <xs:enumeration value="place"/>
+          <xs:enumeration value="media"/>
+          <xs:enumeration value="repository"/>
+          <xs:enumeration value="note"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="map-content">
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="group_as"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="key" use="required"/>
+    <xs:attribute name="value" use="required"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="format-content">
+    <xs:attribute name="number" use="required"/>
+    <xs:attribute name="name" use="required"/>
+    <xs:attribute name="fmt_str" use="required"/>
+    <xs:attribute name="active">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="0"/>
+          <xs:enumeration value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:complexType name="note-content">
+    <xs:sequence>
+      <xs:group ref="x:styledtext"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:tagref"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="x:primary-object"/>
+    <xs:attribute name="format">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="0"/>
+          <xs:enumeration value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="type" use="required"/>
+  </xs:complexType>
+  <xs:group name="styledtext">
+    <xs:sequence>
+      <xs:element ref="x:text"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:style"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="text" type="xs:string"/>
+  <xs:element name="style">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="x:range"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="bold"/>
+            <xs:enumeration value="italic"/>
+            <xs:enumeration value="underline"/>
+            <xs:enumeration value="fontface"/>
+            <xs:enumeration value="fontsize"/>
+            <xs:enumeration value="fontcolor"/>
+            <xs:enumeration value="highlight"/>
+            <xs:enumeration value="superscript"/>
+            <xs:enumeration value="link"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="value"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="range">
+    <xs:complexType>
+      <xs:attribute name="start" use="required" type="xs:int"/>
+      <xs:attribute name="end" use="required" type="xs:int"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="citationref-content">
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+  </xs:attributeGroup>
+  <xs:complexType name="personref-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+    </xs:sequence>
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="rel" use="required"/>
+  </xs:complexType>
+  <xs:attributeGroup name="sourceref-content">
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+  </xs:attributeGroup>
+  <xs:complexType name="eventref-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:attribute"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+    </xs:sequence>
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="role"/>
+  </xs:complexType>
+  <xs:complexType name="reporef-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+    </xs:sequence>
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="callno"/>
+    <xs:attribute name="medium"/>
+  </xs:complexType>
+  <xs:attributeGroup name="noteref-content">
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+  </xs:attributeGroup>
+  <xs:simpleType name="priv-content">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="0"/>
+      <xs:enumeration value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="attribute-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+    </xs:sequence>
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="type" use="required"/>
+    <xs:attribute name="value" use="required"/>
+  </xs:complexType>
+  <xs:attributeGroup name="url-content">
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="type"/>
+    <xs:attribute name="href" use="required"/>
+    <xs:attribute name="description"/>
+  </xs:attributeGroup>
+  <xs:complexType name="objref-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:region"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:attribute"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+    </xs:sequence>
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    <xs:attribute name="priv" type="x:priv-content"/>
+  </xs:complexType>
+  <xs:element name="region">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="x:region-content"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="lds-content">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" ref="x:temple"/>
+      <xs:element minOccurs="0" ref="x:place"/>
+      <xs:element minOccurs="0" ref="x:status"/>
+      <xs:element minOccurs="0" ref="x:sealed_to"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:noteref"/>
+      <xs:element minOccurs="0" ref="x:date-content"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="x:citationref"/>
+    </xs:sequence>
+    <xs:attribute name="priv" type="x:priv-content"/>
+    <xs:attribute name="type" use="required"/>
+  </xs:complexType>
+  <xs:element name="temple">
+    <xs:complexType>
+      <xs:attribute name="val" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="status">
+    <xs:complexType>
+      <xs:attribute name="val" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sealed_to">
+    <xs:complexType>
+      <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="region-content">
+    <xs:attribute name="corner1_x" use="required" type="xs:integer"/>
+    <xs:attribute name="corner1_y" use="required" type="xs:integer"/>
+    <xs:attribute name="corner2_x" use="required" type="xs:integer"/>
+    <xs:attribute name="corner2_y" use="required" type="xs:integer"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="tagref-content">
+    <xs:attribute name="hlink" use="required" type="xs:IDREF"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="tag-content">
+    <xs:attributeGroup ref="x:table-object"/>
+    <xs:attribute name="name" use="required"/>
+    <xs:attribute name="color" use="required"/>
+    <xs:attribute name="priority" use="required" type="xs:integer"/>
+  </xs:attributeGroup>
+</xs:schema>
