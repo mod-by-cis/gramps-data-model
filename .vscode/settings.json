@@ -1,11 +1,48 @@
 {
+  "[css]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
   "apc.font.family": "FiraCode,  Fira Code",
   "apc.monospace.font.family": "FiraCode,  Fira Code",
   "breadcrumbs.enabled": false,
   "chat.editor.fontFamily": "FiraCode,  Fira Code",
   "cSpell.language": "en, pl",
+  "cSpell.words": [
+    "altova",
+    "grampsxml",
+    "graphml",
+    "Jing",
+    "TDTD",
+    "Trang",
+    "TRNG"
+  ],
   "debug.console.fontFamily": "FiraCode,  Fira Code",
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.test": true,
+  "deno.config": "deno.json",
+  "deno.defaultTaskCommand": "run",
+  "deno.enable": true,
+  "deno.trace.server": "verbose",
   "editor.codeLensFontFamily": "FiraCode,  Fira Code",
+  "editor.defaultFoldingRangeProvider": "denoland.vscode-deno",
+  "editor.defaultFormatter": "denoland.vscode-deno",
   "editor.experimental.preferTreeSitter.ini": true,
   "editor.experimental.preferTreeSitter.typescript": true,
   "editor.experimental.treeSitterTelemetry": true,
@@ -109,7 +146,32 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "ipynb.experimental.serialization": true,
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": [
+        "h1",
+        "h2",
+        "h3",
+        "a",
+        "ul",
+        "li",
+        "button",
+        "span",
+        "hr",
+        "code",
+        "table",
+        "tr",
+        "th",
+        "td",
+        "i",
+        "b",
+        "u",
+        "br"
+      ]
+    }
+  },
   "notebook.consolidatedRunButton": true,
+  "notebook.defaultFormatter": "denoland.vscode-deno",
   "notebook.diff.overviewRuler": true,
   "notebook.formatOnSave.enabled": true,
   "notebook.lineNumbers": "on",
@@ -120,10 +182,16 @@
   "terminal.integrated.fontFamily": "FiraCode,  Fira Code",
   "terminal.integrated.profiles.windows": {
     "UCRT64_MSYS2": {
-      "args": ["-defterm", "-here", "-no-start", "-ucrt64"],
+      "args": [
+        "-defterm",
+        "-here",
+        "-no-start",
+        "-ucrt64"
+      ],
       "path": "C:/msys64/msys2_shell.cmd"
     }
   },
+  "typescript.tsdk": "deno:/builtin",
   "window.autoDetectColorScheme": true,
   "workbench.colorCustomizations": {
     "breadcrumb.background": "#2E2722",
@@ -152,17 +220,5 @@
   "workbench.preferredLightColorTheme": "Solarized Dark",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "xml.symbols.maxItemsComputed": 500000,
-  "cSpell.words": [
-    "altova",
-    "grampsxml",
-    "graphml",
-    "Jing",
-    "Trang"
-  ],
-  "markdownlint.config": {
-    "MD033": {
-      "allowed_elements": ["h1", "h2", "h3", "a", "ul", "li", "button", "span", "hr", "code","table", "tr", "th", "td", "i","b","u", "br"]
-    }
-  }
+  "xml.symbols.maxItemsComputed": 500000
 }

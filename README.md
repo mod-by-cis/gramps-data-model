@@ -64,8 +64,6 @@ Gramps (Genealogical Research and Analysis Management Programming System) – is
 
 The graphs of the data model were created in the free **yEd** programme of the **yWorks**. [yEd - live](https://www.yworks.com/yed-live/), [yEd - downloads](https://www.yworks.com/products/yed/download).
 
-<a href="#TOP"><button>🔝back to TOP</button></a>
-
 <h3 id="GrampsDataModelDiagramEN25">1️⃣-en-25: Gramps Data Model Diagram (lang: english; v.2025-02-27)</h3>
 
 ![Grams Data Model Diagram (lang: english; v.2025-02-27)](https://raw.githubusercontent.com/mod-by-cis/gramps-data-model/refs/tags/gramps-v.6.0.0-beta.2_chart-data-model-v.2025-02-17/gramps-6.0.0_MODEL_(eng).png)
@@ -175,11 +173,9 @@ The official *GRAMPS* repository contains the data model for the `*.gramps` file
 
 > - to convert `*.DTD` to `*.DTD.XSD`, I used 30 days trial version, [XMLSpy-by-altova](https://www.altova.com/xmlspy-xml-editor)
 > - to convert `*.DTD.XSD` to `*.DTD.XSD.JSON`, I used script `./utils/download-official-DTD-RNG.ts`
-> - to generate diagram `*.DTD.XSD.JPG` from `*.DTD.XSD`, I used trial version, [Stylus Studio](http://www.stylusstudio.com/)
->
->
-> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used  script `./utils/covert_RNG_toXSD_andToJSON.ts`  (this script uses external tool **jing-trang** [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
+> - (TO DO) to generate diagram `*.DTD.XSD.JPG` from `*.DTD.XSD` and `*.RNG.XSD.JPG` from `*.RNG.XSD`, I used trial version, [Stylus Studio](http://www.stylusstudio.com/)
 > -
+> - to convert `*.RNG` to `*.RNG.XSD` and to `*.RNG.XSD.JSON`, I used  script `./utils/covert_RNG_toXSD_andToJSON.ts`  (this script uses external tool **jing-trang** [download from..](https://code.google.com/archive/p/jing-trang/downloads) [It might be a copy from..](https://github.com/relaxng/jing-trang))
 
 <table border="1">  
   <tr>
