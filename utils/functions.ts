@@ -1,6 +1,6 @@
 import  { existsSync } from "@std/fs";
 import { join as pathJoin } from "@std/path";
-import { blue, green, yellow, bgRgb8 } from "@std/fmt/colors";
+import { green, yellow, rgb8, bgRgb8,bgBlue } from "@std/fmt/colors";
 
 export interface Paths {
     dir: string;
@@ -174,11 +174,14 @@ export function getKEYS<T extends KeyMode, N extends string | undefined>(
 
 export function compareKEYS<T extends KeyMode>(
     mode: T,
-    xsd: {
-        xsdDTD: [string, { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; }] | { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; };
-        xsdRNG: [string, { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; }] | { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; };
-    }
-): void {
+    xsdOBJ_DTD_RNG: [Record<string,unknown>,Record<string,unknown>],
+    name: [string,string]
+): void {    
+    const xsd = {
+        xsdDTD: getKEYS(KeyMode.WithoutChildCount, xsdOBJ_DTD_RNG[0]),
+        xsdRNG: getKEYS(KeyMode.WithoutChildCount, xsdOBJ_DTD_RNG[1])
+    };
+
     // Szerokość kolumn
     const colWidths = [25, 7, 4, 4, 4, 4, 7, 7];
 
@@ -240,12 +243,12 @@ export function compareKEYS<T extends KeyMode>(
         "-".repeat(colWidths[7])
     ];
     const row0 = [
-        "≣".repeat(colWidths[0]+4),
-        "Comparison of xsdDTD and xsdRNG",
+        "≣".repeat(colWidths[0]+2),
+        `Comparison of ${bgRgb8(' xsdDTD ', 99)} and ${bgRgb8(' xsdRNG ', 205)}`,
         "≣".repeat(colWidths[0])
     ];
     console.log(" ");
-    console.log(`mode = ${mode}`);
+    console.log(`mode = ${mode}      ${rgb8(name[0], 99)}     ${rgb8(name[1], 205)}`);
     console.log(row0.join(' '));
     console.log('| '+row1.join(' | ')+' |');
     console.log('| '+row2.join(' | ')+' |');
@@ -268,8 +271,8 @@ export function compareKEYS<T extends KeyMode>(
 
     // Iteracja po wszystkich kluczach alfabetycznie
     for (const key of Array.from(allKeys).sort()) {
-        const dtdGroup = findGroup(dtdData, key); // Znajdź grupę w xsdDTD
-        const rngGroup = findGroup(rngData, key); // Znajdź grupę w xsdRNG
+        const dtdGroup = compareKEYS_findGroup(dtdData, key); // Znajdź grupę w xsdDTD
+        const rngGroup = compareKEYS_findGroup(rngData, key); // Znajdź grupę w xsdRNG
 
         // Określenie statusu
         const status =
@@ -278,8 +281,8 @@ export function compareKEYS<T extends KeyMode>(
             rngGroup !== "-" ? "onlyRNG" : "-";
 
         // Wyciąganie liczb countObj i countArr dla obu
-        const dtdCounts = getCounts(dtdData, key);
-        const rngCounts = getCounts(rngData, key);
+        const dtdCounts = compareKEYS_getCounts(dtdData, key);
+        const rngCounts = compareKEYS_getCounts(rngData, key);
 
         const rowR = [
             padText(`[${green(`"${key}"`)}]`, colWidths[0]+10),
@@ -315,7 +318,7 @@ export function compareKEYS<T extends KeyMode>(
 }
 
 // Funkcja pomocnicza do znalezienia grupy klucza w ATTR, NODE, TEXT
-function findGroup(data: { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string> }, key: string): string {
+function compareKEYS_findGroup(data: { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string> }, key: string): string {
     if (data.ATTR.has(key)) return "ATTR";
     if (data.NODE.has(key)) return "NODE";
     if (data.TEXT.has(key)) return "TEXT";
@@ -323,7 +326,7 @@ function findGroup(data: { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<strin
 }
 
 // Funkcja pomocnicza do wyciągania countObj i countArr
-function getCounts(data: { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string> }, key: string): { countObj: number; countArr: number } {
+function compareKEYS_getCounts(data: { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string> }, key: string): { countObj: number; countArr: number } {
     let countObj = 0;
     let countArr = 0;
 
@@ -336,101 +339,14 @@ function getCounts(data: { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<strin
     return { countObj, countArr };
 }
 
-export function compareKEYS2(
-    xsd: {
-        xsdDTD: [string, { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; }] | { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; };
-        xsdRNG: [string, { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; }] | { ATTR: Set<string>; NODE: Set<string>; TEXT: Set<string>; };
+export function print(oN:string):void{
+    try {
+        const o = eval(oN);  // Obliczenie wartości wyrażenia na podstawie jego nazwy
+        console.log("");
+        console.log(bgBlue(" ----------------------- ")+` ${oN} `+bgBlue(" ----------------------- "));
+        console.log(o);
+        console.log("");
+    } catch (error) {
+        console.error(`Błąd podczas obliczania wyrażenia: ${oN}`, error);
     }
-): void {
-    // Szerokość kolumn
-    const colWidths = [25, 7, 4, 7, 7]; // Dostosowanie do nowych kolumn
-
-    // Funkcja do wyrównywania tekstu
-    const padText = (text: string, width: number): string => text.padEnd(width);
-    const row2 = [
-        padText("Key", colWidths[0]),
-        padText("Status", colWidths[1]),
-        padText("xsdDTD", colWidths[2]),
-        padText("xsdRNG", colWidths[3]),
-    ];
-
-    const row1 = [
-        padText(" ", colWidths[0]),
-        padText(" ", colWidths[1]),
-        padText("type of element", colWidths[2] + colWidths[3] + 3),
-    ];
-
-    const rowX = [
-        "-".repeat(colWidths[0]),
-        "-".repeat(colWidths[1]),
-        "-".repeat(colWidths[2]),
-        "-".repeat(colWidths[3]),
-    ];
-
-    const row0 = [
-        "≣".repeat(colWidths[0] + 4),
-        "Comparison of xsdDTD and xsdRNG",
-        "≣".repeat(colWidths[0]),
-    ];
-    console.log(row0.join(" "));
-    console.log("| " + row1.join(" | ") + " |");
-    console.log("| " + row2.join(" | ") + " |");
-    console.log("| " + rowX.join(" | ") + " |");
-
-    // Pobranie danych (obsługa obu struktur zwracanych przez `getKEYS`)
-    const dtdData = Array.isArray(xsd.xsdDTD) ? xsd.xsdDTD[1] : xsd.xsdDTD;
-    const rngData = Array.isArray(xsd.xsdRNG) ? xsd.xsdRNG[1] : xsd.xsdRNG;
-
-    // Zebranie wszystkich kluczy ze wszystkich grup: ATTR, NODE, TEXT
-    const allKeys = new Set<string>([
-        ...dtdData.ATTR,
-        ...dtdData.NODE,
-        ...dtdData.TEXT,
-        ...rngData.ATTR,
-        ...rngData.NODE,
-        ...rngData.TEXT,
-    ]);
-
-    // Iteracja po wszystkich kluczach alfabetycznie
-    for (const key of Array.from(allKeys).sort()) {
-        const dtdGroup = findGroup(dtdData, key); // Znajdź grupę w xsdDTD
-        const rngGroup = findGroup(rngData, key); // Znajdź grupę w xsdRNG
-
-        // Określenie statusu
-        const status =
-            dtdGroup !== "-" && rngGroup !== "-"
-                ? "bothXSD"
-                : dtdGroup !== "-"
-                ? "onlyDTD"
-                : rngGroup !== "-"
-                ? "onlyRNG"
-                : "-";
-
-        // Wyciąganie typów elementów
-        const dtdType = dtdGroup !== "-" ? dtdGroup : "-";
-        const rngType = rngGroup !== "-" ? rngGroup : "-";
-
-        // Wyświetlanie wiersza z danymi
-        const rowR = [
-            padText(`[${green(`"${key}"`)}]`, colWidths[0] + 10),
-            padText(
-                ((status) => {
-                    switch (status) {
-                        case "onlyDTD":
-                            return bgRgb8(status + "", 99);
-                        case "onlyRNG":
-                            return bgRgb8(status + "", 205);
-                        default:
-                            return status;
-                    }
-                })(status),
-                colWidths[1]
-            ),
-            padText(dtdType, colWidths[2]),
-            padText(rngType, colWidths[3]),
-        ];
-        console.log("| " + rowR.join(" | ") + " |");
-    }
-
-    console.log("| " + rowX.join(" | ") + " |");
 }
