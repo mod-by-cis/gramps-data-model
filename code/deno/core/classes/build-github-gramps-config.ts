@@ -1,7 +1,9 @@
 import {
-  type IGrampsConfig,
+  type TGrampsConfig ,
   type IGrampsConfigLocal,
   type IGrampsConfigRemote,
+  type TGrampsVersionMap,
+  type TGrampsxmlVersionMap,
   mergeMaps,
   noEmptyString,
   PATH,
@@ -9,7 +11,8 @@ import {
 import { pathJoin } from "../deps.ts";
 
 export class GrampsConfig {
-  versionGramps: Map<string, IGrampsConfig[string]> = new Map();
+  versionGramps: TGrampsVersionMap = new Map();
+  versionGrampsxml: TGrampsxmlVersionMap = new Map();
 
   /**
    * Asynchronicznie ładuje dane konfiguracyjne.
@@ -27,14 +30,33 @@ export class GrampsConfig {
         string,
         IGrampsConfigLocal[string],
         IGrampsConfigRemote[string],
-        IGrampsConfig[string]
+        TGrampsConfig [string]
       >(
         mapL,
         mapR,
         (valueL, valueR) => ({ ...valueL, ...valueR }),
       );
+      
+    // Tworzymy pustą mapę do przechowywania wyników w formacie `TGrampsxmlVersionMap`
+    const resultMap2: TGrampsxmlVersionMap = new Map();
 
+    // Sortujemy wynikową mapę `resultMap` według daty commitDate od najnowszej do najstarszej
+    const sortedEntries = Array.from(resultMap.entries()).sort(
+      ([, valueA], [, valueB]) =>
+        new Date(valueB.commitDate).getTime() -
+        new Date(valueA.commitDate).getTime()
+    );
+
+    // Iterujemy po posortowanych wpisach
+    for (const [, entry] of sortedEntries) {
+      // Jeśli `versionGrampsxml` jeszcze nie istnieje w `resultMap2`, dodajemy wpis
+      if (!resultMap2.has(entry.versionGrampsxml)) {
+        resultMap2.set(entry.versionGrampsxml, entry);
+      }
+    }
       this.versionGramps = resultMap;
+      this.versionGrampsxml = resultMap2;
+
     } catch (error) {
       console.error("Błąd podczas ładowania plików konfiguracyjnych:", error);
     }
@@ -79,7 +101,7 @@ export class GrampsConfig {
    * @param version Wersja Gramps, np. "v5.0.0".
    * @returns Obiekt danych dla podanej wersji lub `undefined`, jeśli wersja nie istnieje.
    */
-  public getData(version: string): IGrampsConfig[string] | undefined {
+  public getData(version: string): TGrampsConfig [string] | undefined {
     // Sprawdź, czy klucz istnieje w mapie
     if (this.versionGramps.has(version)) {
       return this.versionGramps.get(version);

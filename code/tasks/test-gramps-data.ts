@@ -9,11 +9,9 @@ async function main() {
   await config.loadConfigs();
 
   // Pobieranie danych
-  const localData = config.getData('v5.0.0');
-  console.log('Dane lokalne:', localData);
+  const Data = config.getData('v6.0.0-rc1');
+  console.log(config.versionGrampsxml);
 
-  const remoteData = config.getData('v5.0.1');
-  console.log('Dane zdalne:', remoteData);
 
 }
 
