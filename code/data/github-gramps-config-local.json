@@ -1,0 +1,632 @@
+{
+  "v4.2.7": {
+    "versionGramps": "v4.2.7",
+    "commitDate": "2018-02-08T20:26:22Z",
+    "commitHash": "f5a66c395874ed8960541b719ad4a8aaffa4aa35",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.7"
+  },
+  "v3.4.7": {
+    "versionGramps": "v3.4.7",
+    "commitDate": "2014-01-27T10:50:39+01:00",
+    "commitHash": "6e3d087d5553cd4d63f6e274728f9ec2cf2d1d6f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.7"
+  },
+  "v2.2.0-rc1": {
+    "versionGramps": "v2.2.0-rc1",
+    "commitDate": "2006-10-12T04:07:15Z",
+    "commitHash": "1790b4590de552f5cd0773854ac46f779bc7a0f9",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.0-rc1"
+  },
+  "v3.2.6": {
+    "versionGramps": "v3.2.6",
+    "commitDate": "2011-05-01T06:52:33Z",
+    "commitHash": "ccfe2230ef0c8c232b887ba058232a3786ebf06a",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.6"
+  },
+  "v3.0.1": {
+    "versionGramps": "v3.0.1",
+    "commitDate": "2008-05-17T20:53:32Z",
+    "commitHash": "d9fe3fcf65bb7ef0218b2f5216822d32f938514d",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.0.1"
+  },
+  "v4.2.0-beta2": {
+    "versionGramps": "v4.2.0-beta2",
+    "commitDate": "2015-07-06T15:45:35+02:00",
+    "commitHash": "905ac154d3a37077f112e54a0edd2bb303f23f9f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.0-beta2"
+  },
+  "v5.1.1": {
+    "versionGramps": "v5.1.1",
+    "commitDate": "2019-09-15T00:32:29+02:00",
+    "commitHash": "bb3eecb3654541e925572d908f1207828615904f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.1"
+  },
+  "v3.1.2": {
+    "versionGramps": "v3.1.2",
+    "commitDate": "2009-06-07T06:18:50Z",
+    "commitHash": "a2a8faec041765d7feba44d8ba07b530697a91b4",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.1.2"
+  },
+  "v5.2.2": {
+    "versionGramps": "v5.2.2",
+    "commitDate": "2024-04-06T22:58:54+02:00",
+    "commitHash": "9f62039a0d825e2e115674ed5043a70d59468e0d",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.2"
+  },
+  "v3.4.6": {
+    "versionGramps": "v3.4.6",
+    "commitDate": "2013-10-28T14:34:55Z",
+    "commitHash": "2a2793c00cdf6e99dbe739bcd191b92391794288",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.6"
+  },
+  "v2.90.0-beta": {
+    "versionGramps": "v2.90.0-beta",
+    "commitDate": "2008-01-17T05:34:29Z",
+    "commitHash": "75c7a7530d157bff9530d00e3619a6af96ee371b",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.90.0-beta"
+  },
+  "v5.1.2": {
+    "versionGramps": "v5.1.2",
+    "commitDate": "2020-01-10T18:29:07+01:00",
+    "commitHash": "32c700c6bf4cee8e1393ccf7b91e2a15ede4b2de",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.2"
+  },
+  "v5.0.0-alpha1": {
+    "versionGramps": "v5.0.0-alpha1",
+    "commitDate": "2016-06-04T13:24:40+02:00",
+    "commitHash": "7b60b140c0331f54a4aa6cb9d0fd237e33925700",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.0-alpha1"
+  },
+  "v3.4.1": {
+    "versionGramps": "v3.4.1",
+    "commitDate": "2012-08-24T04:17:10Z",
+    "commitHash": "3354e4d029c4756c05d76ac926c9358b7f7184a2",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.1"
+  },
+  "v2.2.8": {
+    "versionGramps": "v2.2.8",
+    "commitDate": "2007-05-27T22:49:08Z",
+    "commitHash": "84b56958ce79c099fc8539e61a6df887d518586c",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.8"
+  },
+  "v3.1.1": {
+    "versionGramps": "v3.1.1",
+    "commitDate": "2009-03-10T06:09:53Z",
+    "commitHash": "400c0db84b732d950ed86a7071d7283fd518814c",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.1.1"
+  },
+  "v5.1.6": {
+    "versionGramps": "v5.1.6",
+    "commitDate": "2023-06-29T22:37:13+02:00",
+    "commitHash": "ddfc88946ad5af3adba399ff77111df25c3c6cea",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.6"
+  },
+  "v5.2.0-dev2": {
+    "versionGramps": "v5.2.0-dev2",
+    "commitDate": "2020-09-16T22:37:57+02:00",
+    "commitHash": "b95b4258ef6f7e72b704f2e020bfe12add017df0",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.0-dev2"
+  },
+  "v4.0.1": {
+    "versionGramps": "v4.0.1",
+    "commitDate": "2013-06-24T09:10:05Z",
+    "commitHash": "927e27ec4a4bfb2383afa9a44952ad400b73ee83",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.1"
+  },
+  "v5.2.3": {
+    "versionGramps": "v5.2.3",
+    "commitDate": "2024-07-13T20:03:26+02:00",
+    "commitHash": "3d860ed41f274b79493483a1c6648ac3303cf066",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.3"
+  },
+  "v4.2.1": {
+    "versionGramps": "v4.2.1",
+    "commitDate": "2015-10-12T13:01:06+02:00",
+    "commitHash": "908aa90b61a4c94da246664a44424ffa47d0f8ec",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.1"
+  },
+  "v2.0.5": {
+    "versionGramps": "v2.0.5",
+    "commitDate": "2005-07-06T03:49:11Z",
+    "commitHash": "07bc49c44bd63be4b925bc20d810f898f041f1ca",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.5"
+  },
+  "v5.2.1": {
+    "versionGramps": "v5.2.1",
+    "commitDate": "2024-03-24T23:13:41Z",
+    "commitHash": "7de67fd5f9720b9a3d473165598c38013d4b85c6",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.1"
+  },
+  "v2.0.0": {
+    "versionGramps": "v2.0.0",
+    "commitDate": "2005-05-11T03:49:51Z",
+    "commitHash": "04ab8c14624b1c029a24faac3453e36b7deee1e7",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.0"
+  },
+  "v5.0.0-beta1": {
+    "versionGramps": "v5.0.0-beta1",
+    "commitDate": "2018-02-18T15:17:15+01:00",
+    "commitHash": "6ca3821f81b9cc6a1f64703e4c0aeb3dbd3397df",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.0-beta1"
+  },
+  "v4.0.3": {
+    "versionGramps": "v4.0.3",
+    "commitDate": "2014-01-27T16:40:41+01:00",
+    "commitHash": "828a14c43e2d2f5cd814a8acde10929944f8d3a6",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.3"
+  },
+  "v2.2.2": {
+    "versionGramps": "v2.2.2",
+    "commitDate": "2006-11-03T17:05:24Z",
+    "commitHash": "72403bcdb555372153aae4ac4c16e4391903f5c1",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.2"
+  },
+  "v4.1.1": {
+    "versionGramps": "v4.1.1",
+    "commitDate": "2014-10-24T15:56:21+02:00",
+    "commitHash": "0e43df69fb6ef0b9a3f140458931db885ff3203b",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.1.1"
+  },
+  "v4.0.0-alpha3": {
+    "versionGramps": "v4.0.0-alpha3",
+    "commitDate": "2013-01-03T18:20:37Z",
+    "commitHash": "d080d15352dfcf10b0cc2267034fcd1dbdea9df7",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0-alpha3"
+  },
+  "v5.0.0-rc1": {
+    "versionGramps": "v5.0.0-rc1",
+    "commitDate": "2018-05-20T22:44:15+02:00",
+    "commitHash": "2869e4d8a3ff36cfb4a0551411bd02a461a7f404",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.0-rc1"
+  },
+  "v4.2.0-beta1": {
+    "versionGramps": "v4.2.0-beta1",
+    "commitDate": "2015-06-17T19:34:39+02:00",
+    "commitHash": "a94f3100dfd59ff529faa835546060fa0c45f2dd",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.0-beta1"
+  },
+  "v3.2.5": {
+    "versionGramps": "v3.2.5",
+    "commitDate": "2010-11-18T06:54:44Z",
+    "commitHash": "3b5508d99741971c8d2bbe76315c1ce8ac7593f6",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.5"
+  },
+  "v4.1.0": {
+    "versionGramps": "v4.1.0",
+    "commitDate": "2014-06-15T16:05:55+02:00",
+    "commitHash": "4141b7e34aa65e9041b9dfad57da49c22e357c49",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.1.0"
+  },
+  "v3.1.3": {
+    "versionGramps": "v3.1.3",
+    "commitDate": "2009-12-06T08:25:22Z",
+    "commitHash": "6a9be24e1c7ccb7cb2cd41bff6640fca6860c2f8",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.1.3"
+  },
+  "v3.2.0-beta2": {
+    "versionGramps": "v3.2.0-beta2",
+    "commitDate": "2010-03-10T09:19:50Z",
+    "commitHash": "1af6e6cf63e66e9e1eccbb52febcafb88ce25a4f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.0-beta2"
+  },
+  "v3.4.4": {
+    "versionGramps": "v3.4.4",
+    "commitDate": "2013-05-15T07:37:06Z",
+    "commitHash": "0abce8dfafc2c1f97bbd638dbe2a48c926d2c4bc",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.4"
+  },
+  "v5.0.1": {
+    "versionGramps": "v5.0.1",
+    "commitDate": "2018-12-20T18:16:55+01:00",
+    "commitHash": "cb8bf0d00a2e836ddb0943c3c1e5d5937cdca522",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.1"
+  },
+  "v4.0.0-alpha2": {
+    "versionGramps": "v4.0.0-alpha2",
+    "commitDate": "2012-12-31T09:59:59Z",
+    "commitHash": "c18d73ea8f8e00e033de70add3edc5c877d050e2",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0-alpha2"
+  },
+  "v2.2.6": {
+    "versionGramps": "v2.2.6",
+    "commitDate": "2007-01-29T17:15:02Z",
+    "commitHash": "c4085151797edd41606115c4e32e48ca27f31325",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.6"
+  },
+  "v3.2.0": {
+    "versionGramps": "v3.2.0",
+    "commitDate": "2010-03-15T06:20:21Z",
+    "commitHash": "4eebd0ca01669dae86b0bd175d84adfdc38bb57e",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.0"
+  },
+  "v4.0.4": {
+    "versionGramps": "v4.0.4",
+    "commitDate": "2014-05-22T10:15:18+02:00",
+    "commitHash": "2506d06100c880791dfc2202bedc14a91ee9f7a4",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.4"
+  },
+  "v3.3.0": {
+    "versionGramps": "v3.3.0",
+    "commitDate": "2011-06-12T10:03:27Z",
+    "commitHash": "fdd446d6927b365f66f9e3b01287ce7336f662d3",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.3.0"
+  },
+  "v5.1.5": {
+    "versionGramps": "v5.1.5",
+    "commitDate": "2022-02-05T23:28:04Z",
+    "commitHash": "b98f166a6db21fe313b30e52ff5c01f5af1cf7b0",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.5"
+  },
+  "v4.2.4": {
+    "versionGramps": "v4.2.4",
+    "commitDate": "2016-09-04T16:44:02+02:00",
+    "commitHash": "ce9f77ac77ba91fde461ef02d586308ced9d937b",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.4"
+  },
+  "v3.4.3": {
+    "versionGramps": "v3.4.3",
+    "commitDate": "2013-03-19T10:04:03Z",
+    "commitHash": "9655a977ad1aad38a99561043c773dcb5e4bd7b7",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.3"
+  },
+  "v3.0.3": {
+    "versionGramps": "v3.0.3",
+    "commitDate": "2008-10-20T01:52:36Z",
+    "commitHash": "09fa5a8677ad862fd58be5a41987c4c42e5c358f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.0.3"
+  },
+  "v4.2.0": {
+    "versionGramps": "v4.2.0",
+    "commitDate": "2015-08-02T15:05:25+02:00",
+    "commitHash": "58fc415e28d0d0d2d5551e1f332558c2f4c4e7f9",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.0"
+  },
+  "v4.2.3": {
+    "versionGramps": "v4.2.3",
+    "commitDate": "2016-04-10T18:53:58+02:00",
+    "commitHash": "27c1c15a20b52fe0c726de3ac9fc9dc719f32140",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.3"
+  },
+  "v5.0.2": {
+    "versionGramps": "v5.0.2",
+    "commitDate": "2019-08-08T17:22:43+02:00",
+    "commitHash": "f6b81c9da8d7c10424a962195e76b520e555b628",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.2"
+  },
+  "v3.1.0": {
+    "versionGramps": "v3.1.0",
+    "commitDate": "2009-03-07T09:32:31Z",
+    "commitHash": "9d3c20898c851ba0127739bf8ba894dfbdb9dec1",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.1.0"
+  },
+  "v4.2.6": {
+    "versionGramps": "v4.2.6",
+    "commitDate": "2017-08-01T11:04:28+02:00",
+    "commitHash": "7ed03d43d509db7fb50692f64b2675c270a2d590",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.6"
+  },
+  "v5.1.3": {
+    "versionGramps": "v5.1.3",
+    "commitDate": "2020-08-12T18:28:29+02:00",
+    "commitHash": "767557be61bbf346d870ac6d8cee91c1dafc2260",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.3"
+  },
+  "v2.2.9": {
+    "versionGramps": "v2.2.9",
+    "commitDate": "2007-10-18T15:10:22Z",
+    "commitHash": "db89750a03af4da75d644fd5e6735358503fcc4f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.9"
+  },
+  "v2.0.6": {
+    "versionGramps": "v2.0.6",
+    "commitDate": "2005-08-15T15:28:39Z",
+    "commitHash": "22efc8316d58a0b557345bc7d8370977aec77bc0",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.6"
+  },
+  "v5.1.0": {
+    "versionGramps": "v5.1.0",
+    "commitDate": "2019-08-18T00:28:13+02:00",
+    "commitHash": "a833dfb3ac303551d0dd311e6a2a2a1451fe395e",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.0"
+  },
+  "v2.0.9": {
+    "versionGramps": "v2.0.9",
+    "commitDate": "2005-12-12T08:10:03Z",
+    "commitHash": "1a5b6ed229fd981cb251ab6db55e05bae0382929",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.9"
+  },
+  "v5.0.0-alpha3": {
+    "versionGramps": "v5.0.0-alpha3",
+    "commitDate": "2017-09-03T06:22:21+02:00",
+    "commitHash": "b159ec719d08f15fe35ddacff088cc6194ec84aa",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.0-alpha3"
+  },
+  "v3.0.4": {
+    "versionGramps": "v3.0.4",
+    "commitDate": "2008-12-07T06:16:10Z",
+    "commitHash": "e46f2db4e0d096732c9a70a479cf525d30190468",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.0.4"
+  },
+  "v4.0.0": {
+    "versionGramps": "v4.0.0",
+    "commitDate": "2013-05-21T09:35:21Z",
+    "commitHash": "003de23ded54445ad8c7e5fcb81038cc25b5ff7a",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0"
+  },
+  "v2.2.1": {
+    "versionGramps": "v2.2.1",
+    "commitDate": "2006-10-30T00:53:17Z",
+    "commitHash": "8ef02aeb205e2b327379a2f874429787233e1287",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.1"
+  },
+  "v5.0.0-alpha2": {
+    "versionGramps": "v5.0.0-alpha2",
+    "commitDate": "2017-06-10T20:52:56+02:00",
+    "commitHash": "ecf02a023a030d479d587f9b4452989a22905ba1",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.0-alpha2"
+  },
+  "v5.2.4": {
+    "versionGramps": "v5.2.4",
+    "commitDate": "2025-01-12T23:45:07Z",
+    "commitHash": "1f16a69866ece2ada65fac1270234ade371dad77",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.4"
+  },
+  "v4.1.3": {
+    "versionGramps": "v4.1.3",
+    "commitDate": "2015-05-02T10:34:07+02:00",
+    "commitHash": "8821546a17e61804d4e3b022397d0e7954b30a20",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.1.3"
+  },
+  "v3.2.2": {
+    "versionGramps": "v3.2.2",
+    "commitDate": "2010-04-25T07:35:35Z",
+    "commitHash": "612b1889d8892680c712fc8ed6c64113178cb76d",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.2"
+  },
+  "v2.0.10": {
+    "versionGramps": "v2.0.10",
+    "commitDate": "2006-02-27T17:43:51Z",
+    "commitHash": "d01c7bcfe536291582fdd8862f41ce3c81f68a52",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.10"
+  },
+  "v5.2.0-dev1": {
+    "versionGramps": "v5.2.0-dev1",
+    "commitDate": "2020-09-16T19:54:35+02:00",
+    "commitHash": "f15263e754a41567ee711d05833c0127e49f3ff8",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.0-dev1"
+  },
+  "v4.0.0-beta": {
+    "versionGramps": "v4.0.0-beta",
+    "commitDate": "2013-04-06T09:40:49Z",
+    "commitHash": "a182a68b9f059218c2a0921eb998c93093d7bda6",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0-beta"
+  },
+  "v3.2.1": {
+    "versionGramps": "v3.2.1",
+    "commitDate": "2010-04-22T07:14:59Z",
+    "commitHash": "4550baab10ae1ab6edd578879509e159a1d2d8b0",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.1"
+  },
+  "v5.2.0-beta2": {
+    "versionGramps": "v5.2.0-beta2",
+    "commitDate": "2023-08-25T22:15:37+02:00",
+    "commitHash": "2ac9e805102ae21e77c0dc968ef0769d4c408e89",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.0-beta2"
+  },
+  "v2.0.1": {
+    "versionGramps": "v2.0.1",
+    "commitDate": "2005-05-23T02:28:17Z",
+    "commitHash": "f5131a3b82d578485824effc7e01fc3762a369ae",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.1"
+  },
+  "v3.2.3": {
+    "versionGramps": "v3.2.3",
+    "commitDate": "2010-05-17T05:29:02Z",
+    "commitHash": "38c9e2800c355637aa58feb87c32e25bd22a32c6",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.3"
+  },
+  "v4.1.2": {
+    "versionGramps": "v4.1.2",
+    "commitDate": "2015-02-27T17:08:58+01:00",
+    "commitHash": "cf88fef1e8543159d4b9d4da7e6d2fa9d5c0772b",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.1.2"
+  },
+  "v4.0.0-alpha1": {
+    "versionGramps": "v4.0.0-alpha1",
+    "commitDate": "2012-12-21T14:15:45Z",
+    "commitHash": "7c6872c11a2c1654446de0a6bb9eb47500b6e7d6",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0-alpha1"
+  },
+  "v5.2.0-beta1": {
+    "versionGramps": "v5.2.0-beta1",
+    "commitDate": "2023-08-01T14:51:15+02:00",
+    "commitHash": "b08034f14da264d5e5ba9ab0fbe4bf1d45b7434e",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.0-beta1"
+  },
+  "v6.0.0-beta2": {
+    "versionGramps": "v6.0.0-beta2",
+    "commitDate": "2025-02-12T23:29:32Z",
+    "commitHash": "600fd1c35894bee41f3460588dbeb2519bc01c2a",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v6.0.0-beta2"
+  },
+  "v5.0.0": {
+    "versionGramps": "v5.0.0",
+    "commitDate": "2018-07-24T16:07:47+02:00",
+    "commitHash": "0a66bad41a9667f9781ce6d828c0170dd39ef810",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.0.0"
+  },
+  "v4.2.5": {
+    "versionGramps": "v4.2.5",
+    "commitDate": "2016-12-15T16:45:15+01:00",
+    "commitHash": "35ceba1e4d6a9c37f5c555aeee31503a82c93d9a",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.5"
+  },
+  "v3.4.8": {
+    "versionGramps": "v3.4.8",
+    "commitDate": "2014-05-29T19:32:48+02:00",
+    "commitHash": "af39c293b7f287159e6811f0b141e0bd1659322d",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.8"
+  },
+  "v3.0.0": {
+    "versionGramps": "v3.0.0",
+    "commitDate": "2008-03-25T05:30:25Z",
+    "commitHash": "ed0426ac345bdcc6dd33c3ebe01ca66d8ab52204",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.0.0"
+  },
+  "v3.4.2": {
+    "versionGramps": "v3.4.2",
+    "commitDate": "2012-10-28T07:55:07Z",
+    "commitHash": "75b33a50927c7bd8eaf2602d71d2e64e5549af9d",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.2"
+  },
+  "v2.0.2": {
+    "versionGramps": "v2.0.2",
+    "commitDate": "2005-06-05T05:19:16Z",
+    "commitHash": "de4a0766e7bbb70e8708106e927da1af85f38de5",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.2"
+  },
+  "v3.0.2": {
+    "versionGramps": "v3.0.2",
+    "commitDate": "2008-09-27T20:11:16Z",
+    "commitHash": "ac8968130e6dd1222c08b64a8284a43094513566",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.0.2"
+  },
+  "v4.2.2": {
+    "versionGramps": "v4.2.2",
+    "commitDate": "2016-01-06T17:44:13+01:00",
+    "commitHash": "62ce43aa5d5f13bd48e49d4613c4c0c72c71f89f",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.2"
+  },
+  "v3.3.1": {
+    "versionGramps": "v3.3.1",
+    "commitDate": "2011-10-02T04:25:15Z",
+    "commitHash": "aa0ad65731edb6757a7d5a7413d3a7bac65185e1",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.3.1"
+  },
+  "v5.1.4": {
+    "versionGramps": "v5.1.4",
+    "commitDate": "2021-07-26T21:49:30+02:00",
+    "commitHash": "1ab4cbfa633d4bf3b3687fc196a5ddb86cd7c753",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.1.4"
+  },
+  "v2.2.10": {
+    "versionGramps": "v2.2.10",
+    "commitDate": "2008-01-14T06:09:49Z",
+    "commitHash": "b49f4ce088702c3b253911547a20f078b17af772",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.10"
+  },
+  "v4.0.0-alpha5": {
+    "versionGramps": "v4.0.0-alpha5",
+    "commitDate": "2013-03-06T08:28:01Z",
+    "commitHash": "80db60b332dc199d35e802eda01a1524b157c181",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0-alpha5"
+  },
+  "v2.0.4": {
+    "versionGramps": "v2.0.4",
+    "commitDate": "2005-06-28T03:35:24Z",
+    "commitHash": "89f33a6be409ccd2cf026722e28ecab9829aed0b",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.4"
+  },
+  "v6.0.0-rc1": {
+    "versionGramps": "v6.0.0-rc1",
+    "commitDate": "2025-03-02T22:29:34Z",
+    "commitHash": "f4db8fac00b22d0f60406c684228ce717a0c7607",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v6.0.0-rc1"
+  },
+  "v3.4.0": {
+    "versionGramps": "v3.4.0",
+    "commitDate": "2012-05-22T07:56:09Z",
+    "commitHash": "f530ce8c753d3b0d588ba4d799f4c7d110762196",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.0"
+  },
+  "v5.2.0": {
+    "versionGramps": "v5.2.0",
+    "commitDate": "2024-02-23T15:13:45Z",
+    "commitHash": "616715155f514d8a9d0ab9b3b407d78d38185284",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.0"
+  },
+  "v3.4.5": {
+    "versionGramps": "v3.4.5",
+    "commitDate": "2013-05-22T09:28:34Z",
+    "commitHash": "06b7ce677d7af816bf5e14d97c21a4a7fe4dde89",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.5"
+  },
+  "v4.2.8": {
+    "versionGramps": "v4.2.8",
+    "commitDate": "2018-02-09T21:05:56Z",
+    "commitHash": "5a5f4970f7edee4d92de297c470ea704c1b456e3",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.2.8"
+  },
+  "v5.2.0-rc1": {
+    "versionGramps": "v5.2.0-rc1",
+    "commitDate": "2024-02-09T21:13:48Z",
+    "commitHash": "98acb65133955a56a4124b7dd9c5aa8097ef28ce",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v5.2.0-rc1"
+  },
+  "v3.2.4": {
+    "versionGramps": "v3.2.4",
+    "commitDate": "2010-10-10T22:55:05Z",
+    "commitHash": "e035fe57e636ea28ce239fe0c97c64847f564d37",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.4"
+  },
+  "v2.2.10-rc1": {
+    "versionGramps": "v2.2.10-rc1",
+    "commitDate": "2008-01-07T00:06:24Z",
+    "commitHash": "1ccf2a6da634fef99e911797e9f9ba35912c53ee",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.10-rc1"
+  },
+  "v2.0.3": {
+    "versionGramps": "v2.0.3",
+    "commitDate": "2005-06-05T17:22:40Z",
+    "commitHash": "fd9e95aab082b46915a9a052f2303791212c7c8c",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.3"
+  },
+  "v3.4.9": {
+    "versionGramps": "v3.4.9",
+    "commitDate": "2015-05-02T10:39:25+02:00",
+    "commitHash": "32e426b57f2b32b5a6329107f4a8666a89ccfd06",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.4.9"
+  },
+  "v4.0.2": {
+    "versionGramps": "v4.0.2",
+    "commitDate": "2013-11-08T08:41:57Z",
+    "commitHash": "9f0f9be8eac5bd38b020fc02a88346e3169f8130",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.2"
+  },
+  "v2.2.0-rc2": {
+    "versionGramps": "v2.2.0-rc2",
+    "commitDate": "2006-10-24T03:30:24Z",
+    "commitHash": "b0762269c53ba30b6142bb7e70e74da0aaffe4c5",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.0-rc2"
+  },
+  "v2.0.8": {
+    "versionGramps": "v2.0.8",
+    "commitDate": "2005-09-06T01:58:05Z",
+    "commitHash": "1ca8867a784765fd2a113e96e0efd627965422ec",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.0.8"
+  },
+  "v3.2.0-beta1": {
+    "versionGramps": "v3.2.0-beta1",
+    "commitDate": "2010-03-05T07:59:22Z",
+    "commitHash": "8b4b8da2425f678db363171f9be8d113581e0855",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v3.2.0-beta1"
+  },
+  "v2.2.7": {
+    "versionGramps": "v2.2.7",
+    "commitDate": "2007-04-22T20:58:07Z",
+    "commitHash": "6b16e40db3a67c0a2fa3ad9fccb31557d288887b",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v2.2.7"
+  },
+  "v6.0.0-beta1": {
+    "versionGramps": "v6.0.0-beta1",
+    "commitDate": "2025-02-04T17:09:49Z",
+    "commitHash": "5a76f639aeb4f8400d31ef47db05fb3f60ba0c54",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v6.0.0-beta1"
+  },
+  "v4.0.0-alpha4": {
+    "versionGramps": "v4.0.0-alpha4",
+    "commitDate": "2013-01-26T08:54:27Z",
+    "commitHash": "13c58292e3f8991aa1cd936c1e721580071199a7",
+    "urlGithubGramps": "https://github.com/gramps-project/gramps/blob/v4.0.0-alpha4"
+  }
+}

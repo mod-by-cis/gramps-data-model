@@ -24,9 +24,12 @@
   "cSpell.language": "en, pl",
   "cSpell.words": [
     "altova",
+    "dtdinc",
+    "dtdinst",
     "grampsxml",
     "graphml",
     "Jing",
+    "przekonwertowano",
     "TDTD",
     "Trang",
     "TRNG"
@@ -36,7 +39,7 @@
   "deno.codeLens.references": true,
   "deno.codeLens.referencesAllFunctions": true,
   "deno.codeLens.test": true,
-  "deno.config": "deno.json",
+  "deno.config": "code/deno.json",
   "deno.defaultTaskCommand": "run",
   "deno.enable": true,
   "deno.trace.server": "verbose",
@@ -145,6 +148,7 @@
   },
   "git.autofetch": true,
   "git.confirmSync": false,
+  "gitflow.disableOnRepo": true,
   "ipynb.experimental.serialization": true,
   "markdownlint.config": {
     "MD033": {
@@ -169,6 +173,9 @@
         "br"
       ]
     }
+  },
+  "material-icon-theme.folders.associations": {
+    "deno": "../code/deno.json" 
   },
   "notebook.consolidatedRunButton": true,
   "notebook.defaultFormatter": "denoland.vscode-deno",

@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-write tasks/test-gramps-data.ts"
+  },  
+  "workspace":["./deno/core","./deno/test"],
+  "imports": {
+    "@libs/xml": "jsr:@libs/xml@^6.0.4",
+    "@std/fmt": "jsr:@std/fmt@^1.0.6",
+    "@std/fs": "jsr:@std/fs@^1.0.14",
+    "@std/path": "jsr:@std/path@^1.0.8"
+  }
+}

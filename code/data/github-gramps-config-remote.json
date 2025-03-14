@@ -1,0 +1,527 @@
+{
+  "v4.2.7": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.7/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.7/data/grampsxml.rng"
+  },
+  "v3.4.7": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.7/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.7/data/grampsxml.rng"
+  },
+  "v2.2.0-rc1": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.0-rc1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.0-rc1/data/grampsxml.rng"
+  },
+  "v3.2.6": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.6/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.6/data/grampsxml.rng"
+  },
+  "v4.2.0-beta2": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.0-beta2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.0-beta2/data/grampsxml.rng"
+  },
+  "v5.1.1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.1/data/grampsxml.rng"
+  },
+  "v3.4.5": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.5/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.5/data/grampsxml.rng"
+  },
+  "v3.1.2": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.2/data/grampsxml.rng"
+  },
+  "v5.2.2": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.2/data/grampsxml.rng"
+  },
+  "v3.4.6": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.6/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.6/data/grampsxml.rng"
+  },
+  "v2.90.0-beta": {
+    "versionGrampsxml": "v1.2.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.90.0-beta/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.90.0-beta/data/grampsxml.rng"
+  },
+  "v5.1.2": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.2/data/grampsxml.rng"
+  },
+  "v5.0.0-rc1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-rc1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-rc1/data/grampsxml.rng"
+  },
+  "v2.2.8": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.8/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.8/data/grampsxml.rng"
+  },
+  "v3.1.1": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.1/data/grampsxml.rng"
+  },
+  "v6.0.0-beta2": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-beta2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-beta2/data/grampsxml.rng"
+  },
+  "v4.0.0-alpha4": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha4/data/grampsxml.rng"
+  },
+  "v5.2.0-dev2": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-dev2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-dev2/data/grampsxml.rng"
+  },
+  "v4.0.1": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.1/data/grampsxml.rng"
+  },
+  "v5.2.3": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.3/data/grampsxml.rng"
+  },
+  "v5.0.0-alpha2": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-alpha2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-alpha2/data/grampsxml.rng"
+  },
+  "v2.0.5": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v5.2.1": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.1/data/grampsxml.rng"
+  },
+  "v4.2.6": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.6/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.6/data/grampsxml.rng"
+  },
+  "v5.0.0-beta1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-beta1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-beta1/data/grampsxml.rng"
+  },
+  "v2.0.8": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v4.0.2": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.2/data/grampsxml.rng"
+  },
+  "v4.0.3": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.3/data/grampsxml.rng"
+  },
+  "v2.2.2": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.2/data/grampsxml.rng"
+  },
+  "v3.0.2": {
+    "versionGrampsxml": "v1.2.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.2/data/grampsxml.rng"
+  },
+  "v4.1.1": {
+    "versionGrampsxml": "v1.6.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.1/data/grampsxml.rng"
+  },
+  "v4.0.0-alpha3": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha3/data/grampsxml.rng"
+  },
+  "v5.0.0-alpha1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-alpha1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-alpha1/data/grampsxml.rng"
+  },
+  "v3.2.5": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.5/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.5/data/grampsxml.rng"
+  },
+  "v4.1.0": {
+    "versionGrampsxml": "v1.6.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.0/data/grampsxml.rng"
+  },
+  "v5.1.6": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.6/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.6/data/grampsxml.rng"
+  },
+  "v3.2.0-beta2": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.0-beta2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.0-beta2/data/grampsxml.rng"
+  },
+  "v3.2.3": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.3/data/grampsxml.rng"
+  },
+  "v3.4.4": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.4/data/grampsxml.rng"
+  },
+  "v5.0.1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.1/data/grampsxml.rng"
+  },
+  "v2.2.6": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.6/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.6/data/grampsxml.rng"
+  },
+  "v3.2.0": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.0/data/grampsxml.rng"
+  },
+  "v4.0.4": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.4/data/grampsxml.rng"
+  },
+  "v3.4.9": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.9/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.9/data/grampsxml.rng"
+  },
+  "v4.2.1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.1/data/grampsxml.rng"
+  },
+  "v5.1.5": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.5/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.5/data/grampsxml.rng"
+  },
+  "v4.2.4": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.4/data/grampsxml.rng"
+  },
+  "v3.4.3": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.3/data/grampsxml.rng"
+  },
+  "v3.0.3": {
+    "versionGrampsxml": "v1.2.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.3/data/grampsxml.rng"
+  },
+  "v4.2.0": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.0/data/grampsxml.rng"
+  },
+  "v4.2.3": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.3/data/grampsxml.rng"
+  },
+  "v2.0.1": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v5.0.2": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.2/data/grampsxml.rng"
+  },
+  "v5.2.4": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.4/data/grampsxml.rng"
+  },
+  "v5.1.3": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.3/data/grampsxml.rng"
+  },
+  "v2.2.9": {
+    "versionGrampsxml": "v1.1.4",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.9/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.9/data/grampsxml.rng"
+  },
+  "v2.0.6": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v5.1.0": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.0/data/grampsxml.rng"
+  },
+  "v2.0.9": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v5.0.0-alpha3": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-alpha3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0-alpha3/data/grampsxml.rng"
+  },
+  "v3.0.4": {
+    "versionGrampsxml": "v1.2.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.4/data/grampsxml.rng"
+  },
+  "v3.4.1": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.1/data/grampsxml.rng"
+  },
+  "v4.0.0": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0/data/grampsxml.rng"
+  },
+  "v2.2.1": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.1/data/grampsxml.rng"
+  },
+  "v4.1.3": {
+    "versionGrampsxml": "v1.6.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.3/data/grampsxml.rng"
+  },
+  "v2.0.10": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v5.2.0-dev1": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-dev1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-dev1/data/grampsxml.rng"
+  },
+  "v4.0.0-beta": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-beta/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-beta/data/grampsxml.rng"
+  },
+  "v3.2.1": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.1/data/grampsxml.rng"
+  },
+  "v5.2.0-beta2": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-beta2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-beta2/data/grampsxml.rng"
+  },
+  "v3.1.3": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.3/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.3/data/grampsxml.rng"
+  },
+  "v4.0.0-alpha2": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha2/data/grampsxml.rng"
+  },
+  "v4.0.0-alpha1": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha1/data/grampsxml.rng"
+  },
+  "v5.2.0-beta1": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-beta1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-beta1/data/grampsxml.rng"
+  },
+  "v2.0.0": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v4.2.0-beta1": {
+    "versionGrampsxml": "v1.6.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.0-beta1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.0-beta1/data/grampsxml.rng"
+  },
+  "v3.0.1": {
+    "versionGrampsxml": "v1.2.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.1/data/grampsxml.rng"
+  },
+  "v3.4.8": {
+    "versionGrampsxml": "v1.5.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.8/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.8/data/grampsxml.rng"
+  },
+  "v3.0.0": {
+    "versionGrampsxml": "v1.2.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.0.0/data/grampsxml.rng"
+  },
+  "v3.4.2": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.2/data/grampsxml.rng"
+  },
+  "v2.0.4": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v2.0.2": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v3.3.0": {
+    "versionGrampsxml": "v1.4.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.3.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.3.0/data/grampsxml.rng"
+  },
+  "v4.2.2": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.2/data/grampsxml.rng"
+  },
+  "v3.3.1": {
+    "versionGrampsxml": "v1.4.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.3.1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.3.1/data/grampsxml.rng"
+  },
+  "v2.2.10": {
+    "versionGrampsxml": "v1.1.4",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.10/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.10/data/grampsxml.rng"
+  },
+  "v4.0.0-alpha5": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha5/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.0.0-alpha5/data/grampsxml.rng"
+  },
+  "v4.2.5": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.5/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.5/data/grampsxml.rng"
+  },
+  "v6.0.0-rc1": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-rc1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-rc1/data/grampsxml.rng"
+  },
+  "v3.4.0": {
+    "versionGrampsxml": "v1.5.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.4.0/data/grampsxml.rng"
+  },
+  "v5.2.0": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0/data/grampsxml.rng"
+  },
+  "v3.1.0": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.1.0/data/grampsxml.rng"
+  },
+  "v4.2.8": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.8/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.2.8/data/grampsxml.rng"
+  },
+  "v5.2.0-rc1": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-rc1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.2.0-rc1/data/grampsxml.rng"
+  },
+  "v3.2.4": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.4/data/grampsxml.rng"
+  },
+  "v2.2.10-rc1": {
+    "versionGrampsxml": "v1.1.4",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.10-rc1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.10-rc1/data/grampsxml.rng"
+  },
+  "v2.0.3": {
+    "versionGrampsxml": "",
+    "urlFileDTD": "",
+    "urlFileRNG": ""
+  },
+  "v4.1.2": {
+    "versionGrampsxml": "v1.6.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v4.1.2/data/grampsxml.rng"
+  },
+  "v3.2.2": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.2/data/grampsxml.rng"
+  },
+  "v2.2.0-rc2": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.0-rc2/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.0-rc2/data/grampsxml.rng"
+  },
+  "v5.0.0": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.0.0/data/grampsxml.rng"
+  },
+  "v3.2.0-beta1": {
+    "versionGrampsxml": "v1.3.0",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.0-beta1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v3.2.0-beta1/data/grampsxml.rng"
+  },
+  "v2.2.7": {
+    "versionGrampsxml": "v1.1.3",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.7/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v2.2.7/data/grampsxml.rng"
+  },
+  "v6.0.0-beta1": {
+    "versionGrampsxml": "v1.7.2",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-beta1/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v6.0.0-beta1/data/grampsxml.rng"
+  },
+  "v5.1.4": {
+    "versionGrampsxml": "v1.7.1",
+    "urlFileDTD": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.4/data/grampsxml.dtd",
+    "urlFileRNG": "https://raw.githubusercontent.com/gramps-project/gramps/refs/tags/v5.1.4/data/grampsxml.rng"
+  }
+}
