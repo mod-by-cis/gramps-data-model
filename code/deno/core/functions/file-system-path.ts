@@ -49,7 +49,7 @@ export async function PATH(
 
     // Wykonanie ensureDir, jeśli dirEnsure = true
     if (dirEnsure) {
-      await ensureDir(path.dir); // Tworzy katalog, jeśli nie istnieje
+      await ensureDir(toFileUrl(pathNormalize)); // Tworzy katalog, jeśli nie istnieje
     }
 
     // Sprawdzenie, czy katalog (lub plik) istnieje, jeśli required = true

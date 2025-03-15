@@ -32,7 +32,11 @@
     "przekonwertowano",
     "TDTD",
     "Trang",
-    "TRNG"
+    "TRNG",
+    "versiongramps",
+    "versiongrampsxml",
+    "XSDDTD",
+    "XSDRNG"
   ],
   "debug.console.fontFamily": "FiraCode,  Fira Code",
   "deno.codeLens.implementations": true,
