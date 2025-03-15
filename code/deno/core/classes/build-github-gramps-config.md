@@ -1,6 +1,7 @@
 Oto przykładowe zastosowanie metody `processGrampsxmlVersion`, ilustrujące różne scenariusze jej wykorzystania:
 
 ### Przykład 1: Proste użycie bez dodatkowych argumentów
+
 W tym przykładzie wykonujemy dwie operacje (`operation1` i `operation2`) dla każdej pozycji w mapie `grampsxmlVersion`. Obie callbacki wykorzystują opóźnienie wykonania za pomocą `executionSuspendDelay`.
 
 ```typescript
@@ -29,6 +30,7 @@ await grampsConfig.processGrampsxmlVersion(
 ---
 
 ### Przykład 2: Użycie z dodatkowymi argumentami
+
 Tutaj każda operacja (`operation1` i `operation2`) otrzymuje dodatkowe argumenty w formie jednego obiektu. Argumenty różnią się w zależności od operacji.
 
 ```typescript
@@ -65,6 +67,7 @@ await grampsConfig.processGrampsxmlVersion(
 ---
 
 ### Przykład 3: Zaawansowany scenariusz z logowaniem i różnymi opóźnieniami
+
 Ten przykład ilustruje bardziej skomplikowany scenariusz, w którym dane są logowane, a opóźnienia wykonania są dynamiczne.
 
 ```typescript
@@ -98,7 +101,8 @@ await grampsConfig.processGrampsxmlVersion(
 
 ---
 
-### Wyjaśnienia:
+### Wyjaśnienia
+
 1. **Dopasowanie argumentów:**
    - Każdy callback w tablicy `operations` otrzymuje odpowiadający mu obiekt z `extraArgs` według indeksu.
    - Argumenty są przekazywane jako pojedynczy obiekt, co jest czytelne i elastyczne.

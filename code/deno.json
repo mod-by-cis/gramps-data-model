@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-read --allow-write tasks/test-gramps-data.ts"
+    "download-grampsxml-from-github-and-coverts": "deno run --watch --allow-read --allow-write --allow-net --allow-run tasks/download-grampsxml-from-github-and-coverts.ts"
   },  
   "workspace":["./deno/core","./deno/test"],
   "imports": {
