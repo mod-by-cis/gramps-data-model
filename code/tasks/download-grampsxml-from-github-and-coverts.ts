@@ -68,10 +68,9 @@ async function main() {
     console.log("convertByDtdinstJAVA - Processing of data:", data);
 
     try {
-      
-    const fileDTD = pathJoin(data.dirOfModel, "grampsxml.dtd");
-    const fileXSD = toFileUrl(pathJoin(data.dirOfModel, "grampsxml.xsd"));
-    const command = new Deno.Command("java", {
+      const fileDTD = pathJoin(data.dirOfModel, "grampsxml.dtd");
+      const fileXSD = toFileUrl(pathJoin(data.dirOfModel, "grampsxml.xsd"));
+      const command = new Deno.Command("java", {
         args: [
           "-jar",
           data.JAVA.dtdinst,
@@ -80,12 +79,14 @@ async function main() {
         stdin: "null",
         stdout: "piped", // Przekierowanie wyjścia do pamięci
         stderr: "piped", // Przekierowanie błędów
-    });
-    const output = await command.output();
-    if (output.code === 0) {
+      });
+      const output = await command.output();
+      if (output.code === 0) {
         // Zapis wynikowego wyjścia do pliku
-        await Deno.writeFile(fileXSD, output.stdout,);
-        console.log(`Pomyślnie przetworzono ${toFileUrl(fileDTD)} do ${fileXSD}`);
+        await Deno.writeFile(fileXSD, output.stdout);
+        console.log(
+          `Pomyślnie przetworzono ${toFileUrl(fileDTD)} do ${fileXSD}`,
+        );
       } else {
         console.error(
           `Błąd podczas przetwarzania ${toFileUrl(fileDTD)}:`,
@@ -102,8 +103,6 @@ async function main() {
     }
   };
 
-  //await config.processGrampsxmlVersion( [downloadFromGithubGramps, convertByDtdinstJAVA], [], );
-
   const convertByTrangJAVA_toXSD_fromRNG = async (
     data: TProcessGrampsData,
     executionSuspendDelay: TProcessGrampsSuspend,
@@ -111,25 +110,30 @@ async function main() {
     console.log("convertByTrangJAVA_toXSD_fromRNG - Processing of data:", data);
 
     try {
-      
-    const fromFileRNG = pathJoin(data.dirOfModel, "grampsxml.rng");
-    const saveFileXSD = pathJoin(data.dirOfModel, "grampsxml.rng.xsd");
-    const command = new Deno.Command("java", {
+      const fromFileRNG = pathJoin(data.dirOfModel, "grampsxml.rng");
+      const saveFileXSD = pathJoin(data.dirOfModel, "grampsxml.rng.xsd");
+      const command = new Deno.Command("java", {
         args: [
           "-jar",
           data.JAVA.trang,
-          "-I", "rng",
-          "-O", "xsd",
+          "-I",
+          "rng",
+          "-O",
+          "xsd",
           fromFileRNG,
-          saveFileXSD
+          saveFileXSD,
         ],
         stdin: "null",
         stdout: "piped", // Przekierowanie wyjścia do pamięci
         stderr: "piped", // Przekierowanie błędów
-    });
-    const output = await command.output();
-    if (output.code === 0) {
-      console.log(`Utworzono ${toFileUrl(saveFileXSD)} z pliku ${toFileUrl(fromFileRNG)}`);
+      });
+      const output = await command.output();
+      if (output.code === 0) {
+        console.log(
+          `Utworzono ${toFileUrl(saveFileXSD)} z pliku ${
+            toFileUrl(fromFileRNG)
+          }`,
+        );
       } else {
         console.error(
           `Błąd podczas przetwarzania  ${toFileUrl(fromFileRNG)}:`,
@@ -146,32 +150,39 @@ async function main() {
     }
   };
 
-   const convertByTrangJAVA_toXSD_fromDTD = async (
+  //await config.processGrampsxmlVersion( [downloadFromGithubGramps, convertByDtdinstJAVA, convertByTrangJAVA_toXSD_fromRNG], [], );
+
+  const convertByTrangJAVA_toXSD_fromDTD = async (
     data: TProcessGrampsData,
     executionSuspendDelay: TProcessGrampsSuspend,
   ) => {
     console.log("convertByTrangJAVA_toXSD_fromDTD - Processing of data:", data);
 
     try {
-      
-    const fromFileDTD = pathJoin(data.dirOfModel, "grampsxml.dtd");
-    const saveFileXSD = pathJoin(data.dirOfModel, "grampsxml.dtd.xsd");
-    const command = new Deno.Command("java", {
+      const fromFileDTD = pathJoin(data.dirOfModel, "grampsxml.dtd");
+      const saveFileXSD = pathJoin(data.dirOfModel, "grampsxml.dtd.xsd");
+      const command = new Deno.Command("java", {
         args: [
           "-jar",
           data.JAVA.trang,
-          "-I", "dtd",
-          "-O", "xsd",
+          "-I",
+          "dtd",
+          "-O",
+          "xsd",
           fromFileDTD,
-          saveFileXSD
+          saveFileXSD,
         ],
         stdin: "null",
         stdout: "piped", // Przekierowanie wyjścia do pamięci
         stderr: "piped", // Przekierowanie błędów
-    });
-    const output = await command.output();
-    if (output.code === 0) {
-      console.log(`Utworzono ${toFileUrl(saveFileXSD)} z pliku ${toFileUrl(fromFileDTD)}`);
+      });
+      const output = await command.output();
+      if (output.code === 0) {
+        console.log(
+          `Utworzono ${toFileUrl(saveFileXSD)} z pliku ${
+            toFileUrl(fromFileDTD)
+          }`,
+        );
       } else {
         console.error(
           `Błąd podczas przetwarzania  ${toFileUrl(fromFileDTD)}:`,
@@ -187,8 +198,8 @@ async function main() {
       );
     }
   };
-  
-  //await config.processGrampsxmlVersion( [convertByTrangJAVA_toXSD_fromRNG, convertByTrangJAVA_toXSD_fromDTD], [], );
+
+  //await config.processGrampsxmlVersion( [convertByTrangJAVA_toXSD_fromDTD], [], );
 
   const convert_toJSON_fromXML = async (
     data: TProcessGrampsData,
@@ -200,41 +211,54 @@ async function main() {
       {
         fromFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.rng")),
         saveFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.rng.json")),
-      },{
+      },
+      {
         fromFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.xsd")),
         saveFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.xsd.json")),
-      },{
+      },
+      {
         fromFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.rng.xsd")),
-        saveFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.rng.xsd.json")),
-      },{
+        saveFILE: toFileUrl(
+          pathJoin(data.dirOfModel, "grampsxml.rng.xsd.json"),
+        ),
+      },
+      {
         fromFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.dtd.xsd")),
-        saveFILE: toFileUrl(pathJoin(data.dirOfModel, "grampsxml.dtd.xsd.json")),
-      }
-    ];    
+        saveFILE: toFileUrl(
+          pathJoin(data.dirOfModel, "grampsxml.dtd.xsd.json"),
+        ),
+      },
+    ];
 
     for (const batchTask of batchTasks) {
       try {
         // Odczytaj zawartość XML z pliku wejściowego
         const contentXML = await Deno.readTextFile(batchTask.fromFILE);
-        
+
         // Sparsuj XML do JSON
-        const parsedJSON = parseXML(contentXML);      
-        
+        const parsedJSON = parseXML(contentXML);
+
         // Zapisz wynikowy JSON do pliku
-        await Deno.writeTextFile(batchTask.saveFILE, JSON.stringify(parsedJSON, null, 2), );
-        console.log(`Skonwertowano ${batchTask.fromFILE} na ${batchTask.saveFILE}`);
-        
+        await Deno.writeTextFile(
+          batchTask.saveFILE,
+          JSON.stringify(parsedJSON, null, 2),
+        );
+        console.log(
+          `Skonwertowano ${batchTask.fromFILE} na ${batchTask.saveFILE}`,
+        );
+
         // Opóźnienie pomiędzy zadaniami - 200 ms
-        await executionSuspendDelay(200); 
+        await executionSuspendDelay(200);
       } catch (error) {
-        console.error(`Błąd podczas konwersji ${batchTask.fromFILE} na JSON:`, error);
-      }      
+        console.error(
+          `Błąd podczas konwersji ${batchTask.fromFILE} na JSON:`,
+          error,
+        );
+      }
     }
   };
 
-  await config.processGrampsxmlVersion( [convert_toJSON_fromXML], [], );
-
-
+  //await config.processGrampsxmlVersion( [convert_toJSON_fromXML], [], );
 }
 
 main();

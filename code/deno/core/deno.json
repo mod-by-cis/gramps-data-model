@@ -4,8 +4,6 @@
   "exports": {
     ".": "./mod.ts",
     "./fs": "./mod-fs.ts",
-    "./enum": "./mod-enum.ts",
-    "./java": "./mod-java.ts",
     "./type": "./mod-type.ts"
   },
   "license": "MIT",

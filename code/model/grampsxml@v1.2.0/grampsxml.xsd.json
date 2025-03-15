@@ -1,0 +1,2262 @@
+{
+  "@version": "1.0",
+  "@encoding": "UTF-8",
+  "doctype": {
+    "comment": [
+      "# Gramps - a GTK+/GNOME based genealogy program\n#\n# Copyright (C) 2001 Graham J. Williams\n# Copyright (C) 2000-2007  Donald N. Allingham\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General Public License as published by\n# the Free Software Foundation; either version 2 of the License, or\n# (at your option) any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n# GNU General Public License for more details.\n#\n# You should have received a copy of the GNU General Public License\n# along with this program; if not, write to the Free Software\n# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n\n# $Id$",
+      "This is the Document Type Definition file for v1.2.0\n    of the GRAMPS XML genealogy data format.\n    Please use the following formal public identifier to identify it:\n\n    \"-//GRAMPS//DTD GRAMPS XML V1.2.0//EN\"\n\n    For example:\n        <!DOCTYPE database PUBLIC \"-//GRAMPS//DTD GRAMPS XML V1.2.0//EN\"\n                \"http://gramps-project.org/xml/1.2.0/grampsxml.dtd\"\n                [...]>",
+      "DATABASE\n\tDefines an XML document which is a <database> consisting of a\n\n\theader\t   Information about the \"owner\" of the database\n\tpeople\n\tfamilies\n\tsources\n\tplaces\n\tobjects\n\trepositories\n\tnotes\n\tbookmarks",
+      "************************************************************\nHEADER\n\n\tA <header> consists of <created> (information about this\n\tgenealogical database) and <researcher> (information about the\n\tperson who created this genealogical database)",
+      "************************************************************\nPEOPLE",
+      "GENDER has values of M, F, or U.",
+      "************************************************************\nFAMILY\n\tAn element to record information about a family.",
+      "************************************************************\nEVENT",
+      "************************************************************\nSOURCES",
+      "************************************************************\nPLACES",
+      "************************************************************\nOBJECTS",
+      "************************************************************\nREPOSITORIES",
+      "************************************************************\nNOTES",
+      "************************************************************\nBOOKMARKS",
+      "************************************************************\nNAME MAPS",
+      "************************************************************\nNAME FORMATS",
+      "************************************************************\nSHARED ELEMENTS"
+    ],
+    "element": [
+      {
+        "name": "database",
+        "sequence": {
+          "elementRef": {
+            "name": "header"
+          },
+          "optional": [
+            {
+              "elementRef": {
+                "name": "name-formats"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "events"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "people"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "families"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sources"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "places"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "objects"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "repositories"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "notes"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "bookmarks"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "namemaps"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "header",
+        "sequence": {
+          "elementRef": {
+            "name": "created"
+          },
+          "optional": [
+            {
+              "elementRef": {
+                "name": "researcher"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "mediapath"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "created",
+        "sequence": null
+      },
+      {
+        "name": "researcher",
+        "sequence": {
+          "elementRef": {
+            "name": "resname"
+          },
+          "optional": [
+            {
+              "elementRef": {
+                "name": "resaddr"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "rescity"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "resstate"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "rescountry"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "respostal"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "resphone"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "resemail"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "resname",
+        "pcdata": null
+      },
+      {
+        "name": "resaddr",
+        "pcdata": null
+      },
+      {
+        "name": "rescity",
+        "pcdata": null
+      },
+      {
+        "name": "resstate",
+        "pcdata": null
+      },
+      {
+        "name": "rescountry",
+        "pcdata": null
+      },
+      {
+        "name": "respostal",
+        "pcdata": null
+      },
+      {
+        "name": "resphone",
+        "pcdata": null
+      },
+      {
+        "name": "resemail",
+        "pcdata": null
+      },
+      {
+        "name": "mediapath",
+        "pcdata": null
+      },
+      {
+        "name": "people",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "person"
+          }
+        }
+      },
+      {
+        "name": "person",
+        "sequence": {
+          "elementRef": {
+            "name": "gender"
+          },
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "name"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "eventref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "lds_ord"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "objref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "address"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "attribute"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "url"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "childof"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "parentin"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "personref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ],
+          "optional": {
+            "elementRef": {
+              "name": "nick"
+            }
+          }
+        }
+      },
+      {
+        "name": "gender",
+        "pcdata": null
+      },
+      {
+        "name": "name",
+        "sequence": {
+          "optional": [
+            {
+              "elementRef": {
+                "name": "first"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "call"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "last"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "suffix"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "patronymic"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "title"
+              }
+            },
+            {
+              "choice": {
+                "elementRef": [
+                  {
+                    "name": "daterange"
+                  },
+                  {
+                    "name": "datespan"
+                  },
+                  {
+                    "name": "dateval"
+                  },
+                  {
+                    "name": "datestr"
+                  }
+                ]
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "first",
+        "pcdata": null
+      },
+      {
+        "name": "call",
+        "pcdata": null
+      },
+      {
+        "name": "last",
+        "pcdata": null
+      },
+      {
+        "name": "suffix",
+        "pcdata": null
+      },
+      {
+        "name": "patronymic",
+        "pcdata": null
+      },
+      {
+        "name": "title",
+        "pcdata": null
+      },
+      {
+        "name": "nick",
+        "pcdata": null
+      },
+      {
+        "name": "childof",
+        "sequence": null
+      },
+      {
+        "name": "parentin",
+        "sequence": null
+      },
+      {
+        "name": "personref",
+        "sequence": {
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "address",
+        "sequence": {
+          "optional": [
+            {
+              "choice": {
+                "elementRef": [
+                  {
+                    "name": "daterange"
+                  },
+                  {
+                    "name": "datespan"
+                  },
+                  {
+                    "name": "dateval"
+                  },
+                  {
+                    "name": "datestr"
+                  }
+                ]
+              }
+            },
+            {
+              "elementRef": {
+                "name": "street"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "city"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "county"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "state"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "country"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "postal"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "phone"
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "street",
+        "pcdata": null
+      },
+      {
+        "name": "city",
+        "pcdata": null
+      },
+      {
+        "name": "county",
+        "pcdata": null
+      },
+      {
+        "name": "country",
+        "pcdata": null
+      },
+      {
+        "name": "postal",
+        "pcdata": null
+      },
+      {
+        "name": "state",
+        "pcdata": null
+      },
+      {
+        "name": "phone",
+        "pcdata": null
+      },
+      {
+        "name": "families",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "family"
+          }
+        }
+      },
+      {
+        "name": "family",
+        "sequence": {
+          "optional": [
+            {
+              "elementRef": {
+                "name": "rel"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "father"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "mother"
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "eventref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "lds_ord"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "objref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "childref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "attribute"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "father",
+        "sequence": null
+      },
+      {
+        "name": "mother",
+        "sequence": null
+      },
+      {
+        "name": "childref",
+        "sequence": {
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "pcdata": null
+      },
+      {
+        "name": "rel",
+        "sequence": null
+      },
+      {
+        "name": "events",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "event"
+          }
+        }
+      },
+      {
+        "name": "event",
+        "sequence": {
+          "optional": [
+            {
+              "elementRef": {
+                "name": "type"
+              }
+            },
+            {
+              "choice": {
+                "elementRef": [
+                  {
+                    "name": "daterange"
+                  },
+                  {
+                    "name": "datespan"
+                  },
+                  {
+                    "name": "dateval"
+                  },
+                  {
+                    "name": "datestr"
+                  }
+                ]
+              }
+            },
+            {
+              "elementRef": {
+                "name": "place"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "cause"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "description"
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "attribute"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "objref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "sources",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "source"
+          }
+        }
+      },
+      {
+        "name": "source",
+        "sequence": {
+          "optional": [
+            {
+              "elementRef": {
+                "name": "stitle"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sauthor"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "spubinfo"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sabbrev"
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "objref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "data_item"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "reporef"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "stitle",
+        "pcdata": null
+      },
+      {
+        "name": "sauthor",
+        "pcdata": null
+      },
+      {
+        "name": "spubinfo",
+        "pcdata": null
+      },
+      {
+        "name": "sabbrev",
+        "pcdata": null
+      },
+      {
+        "name": "places",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "placeobj"
+          }
+        }
+      },
+      {
+        "name": "placeobj",
+        "sequence": {
+          "optional": [
+            {
+              "elementRef": {
+                "name": "ptitle"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "coord"
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "location"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "objref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "url"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "ptitle",
+        "pcdata": null
+      },
+      {
+        "name": "coord",
+        "sequence": null
+      },
+      {
+        "name": "location",
+        "sequence": null
+      },
+      {
+        "name": "objects",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "object"
+          }
+        }
+      },
+      {
+        "name": "object",
+        "sequence": {
+          "elementRef": {
+            "name": "file"
+          },
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "attribute"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ],
+          "optional": {
+            "choice": {
+              "elementRef": [
+                {
+                  "name": "daterange"
+                },
+                {
+                  "name": "datespan"
+                },
+                {
+                  "name": "dateval"
+                },
+                {
+                  "name": "datestr"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "name": "file",
+        "sequence": null
+      },
+      {
+        "name": "repositories",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "repository"
+          }
+        }
+      },
+      {
+        "name": "repository",
+        "sequence": {
+          "elementRef": [
+            {
+              "name": "rname"
+            },
+            {
+              "name": "type"
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "address"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "url"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "rname",
+        "pcdata": null
+      },
+      {
+        "name": "notes",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "note"
+          }
+        }
+      },
+      {
+        "name": "note",
+        "pcdata": null
+      },
+      {
+        "name": "bookmarks",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "bookmark"
+          }
+        }
+      },
+      {
+        "name": "bookmark",
+        "sequence": null
+      },
+      {
+        "name": "namemaps",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "map"
+          }
+        }
+      },
+      {
+        "name": "map",
+        "sequence": null
+      },
+      {
+        "name": "name-formats",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "format"
+          }
+        }
+      },
+      {
+        "name": "format",
+        "sequence": null
+      },
+      {
+        "name": "daterange",
+        "sequence": null
+      },
+      {
+        "name": "datespan",
+        "sequence": null
+      },
+      {
+        "name": "dateval",
+        "sequence": null
+      },
+      {
+        "name": "datestr",
+        "sequence": null
+      },
+      {
+        "name": "sourceref",
+        "sequence": {
+          "optional": [
+            {
+              "elementRef": {
+                "name": "spage"
+              }
+            },
+            {
+              "choice": {
+                "elementRef": [
+                  {
+                    "name": "daterange"
+                  },
+                  {
+                    "name": "datespan"
+                  },
+                  {
+                    "name": "dateval"
+                  },
+                  {
+                    "name": "datestr"
+                  }
+                ]
+              }
+            }
+          ],
+          "zeroOrMore": {
+            "elementRef": {
+              "name": "noteref"
+            }
+          }
+        }
+      },
+      {
+        "name": "eventref",
+        "sequence": {
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "attribute"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "reporef",
+        "zeroOrMore": {
+          "elementRef": {
+            "name": "noteref"
+          }
+        }
+      },
+      {
+        "name": "noteref",
+        "sequence": null
+      },
+      {
+        "name": "spage",
+        "pcdata": null
+      },
+      {
+        "name": "attribute",
+        "sequence": {
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "place",
+        "sequence": null
+      },
+      {
+        "name": "cause",
+        "pcdata": null
+      },
+      {
+        "name": "description",
+        "pcdata": null
+      },
+      {
+        "name": "url",
+        "sequence": null
+      },
+      {
+        "name": "objref",
+        "sequence": {
+          "optional": {
+            "elementRef": {
+              "name": "region"
+            }
+          },
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "attribute"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "region",
+        "sequence": null
+      },
+      {
+        "name": "data_item",
+        "sequence": null
+      },
+      {
+        "name": "lds_ord",
+        "sequence": {
+          "optional": [
+            {
+              "choice": {
+                "elementRef": [
+                  {
+                    "name": "daterange"
+                  },
+                  {
+                    "name": "datespan"
+                  },
+                  {
+                    "name": "dateval"
+                  },
+                  {
+                    "name": "datestr"
+                  }
+                ]
+              }
+            },
+            {
+              "elementRef": {
+                "name": "temple"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "place"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "status"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sealed_to"
+              }
+            }
+          ],
+          "zeroOrMore": [
+            {
+              "elementRef": {
+                "name": "noteref"
+              }
+            },
+            {
+              "elementRef": {
+                "name": "sourceref"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "temple",
+        "sequence": null
+      },
+      {
+        "name": "status",
+        "sequence": null
+      },
+      {
+        "name": "sealed_to",
+        "sequence": null
+      }
+    ],
+    "attlist": [
+      {
+        "name": "database",
+        "attribute": {
+          "name": "xmlns",
+          "cdata": null,
+          "fixed": "http://gramps-project.org/xml/1.2.0/"
+        }
+      },
+      {
+        "name": "created",
+        "attribute": [
+          {
+            "name": "date",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "version",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "people",
+        "attribute": [
+          {
+            "name": "default",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "home",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "person",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "attribute": [
+          {
+            "name": "alt",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "type",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "sort",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "display",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "last",
+        "attribute": [
+          {
+            "name": "prefix",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "group",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "childof",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      },
+      {
+        "name": "parentin",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      },
+      {
+        "name": "personref",
+        "attribute": [
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "rel",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "address",
+        "attribute": {
+          "name": "priv",
+          "tokenized": {
+            "enum": [
+              "0",
+              "1"
+            ]
+          },
+          "implied": null
+        }
+      },
+      {
+        "name": "family",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "father",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      },
+      {
+        "name": "mother",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      },
+      {
+        "name": "childref",
+        "attribute": [
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "mrel",
+            "tokenized": {
+              "enum": [
+                "None",
+                "Birth",
+                "Adopted",
+                "Stepchild",
+                "Sponsored",
+                "Foster",
+                "Other",
+                "Unknown"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "frel",
+            "tokenized": {
+              "enum": [
+                "None",
+                "Birth",
+                "Adopted",
+                "Stepchild",
+                "Sponsored",
+                "Foster",
+                "Other",
+                "Unknown"
+              ]
+            },
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "rel",
+        "attribute": {
+          "name": "type",
+          "cdata": null,
+          "required": null
+        }
+      },
+      {
+        "name": "event",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "source",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "placeobj",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "coord",
+        "attribute": [
+          {
+            "name": "long",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "lat",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "location",
+        "attribute": [
+          {
+            "name": "street",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "city",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "parish",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "county",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "state",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "country",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "postal",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "phone",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "object",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "file",
+        "attribute": [
+          {
+            "name": "src",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "mime",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "description",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "repository",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "note",
+        "attribute": [
+          {
+            "name": "id",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "handle",
+            "tokenized": {
+              "@name": "ID"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "marker",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "change",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "format",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "type",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "bookmark",
+        "attribute": [
+          {
+            "name": "target",
+            "tokenized": {
+              "enum": [
+                "person",
+                "family",
+                "event",
+                "source",
+                "place",
+                "media",
+                "repository"
+              ]
+            },
+            "required": null
+          },
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "map",
+        "attribute": [
+          {
+            "name": "type",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "key",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "value",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "format",
+        "attribute": [
+          {
+            "name": "number",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "name",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "fmt_str",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "active",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "daterange",
+        "attribute": [
+          {
+            "name": "start",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "stop",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "quality",
+            "tokenized": {
+              "enum": [
+                "estimated",
+                "calculated"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "cformat",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "datespan",
+        "attribute": [
+          {
+            "name": "start",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "stop",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "quality",
+            "tokenized": {
+              "enum": [
+                "estimated",
+                "calculated"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "cformat",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "dateval",
+        "attribute": [
+          {
+            "name": "val",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "type",
+            "tokenized": {
+              "enum": [
+                "before",
+                "after",
+                "about"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "quality",
+            "tokenized": {
+              "enum": [
+                "estimated",
+                "calculated"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "cformat",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "datestr",
+        "attribute": {
+          "name": "val",
+          "cdata": null,
+          "required": null
+        }
+      },
+      {
+        "name": "sourceref",
+        "attribute": [
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "conf",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "eventref",
+        "attribute": [
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "role",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "reporef",
+        "attribute": [
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "callno",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "medium",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "noteref",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      },
+      {
+        "name": "attribute",
+        "attribute": [
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "type",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "value",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      },
+      {
+        "name": "url",
+        "attribute": [
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "type",
+            "cdata": null,
+            "implied": null
+          },
+          {
+            "name": "href",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "description",
+            "cdata": null,
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "objref",
+        "attribute": [
+          {
+            "name": "hlink",
+            "tokenized": {
+              "@name": "IDREF"
+            },
+            "required": null
+          },
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          }
+        ]
+      },
+      {
+        "name": "region",
+        "attribute": [
+          {
+            "name": "corner1_x",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "corner1_y",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "corner2_x",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "corner2_y",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "data_item",
+        "attribute": [
+          {
+            "name": "key",
+            "cdata": null,
+            "required": null
+          },
+          {
+            "name": "value",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "lds_ord",
+        "attribute": [
+          {
+            "name": "priv",
+            "tokenized": {
+              "enum": [
+                "0",
+                "1"
+              ]
+            },
+            "implied": null
+          },
+          {
+            "name": "type",
+            "cdata": null,
+            "required": null
+          }
+        ]
+      },
+      {
+        "name": "temple",
+        "attribute": {
+          "name": "val",
+          "cdata": null,
+          "required": null
+        }
+      },
+      {
+        "name": "status",
+        "attribute": {
+          "name": "val",
+          "cdata": null,
+          "required": null
+        }
+      },
+      {
+        "name": "sealed_to",
+        "attribute": {
+          "name": "hlink",
+          "tokenized": {
+            "@name": "IDREF"
+          },
+          "required": null
+        }
+      }
+    ]
+  }
+}
