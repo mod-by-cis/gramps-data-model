@@ -24,13 +24,17 @@
   "cSpell.language": "en, pl",
   "cSpell.words": [
     "altova",
+    "callbacka",
     "dtdinc",
     "dtdinst",
     "grampsxml",
     "graphml",
     "Jing",
     "przekonwertowano",
+    "TDIR",
+    "TDIRS",
     "TDTD",
+    "TPABS",
     "Trang",
     "TRNG",
     "versiongramps",
@@ -231,5 +235,7 @@
   "workbench.preferredLightColorTheme": "Solarized Dark",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "xml.symbols.maxItemsComputed": 500000
+  "xml.symbols.maxItemsComputed": 500000,
+  "workbench.editor.pinnedTabSizing": "normal",
+  "editor.tabSize": 2
 }
